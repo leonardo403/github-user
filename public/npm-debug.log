@@ -1,0 +1,3344 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'babel-core',
+1 verbose cli   'babel-loader',
+1 verbose cli   'babel-preset-react' ]
+2 info using npm@2.9.1
+3 info using node@v0.12.3
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose install initial load of D:\Desenv\Promise\Projetos\github-user\package.json
+6 warn package.json github-user@1.0.0 No description
+7 verbose installManyTop reading scoped package data from D:\Desenv\Promise\Projetos\github-user\node_modules\react\package.json
+8 verbose installManyTop reading scoped package data from D:\Desenv\Promise\Projetos\github-user\node_modules\react-dom\package.json
+9 verbose installManyTop reading scoped package data from D:\Desenv\Promise\Projetos\github-user\node_modules\webpack\package.json
+10 verbose readDependencies loading dependencies from D:\Desenv\Promise\Projetos\github-user\package.json
+11 silly cache add args [ 'babel-core', null ]
+12 verbose cache add spec babel-core
+13 silly cache add args [ 'babel-loader', null ]
+14 verbose cache add spec babel-loader
+15 silly cache add args [ 'babel-preset-react', null ]
+16 verbose cache add spec babel-preset-react
+17 silly cache add parsed spec { raw: 'babel-core',
+17 silly cache add   scope: null,
+17 silly cache add   name: 'babel-core',
+17 silly cache add   rawSpec: '',
+17 silly cache add   spec: '*',
+17 silly cache add   type: 'range' }
+18 silly addNamed babel-core@*
+19 verbose addNamed "*" is a valid semver range for babel-core
+20 silly addNameRange { name: 'babel-core', range: '*', hasData: false }
+21 silly mapToRegistry name babel-core
+22 silly mapToRegistry using default registry
+23 silly mapToRegistry registry https://registry.npmjs.org/
+24 silly mapToRegistry uri https://registry.npmjs.org/babel-core
+25 verbose addNameRange registry:https://registry.npmjs.org/babel-core not in flight; fetching
+26 silly cache add parsed spec { raw: 'babel-loader',
+26 silly cache add   scope: null,
+26 silly cache add   name: 'babel-loader',
+26 silly cache add   rawSpec: '',
+26 silly cache add   spec: '*',
+26 silly cache add   type: 'range' }
+27 silly addNamed babel-loader@*
+28 verbose addNamed "*" is a valid semver range for babel-loader
+29 silly addNameRange { name: 'babel-loader', range: '*', hasData: false }
+30 silly mapToRegistry name babel-loader
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/babel-loader
+34 verbose addNameRange registry:https://registry.npmjs.org/babel-loader not in flight; fetching
+35 silly cache add parsed spec { raw: 'babel-preset-react',
+35 silly cache add   scope: null,
+35 silly cache add   name: 'babel-preset-react',
+35 silly cache add   rawSpec: '',
+35 silly cache add   spec: '*',
+35 silly cache add   type: 'range' }
+36 silly addNamed babel-preset-react@*
+37 verbose addNamed "*" is a valid semver range for babel-preset-react
+38 silly addNameRange { name: 'babel-preset-react', range: '*', hasData: false }
+39 silly mapToRegistry name babel-preset-react
+40 silly mapToRegistry using default registry
+41 silly mapToRegistry registry https://registry.npmjs.org/
+42 silly mapToRegistry uri https://registry.npmjs.org/babel-preset-react
+43 verbose addNameRange registry:https://registry.npmjs.org/babel-preset-react not in flight; fetching
+44 verbose request uri https://registry.npmjs.org/babel-loader
+45 verbose request no auth needed
+46 info attempt registry request try #1 at 00:59:31
+47 verbose request id 90536b98216e573c
+48 http request GET https://registry.npmjs.org/babel-loader
+49 verbose request uri https://registry.npmjs.org/babel-preset-react
+50 verbose request no auth needed
+51 info attempt registry request try #1 at 00:59:31
+52 http request GET https://registry.npmjs.org/babel-preset-react
+53 verbose request uri https://registry.npmjs.org/babel-core
+54 verbose request no auth needed
+55 info attempt registry request try #1 at 00:59:31
+56 http request GET https://registry.npmjs.org/babel-core
+57 http 200 https://registry.npmjs.org/babel-preset-react
+58 silly get cb [ 200,
+58 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+58 silly get     etag: '"2SHZ71DPGYA57QBTAJWREVU57"',
+58 silly get     'content-type': 'application/json',
+58 silly get     'content-encoding': 'gzip',
+58 silly get     'cache-control': 'max-age=300',
+58 silly get     'content-length': '2510',
+58 silly get     'accept-ranges': 'bytes',
+58 silly get     date: 'Wed, 22 Jun 2016 03:59:17 GMT',
+58 silly get     via: '1.1 varnish',
+58 silly get     age: '130',
+58 silly get     connection: 'keep-alive',
+58 silly get     'x-served-by': 'cache-iad2131-IAD',
+58 silly get     'x-cache': 'HIT',
+58 silly get     'x-cache-hits': '2',
+58 silly get     'x-timer': 'S1466567957.269099,VS0,VE0',
+58 silly get     vary: 'Accept-Encoding' } ]
+59 verbose get saving babel-preset-react to C:\Users\leonardo\AppData\Roaming\npm-cache\registry.npmjs.org\babel-preset-react\.cache.json
+60 http 200 https://registry.npmjs.org/babel-loader
+61 silly get cb [ 200,
+61 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+61 silly get     etag: '"15EMXCK578LUDZ23G95SQDTQ7"',
+61 silly get     'content-type': 'application/json',
+61 silly get     'content-encoding': 'gzip',
+61 silly get     'cache-control': 'max-age=300',
+61 silly get     'content-length': '8114',
+61 silly get     'accept-ranges': 'bytes',
+61 silly get     date: 'Wed, 22 Jun 2016 03:59:17 GMT',
+61 silly get     via: '1.1 varnish',
+61 silly get     age: '0',
+61 silly get     connection: 'keep-alive',
+61 silly get     'x-served-by': 'cache-iad2130-IAD',
+61 silly get     'x-cache': 'HIT',
+61 silly get     'x-cache-hits': '1',
+61 silly get     'x-timer': 'S1466567957.369227,VS0,VE78',
+61 silly get     vary: 'Accept-Encoding' } ]
+62 verbose get saving babel-loader to C:\Users\leonardo\AppData\Roaming\npm-cache\registry.npmjs.org\babel-loader\.cache.json
+63 silly addNameRange number 2 { name: 'babel-preset-react', range: '*', hasData: true }
+64 silly addNameRange versions [ 'babel-preset-react',
+64 silly addNameRange   [ '6.0.2',
+64 silly addNameRange     '6.0.12',
+64 silly addNameRange     '6.0.14',
+64 silly addNameRange     '6.0.15',
+64 silly addNameRange     '6.1.2',
+64 silly addNameRange     '6.1.4',
+64 silly addNameRange     '6.1.17',
+64 silly addNameRange     '6.1.18',
+64 silly addNameRange     '6.2.4',
+64 silly addNameRange     '6.3.13',
+64 silly addNameRange     '6.5.0',
+64 silly addNameRange     '6.5.0-1' ] ]
+65 silly addNamed babel-preset-react@6.5.0
+66 verbose addNamed "6.5.0" is a plain semver version for babel-preset-react
+67 silly mapToRegistry name babel-preset-react
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry https://registry.npmjs.org/
+70 silly mapToRegistry uri https://registry.npmjs.org/babel-preset-react
+71 verbose addRemoteTarball https://registry.npmjs.org/babel-preset-react/-/babel-preset-react-6.5.0.tgz not in flight; adding
+72 verbose addRemoteTarball [ 'https://registry.npmjs.org/babel-preset-react/-/babel-preset-react-6.5.0.tgz',
+72 verbose addRemoteTarball   'd3289aa0e308dbd48b7210f9977101f0f96ebe1f' ]
+73 info retry fetch attempt 1 at 00:59:33
+74 info attempt registry request try #1 at 00:59:33
+75 http fetch GET https://registry.npmjs.org/babel-preset-react/-/babel-preset-react-6.5.0.tgz
+76 http 200 https://registry.npmjs.org/babel-core
+77 silly get cb [ 200,
+77 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+77 silly get     etag: '"F3YMSHTGKYMCS0JGCTIJHVM95"',
+77 silly get     'content-type': 'application/json',
+77 silly get     'content-encoding': 'gzip',
+77 silly get     'cache-control': 'max-age=300',
+77 silly get     'content-length': '36456',
+77 silly get     'accept-ranges': 'bytes',
+77 silly get     date: 'Wed, 22 Jun 2016 03:59:16 GMT',
+77 silly get     via: '1.1 varnish',
+77 silly get     age: '182',
+77 silly get     connection: 'keep-alive',
+77 silly get     'x-served-by': 'cache-iad2140-IAD',
+77 silly get     'x-cache': 'HIT',
+77 silly get     'x-cache-hits': '3',
+77 silly get     'x-timer': 'S1466567956.850383,VS0,VE0',
+77 silly get     vary: 'Accept-Encoding' } ]
+78 verbose get saving babel-core to C:\Users\leonardo\AppData\Roaming\npm-cache\registry.npmjs.org\babel-core\.cache.json
+79 silly addNameRange number 2 { name: 'babel-loader', range: '*', hasData: true }
+80 silly addNameRange versions [ 'babel-loader',
+80 silly addNameRange   [ '4.0.0',
+80 silly addNameRange     '4.1.0',
+80 silly addNameRange     '4.2.0',
+80 silly addNameRange     '4.3.0',
+80 silly addNameRange     '5.0.0',
+80 silly addNameRange     '5.1.0',
+80 silly addNameRange     '5.1.2',
+80 silly addNameRange     '5.1.3',
+80 silly addNameRange     '5.1.4',
+80 silly addNameRange     '5.2.0',
+80 silly addNameRange     '5.2.1',
+80 silly addNameRange     '5.2.2',
+80 silly addNameRange     '5.3.0',
+80 silly addNameRange     '5.3.1',
+80 silly addNameRange     '5.3.2',
+80 silly addNameRange     '5.3.3',
+80 silly addNameRange     '6.0.0',
+80 silly addNameRange     '6.0.1',
+80 silly addNameRange     '6.1.0',
+80 silly addNameRange     '5.4.0',
+80 silly addNameRange     '6.2.0',
+80 silly addNameRange     '6.2.1',
+80 silly addNameRange     '6.2.2',
+80 silly addNameRange     '6.2.3',
+80 silly addNameRange     '6.2.4' ] ]
+81 silly addNamed babel-loader@6.2.4
+82 verbose addNamed "6.2.4" is a plain semver version for babel-loader
+83 silly mapToRegistry name babel-loader
+84 silly mapToRegistry using default registry
+85 silly mapToRegistry registry https://registry.npmjs.org/
+86 silly mapToRegistry uri https://registry.npmjs.org/babel-loader
+87 verbose addRemoteTarball https://registry.npmjs.org/babel-loader/-/babel-loader-6.2.4.tgz not in flight; adding
+88 verbose addRemoteTarball [ 'https://registry.npmjs.org/babel-loader/-/babel-loader-6.2.4.tgz',
+88 verbose addRemoteTarball   'aa70aff8ddc223a5952e839a43a6c3a4c8bfa1e9' ]
+89 info retry fetch attempt 1 at 00:59:33
+90 info attempt registry request try #1 at 00:59:33
+91 http fetch GET https://registry.npmjs.org/babel-loader/-/babel-loader-6.2.4.tgz
+92 silly addNameRange number 2 { name: 'babel-core', range: '*', hasData: true }
+93 silly addNameRange versions [ 'babel-core',
+93 silly addNameRange   [ '4.0.1',
+93 silly addNameRange     '4.0.2',
+93 silly addNameRange     '4.1.1',
+93 silly addNameRange     '4.2.0',
+93 silly addNameRange     '4.2.1',
+93 silly addNameRange     '4.3.0',
+93 silly addNameRange     '4.4.1',
+93 silly addNameRange     '4.4.2',
+93 silly addNameRange     '4.4.3',
+93 silly addNameRange     '4.4.4',
+93 silly addNameRange     '4.4.5',
+93 silly addNameRange     '4.4.6',
+93 silly addNameRange     '4.5.0',
+93 silly addNameRange     '4.5.1',
+93 silly addNameRange     '4.5.2',
+93 silly addNameRange     '4.5.3',
+93 silly addNameRange     '4.5.4',
+93 silly addNameRange     '4.5.5',
+93 silly addNameRange     '4.6.0',
+93 silly addNameRange     '4.6.1',
+93 silly addNameRange     '4.6.3',
+93 silly addNameRange     '4.6.4',
+93 silly addNameRange     '4.6.5',
+93 silly addNameRange     '4.6.6',
+93 silly addNameRange     '4.7.0',
+93 silly addNameRange     '4.7.1',
+93 silly addNameRange     '4.7.2',
+93 silly addNameRange     '4.7.3',
+93 silly addNameRange     '4.7.4',
+93 silly addNameRange     '4.7.5',
+93 silly addNameRange     '4.7.6',
+93 silly addNameRange     '4.7.7',
+93 silly addNameRange     '4.7.8',
+93 silly addNameRange     '4.7.9',
+93 silly addNameRange     '4.7.10',
+93 silly addNameRange     '4.7.11',
+93 silly addNameRange     '4.7.12',
+93 silly addNameRange     '4.7.13',
+93 silly addNameRange     '4.7.14',
+93 silly addNameRange     '4.7.15',
+93 silly addNameRange     '4.7.16',
+93 silly addNameRange     '5.0.0-beta2',
+93 silly addNameRange     '5.0.0-beta3',
+93 silly addNameRange     '5.0.0-beta4',
+93 silly addNameRange     '5.0.0',
+93 silly addNameRange     '5.0.1',
+93 silly addNameRange     '5.0.2',
+93 silly addNameRange     '5.0.3',
+93 silly addNameRange     '5.0.4',
+93 silly addNameRange     '5.0.5',
+93 silly addNameRange     '5.0.6',
+93 silly addNameRange     '5.0.7',
+93 silly addNameRange     '5.0.8',
+93 silly addNameRange     '5.0.9',
+93 silly addNameRange     '5.0.10',
+93 silly addNameRange     '5.0.11',
+93 silly addNameRange     '5.0.12',
+93 silly addNameRange     '5.0.13',
+93 silly addNameRange     '5.1.0',
+93 silly addNameRange     '5.1.1',
+93 silly addNameRange     '5.1.2',
+93 silly addNameRange     '5.1.3',
+93 silly addNameRange     '5.1.4',
+93 silly addNameRange     '5.1.5',
+93 silly addNameRange     '5.1.6',
+93 silly addNameRange     '5.1.7',
+93 silly addNameRange     '5.1.8',
+93 silly addNameRange     '5.1.9',
+93 silly addNameRange     '5.1.10',
+93 silly addNameRange     '5.1.11',
+93 silly addNameRange     '5.1.12',
+93 silly addNameRange     '5.1.13',
+93 silly addNameRange     '5.2.0',
+93 silly addNameRange     '5.2.1',
+93 silly addNameRange     '5.2.2',
+93 silly addNameRange     '5.2.3',
+93 silly addNameRange     '5.2.4',
+93 silly addNameRange     '5.2.5',
+93 silly addNameRange     '5.2.6',
+93 silly addNameRange     '5.2.7',
+93 silly addNameRange     '5.2.9',
+93 silly addNameRange     '5.2.10',
+93 silly addNameRange     '5.2.11',
+93 silly addNameRange     '5.2.12',
+93 silly addNameRange     '5.2.13',
+93 silly addNameRange     '5.2.14',
+93 silly addNameRange     '5.2.15',
+93 silly addNameRange     '5.2.16',
+93 silly addNameRange     '5.2.17',
+93 silly addNameRange     '5.3.0',
+93 silly addNameRange     '5.3.1',
+93 silly addNameRange     '5.3.2',
+93 silly addNameRange     '5.3.3',
+93 silly addNameRange     '5.4.0',
+93 silly addNameRange     '5.4.1',
+93 silly addNameRange     '5.4.2',
+93 silly addNameRange     '5.4.3',
+93 silly addNameRange     '5.4.4',
+93 silly addNameRange     '5.4.5',
+93 silly addNameRange     '5.4.6',
+93 silly addNameRange     '5.4.7',
+93 silly addNameRange     '5.5.0',
+93 silly addNameRange     '5.5.1',
+93 silly addNameRange     '5.5.2',
+93 silly addNameRange     '5.5.3',
+93 silly addNameRange     '5.5.4',
+93 silly addNameRange     '5.5.5',
+93 silly addNameRange     '5.5.6',
+93 silly addNameRange     '5.5.7',
+93 silly addNameRange     '5.5.8',
+93 silly addNameRange     '5.6.1',
+93 silly addNameRange     '5.6.2',
+93 silly addNameRange     '5.6.3',
+93 silly addNameRange     '5.6.4',
+93 silly addNameRange     '5.6.5',
+93 silly addNameRange     '5.6.6',
+93 silly addNameRange     '5.6.7',
+93 silly addNameRange     '5.6.10',
+93 silly addNameRange     '5.6.11',
+93 silly addNameRange     '5.6.12',
+93 silly addNameRange     '5.6.14',
+93 silly addNameRange     '5.6.15',
+93 silly addNameRange     '5.6.16',
+93 silly addNameRange     '5.6.18',
+93 silly addNameRange     '5.6.19',
+93 silly addNameRange     '5.6.20',
+93 silly addNameRange     '5.7.0',
+93 silly addNameRange     '5.7.1',
+93 silly addNameRange     '5.7.2',
+93 silly addNameRange     '5.7.3',
+93 silly addNameRange     '5.7.4',
+93 silly addNameRange     '5.8.1',
+93 silly addNameRange     '5.8.2',
+93 silly addNameRange     '5.8.3',
+93 silly addNameRange     '5.8.5',
+93 silly addNameRange     '5.8.6',
+93 silly addNameRange     '5.8.8',
+93 silly addNameRange     '5.8.9',
+93 silly addNameRange     '5.8.12',
+93 silly addNameRange     '5.8.14',
+93 silly addNameRange     '5.8.19',
+93 silly addNameRange     '5.8.20',
+93 silly addNameRange     '5.8.21',
+93 silly addNameRange     '5.8.22',
+93 silly addNameRange     '5.8.23',
+93 silly addNameRange     '5.8.24',
+93 silly addNameRange     '5.8.25',
+93 silly addNameRange     '5.8.29',
+93 silly addNameRange     '5.8.30',
+93 silly addNameRange     '5.8.31',
+93 silly addNameRange     '5.8.32',
+93 silly addNameRange     '5.8.33',
+93 silly addNameRange     '6.0.0',
+93 silly addNameRange     '6.0.1',
+93 silly addNameRange     '6.0.2',
+93 silly addNameRange     '6.0.12',
+93 silly addNameRange     '6.0.14',
+93 silly addNameRange     '6.0.15',
+93 silly addNameRange     '6.0.16',
+93 silly addNameRange     '6.0.17',
+93 silly addNameRange     '6.0.18',
+93 silly addNameRange     '6.0.19',
+93 silly addNameRange     '6.0.20',
+93 silly addNameRange     '6.1.2',
+93 silly addNameRange     '6.1.4',
+93 silly addNameRange     '5.8.34',
+93 silly addNameRange     '6.1.5',
+93 silly addNameRange     '6.1.6',
+93 silly addNameRange     '6.1.7',
+93 silly addNameRange     '6.1.8',
+93 silly addNameRange     '6.1.9',
+93 silly addNameRange     '6.1.10',
+93 silly addNameRange     '6.1.11',
+93 silly addNameRange     '6.1.12',
+93 silly addNameRange     '6.1.13',
+93 silly addNameRange     '6.1.14',
+93 silly addNameRange     '6.1.15',
+93 silly addNameRange     '6.1.16',
+93 silly addNameRange     '6.1.17',
+93 silly addNameRange     '6.1.18',
+93 silly addNameRange     '6.1.19',
+93 silly addNameRange     '6.1.20',
+93 silly addNameRange     '6.1.21',
+93 silly addNameRange     '6.2.0',
+93 silly addNameRange     '6.2.1',
+93 silly addNameRange     '6.2.4',
+93 silly addNameRange     '6.3.2',
+93 silly addNameRange     '6.3.13',
+93 silly addNameRange     '6.3.15',
+93 silly addNameRange     '6.3.17',
+93 silly addNameRange     '6.3.21',
+93 silly addNameRange     '6.3.26',
+93 silly addNameRange     '6.4.0',
+93 silly addNameRange     '6.4.5',
+93 silly addNameRange     '5.8.35',
+93 silly addNameRange     '6.5.0',
+93 silly addNameRange     '6.5.0-1',
+93 silly addNameRange     '6.5.1',
+93 silly addNameRange     '6.5.2',
+93 silly addNameRange     '6.5.2-canary.ab7533ed',
+93 silly addNameRange     '6.6.0',
+93 silly addNameRange     '6.6.4',
+93 silly addNameRange     '6.6.5',
+93 silly addNameRange     '6.7.0',
+93 silly addNameRange     '6.7.2',
+93 silly addNameRange     '5.8.38',
+93 silly addNameRange     '6.7.4',
+93 silly addNameRange     '6.7.5',
+93 silly addNameRange     '6.7.6',
+93 silly addNameRange     '6.7.7',
+93 silly addNameRange     '6.8.0',
+93 silly addNameRange     '6.9.0',
+93 silly addNameRange     '6.9.1',
+93 silly addNameRange     '6.10.4' ] ]
+94 silly addNamed babel-core@6.10.4
+95 verbose addNamed "6.10.4" is a plain semver version for babel-core
+96 silly mapToRegistry name babel-core
+97 silly mapToRegistry using default registry
+98 silly mapToRegistry registry https://registry.npmjs.org/
+99 silly mapToRegistry uri https://registry.npmjs.org/babel-core
+100 verbose addRemoteTarball https://registry.npmjs.org/babel-core/-/babel-core-6.10.4.tgz not in flight; adding
+101 verbose addRemoteTarball [ 'https://registry.npmjs.org/babel-core/-/babel-core-6.10.4.tgz',
+101 verbose addRemoteTarball   '283f2212bb03d4e5cd7498b9886efbf6fc2e238e' ]
+102 info retry fetch attempt 1 at 00:59:33
+103 info attempt registry request try #1 at 00:59:33
+104 http fetch GET https://registry.npmjs.org/babel-core/-/babel-core-6.10.4.tgz
+105 http fetch 200 https://registry.npmjs.org/babel-preset-react/-/babel-preset-react-6.5.0.tgz
+106 http fetch 200 https://registry.npmjs.org/babel-loader/-/babel-loader-6.2.4.tgz
+107 silly fetchAndShaCheck shasum d3289aa0e308dbd48b7210f9977101f0f96ebe1f
+108 verbose addTmpTarball C:\Users\leonardo\AppData\Local\Temp\npm-5412-d0f58ed8\registry.npmjs.org\babel-preset-react\-\babel-preset-react-6.5.0.tgz not in flight; adding
+109 verbose addTmpTarball already have metadata; skipping unpack for babel-preset-react@6.5.0
+110 silly cache afterAdd babel-preset-react@6.5.0
+111 verbose afterAdd C:\Users\leonardo\AppData\Roaming\npm-cache\babel-preset-react\6.5.0\package\package.json not in flight; writing
+112 verbose afterAdd C:\Users\leonardo\AppData\Roaming\npm-cache\babel-preset-react\6.5.0\package\package.json written
+113 http fetch 200 https://registry.npmjs.org/babel-core/-/babel-core-6.10.4.tgz
+114 silly fetchAndShaCheck shasum aa70aff8ddc223a5952e839a43a6c3a4c8bfa1e9
+115 verbose addTmpTarball C:\Users\leonardo\AppData\Local\Temp\npm-5412-d0f58ed8\registry.npmjs.org\babel-loader\-\babel-loader-6.2.4.tgz not in flight; adding
+116 verbose addTmpTarball already have metadata; skipping unpack for babel-loader@6.2.4
+117 silly cache afterAdd babel-loader@6.2.4
+118 verbose afterAdd C:\Users\leonardo\AppData\Roaming\npm-cache\babel-loader\6.2.4\package\package.json not in flight; writing
+119 verbose afterAdd C:\Users\leonardo\AppData\Roaming\npm-cache\babel-loader\6.2.4\package\package.json written
+120 silly fetchAndShaCheck shasum 283f2212bb03d4e5cd7498b9886efbf6fc2e238e
+121 verbose addTmpTarball C:\Users\leonardo\AppData\Local\Temp\npm-5412-d0f58ed8\registry.npmjs.org\babel-core\-\babel-core-6.10.4.tgz not in flight; adding
+122 verbose addTmpTarball already have metadata; skipping unpack for babel-core@6.10.4
+123 silly cache afterAdd babel-core@6.10.4
+124 verbose afterAdd C:\Users\leonardo\AppData\Roaming\npm-cache\babel-core\6.10.4\package\package.json not in flight; writing
+125 verbose afterAdd C:\Users\leonardo\AppData\Roaming\npm-cache\babel-core\6.10.4\package\package.json written
+126 silly install resolved [ { name: 'babel-preset-react',
+126 silly install resolved     version: '6.5.0',
+126 silly install resolved     description: 'Babel preset for all React plugins.',
+126 silly install resolved     author: { name: 'Sebastian McKenzie', email: 'sebmck@gmail.com' },
+126 silly install resolved     homepage: 'https://babeljs.io/',
+126 silly install resolved     license: 'MIT',
+126 silly install resolved     repository:
+126 silly install resolved      { type: 'git',
+126 silly install resolved        url: 'https://github.com/babel/babel/tree/master/packages/babel-preset-react' },
+126 silly install resolved     main: 'index.js',
+126 silly install resolved     dependencies:
+126 silly install resolved      { 'babel-plugin-syntax-flow': '^6.3.13',
+126 silly install resolved        'babel-plugin-syntax-jsx': '^6.3.13',
+126 silly install resolved        'babel-plugin-transform-flow-strip-types': '^6.3.13',
+126 silly install resolved        'babel-plugin-transform-react-display-name': '^6.3.13',
+126 silly install resolved        'babel-plugin-transform-react-jsx': '^6.3.13',
+126 silly install resolved        'babel-plugin-transform-react-jsx-source': '^6.3.13' },
+126 silly install resolved     _id: 'babel-preset-react@6.5.0',
+126 silly install resolved     scripts: {},
+126 silly install resolved     _shasum: 'd3289aa0e308dbd48b7210f9977101f0f96ebe1f',
+126 silly install resolved     _from: 'babel-preset-react@*',
+126 silly install resolved     _npmVersion: '3.6.0',
+126 silly install resolved     _nodeVersion: '5.1.0',
+126 silly install resolved     _npmUser: { name: 'hzoo', email: 'hi@henryzoo.com' },
+126 silly install resolved     dist:
+126 silly install resolved      { shasum: 'd3289aa0e308dbd48b7210f9977101f0f96ebe1f',
+126 silly install resolved        tarball: 'https://registry.npmjs.org/babel-preset-react/-/babel-preset-react-6.5.0.tgz' },
+126 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+126 silly install resolved     _npmOperationalInternal:
+126 silly install resolved      { host: 'packages-9-west.internal.npmjs.com',
+126 silly install resolved        tmp: 'tmp/babel-preset-react-6.5.0.tgz_1454803698646_0.6049495777115226' },
+126 silly install resolved     directories: {},
+126 silly install resolved     _resolved: 'https://registry.npmjs.org/babel-preset-react/-/babel-preset-react-6.5.0.tgz' },
+126 silly install resolved   { name: 'babel-loader',
+126 silly install resolved     version: '6.2.4',
+126 silly install resolved     description: 'babel module loader for webpack',
+126 silly install resolved     files: [ 'index.js', 'lib' ],
+126 silly install resolved     dependencies:
+126 silly install resolved      { 'loader-utils': '^0.2.11',
+126 silly install resolved        mkdirp: '^0.5.1',
+126 silly install resolved        'object-assign': '^4.0.1' },
+126 silly install resolved     peerDependencies: { 'babel-core': '^6.0.0', webpack: '1 || ^2.1.0-beta' },
+126 silly install resolved     devDependencies:
+126 silly install resolved      { 'expect.js': '^0.3.1',
+126 silly install resolved        istanbul: '^0.4.0',
+126 silly install resolved        jscs: '^2.5.0',
+126 silly install resolved        jshint: '^2.8.0',
+126 silly install resolved        mocha: '^2.3.3',
+126 silly install resolved        rimraf: '^2.4.3',
+126 silly install resolved        webpack: '^1.12.2' },
+126 silly install resolved     scripts:
+126 silly install resolved      { test: 'npm run hint && npm run cs && npm run cov',
+126 silly install resolved        cov: 'istanbul cover ./node_modules/.bin/_mocha -- test/*.test.js',
+126 silly install resolved        hint: 'jshint --config .jshintrc index.js lib/* test/*',
+126 silly install resolved        cs: 'jscs --config .jscsrc index.js lib/* test/*' },
+126 silly install resolved     repository:
+126 silly install resolved      { type: 'git',
+126 silly install resolved        url: 'git+https://github.com/babel/babel-loader.git' },
+126 silly install resolved     keywords:
+126 silly install resolved      [ 'webpack',
+126 silly install resolved        'loader',
+126 silly install resolved        '6to5',
+126 silly install resolved        'babel',
+126 silly install resolved        'es6',
+126 silly install resolved        'transpiler',
+126 silly install resolved        'module' ],
+126 silly install resolved     author: { name: 'Luis Couto', email: 'hello@luiscouto.pt' },
+126 silly install resolved     license: 'MIT',
+126 silly install resolved     bugs: { url: 'https://github.com/babel/babel-loader/issues' },
+126 silly install resolved     homepage: 'https://github.com/babel/babel-loader',
+126 silly install resolved     gitHead: '28e76e3b5b4b1526ea89126a83588619c2ac1638',
+126 silly install resolved     _id: 'babel-loader@6.2.4',
+126 silly install resolved     _shasum: 'aa70aff8ddc223a5952e839a43a6c3a4c8bfa1e9',
+126 silly install resolved     _from: 'babel-loader@*',
+126 silly install resolved     _npmVersion: '3.7.2',
+126 silly install resolved     _nodeVersion: '5.6.0',
+126 silly install resolved     _npmUser: { name: 'couto', email: 'hello@luiscouto.pt' },
+126 silly install resolved     dist:
+126 silly install resolved      { shasum: 'aa70aff8ddc223a5952e839a43a6c3a4c8bfa1e9',
+126 silly install resolved        tarball: 'https://registry.npmjs.org/babel-loader/-/babel-loader-6.2.4.tgz' },
+126 silly install resolved     maintainers: [ [Object], [Object] ],
+126 silly install resolved     _npmOperationalInternal:
+126 silly install resolved      { host: 'packages-6-west.internal.npmjs.com',
+126 silly install resolved        tmp: 'tmp/babel-loader-6.2.4.tgz_1456567898502_0.7956836845260113' },
+126 silly install resolved     directories: {},
+126 silly install resolved     _resolved: 'https://registry.npmjs.org/babel-loader/-/babel-loader-6.2.4.tgz' },
+126 silly install resolved   { name: 'babel-core',
+126 silly install resolved     version: '6.10.4',
+126 silly install resolved     description: 'Babel compiler core.',
+126 silly install resolved     author: { name: 'Sebastian McKenzie', email: 'sebmck@gmail.com' },
+126 silly install resolved     homepage: 'https://babeljs.io/',
+126 silly install resolved     license: 'MIT',
+126 silly install resolved     repository:
+126 silly install resolved      { type: 'git',
+126 silly install resolved        url: 'https://github.com/babel/babel/tree/master/packages/babel-core' },
+126 silly install resolved     keywords:
+126 silly install resolved      [ '6to5',
+126 silly install resolved        'babel',
+126 silly install resolved        'classes',
+126 silly install resolved        'const',
+126 silly install resolved        'es6',
+126 silly install resolved        'harmony',
+126 silly install resolved        'let',
+126 silly install resolved        'modules',
+126 silly install resolved        'transpile',
+126 silly install resolved        'transpiler',
+126 silly install resolved        'var' ],
+126 silly install resolved     scripts: { bench: 'make bench', test: 'make test' },
+126 silly install resolved     dependencies:
+126 silly install resolved      { 'babel-code-frame': '^6.8.0',
+126 silly install resolved        'babel-generator': '^6.9.0',
+126 silly install resolved        'babel-helpers': '^6.8.0',
+126 silly install resolved        'babel-messages': '^6.8.0',
+126 silly install resolved        'babel-template': '^6.9.0',
+126 silly install resolved        'babel-runtime': '^6.9.1',
+126 silly install resolved        'babel-register': '^6.9.0',
+126 silly install resolved        'babel-traverse': '^6.10.4',
+126 silly install resolved        'babel-types': '^6.9.1',
+126 silly install resolved        babylon: '^6.7.0',
+126 silly install resolved        'convert-source-map': '^1.1.0',
+126 silly install resolved        debug: '^2.1.1',
+126 silly install resolved        json5: '^0.4.0',
+126 silly install resolved        lodash: '^4.2.0',
+126 silly install resolved        minimatch: '^3.0.2',
+126 silly install resolved        'path-exists': '^1.0.0',
+126 silly install resolved        'path-is-absolute': '^1.0.0',
+126 silly install resolved        private: '^0.1.6',
+126 silly install resolved        'shebang-regex': '^1.0.0',
+126 silly install resolved        slash: '^1.0.0',
+126 silly install resolved        'source-map': '^0.5.0' },
+126 silly install resolved     devDependencies:
+126 silly install resolved      { 'babel-helper-fixtures': '^6.9.0',
+126 silly install resolved        'babel-helper-transform-fixture-test-runner': '^6.9.0',
+126 silly install resolved        'babel-polyfill': '^6.9.1' },
+126 silly install resolved     _id: 'babel-core@6.10.4',
+126 silly install resolved     _shasum: '283f2212bb03d4e5cd7498b9886efbf6fc2e238e',
+126 silly install resolved     _from: 'babel-core@*',
+126 silly install resolved     _npmVersion: '3.9.3',
+126 silly install resolved     _nodeVersion: '5.9.0',
+126 silly install resolved     _npmUser: { name: 'loganfsmyth', email: 'loganfsmyth@gmail.com' },
+126 silly install resolved     dist:
+126 silly install resolved      { shasum: '283f2212bb03d4e5cd7498b9886efbf6fc2e238e',
+126 silly install resolved        tarball: 'https://registry.npmjs.org/babel-core/-/babel-core-6.10.4.tgz' },
+126 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+126 silly install resolved     _npmOperationalInternal:
+126 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+126 silly install resolved        tmp: 'tmp/babel-core-6.10.4.tgz_1466527417705_0.10249125026166439' },
+126 silly install resolved     directories: {},
+126 silly install resolved     _resolved: 'https://registry.npmjs.org/babel-core/-/babel-core-6.10.4.tgz' } ]
+127 info install babel-preset-react@6.5.0 into D:\Desenv\Promise\Projetos\github-user
+128 info install babel-loader@6.2.4 into D:\Desenv\Promise\Projetos\github-user
+129 info install babel-core@6.10.4 into D:\Desenv\Promise\Projetos\github-user
+130 info installOne babel-preset-react@6.5.0
+131 verbose installOne of babel-preset-react to D:\Desenv\Promise\Projetos\github-user not in flight; installing
+132 info installOne babel-loader@6.2.4
+133 verbose installOne of babel-loader to D:\Desenv\Promise\Projetos\github-user not in flight; installing
+134 info installOne babel-core@6.10.4
+135 verbose installOne of babel-core to D:\Desenv\Promise\Projetos\github-user not in flight; installing
+136 verbose lock using C:\Users\leonardo\AppData\Roaming\npm-cache\_locks\babel-preset-react-71eb1285bfb77959.lock for D:\Desenv\Promise\Projetos\github-user\node_modules\babel-preset-react
+137 silly install write writing babel-preset-react 6.5.0 to D:\Desenv\Promise\Projetos\github-user\node_modules\babel-preset-react
+138 verbose lock using C:\Users\leonardo\AppData\Roaming\npm-cache\_locks\babel-core-e994361cd1e4f656.lock for D:\Desenv\Promise\Projetos\github-user\node_modules\babel-core
+139 verbose lock using C:\Users\leonardo\AppData\Roaming\npm-cache\_locks\babel-loader-37d1b56a2a4435aa.lock for D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader
+140 silly install write writing babel-core 6.10.4 to D:\Desenv\Promise\Projetos\github-user\node_modules\babel-core
+141 silly install write writing babel-loader 6.2.4 to D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader
+142 verbose unbuild node_modules\babel-preset-react
+143 silly gentlyRm D:\Desenv\Promise\Projetos\github-user\node_modules\babel-preset-react is being purged from base D:\Desenv\Promise\Projetos\github-user
+144 verbose gentlyRm don't care about contents; nuking D:\Desenv\Promise\Projetos\github-user\node_modules\babel-preset-react
+145 verbose tar unpack C:\Users\leonardo\AppData\Roaming\npm-cache\babel-preset-react\6.5.0\package.tgz
+146 verbose tar unpacking to D:\Desenv\Promise\Projetos\github-user\node_modules\babel-preset-react
+147 silly gentlyRm D:\Desenv\Promise\Projetos\github-user\node_modules\babel-preset-react is being purged
+148 verbose gentlyRm don't care about contents; nuking D:\Desenv\Promise\Projetos\github-user\node_modules\babel-preset-react
+149 verbose unbuild node_modules\babel-core
+150 silly gunzTarPerm modes [ '777', '666' ]
+151 verbose unbuild node_modules\babel-loader
+152 silly gentlyRm D:\Desenv\Promise\Projetos\github-user\node_modules\babel-core is being purged from base D:\Desenv\Promise\Projetos\github-user
+153 verbose gentlyRm don't care about contents; nuking D:\Desenv\Promise\Projetos\github-user\node_modules\babel-core
+154 silly gentlyRm D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader is being purged from base D:\Desenv\Promise\Projetos\github-user
+155 verbose gentlyRm don't care about contents; nuking D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader
+156 verbose tar unpack C:\Users\leonardo\AppData\Roaming\npm-cache\babel-core\6.10.4\package.tgz
+157 verbose tar unpacking to D:\Desenv\Promise\Projetos\github-user\node_modules\babel-core
+158 silly gentlyRm D:\Desenv\Promise\Projetos\github-user\node_modules\babel-core is being purged
+159 verbose gentlyRm don't care about contents; nuking D:\Desenv\Promise\Projetos\github-user\node_modules\babel-core
+160 verbose tar unpack C:\Users\leonardo\AppData\Roaming\npm-cache\babel-loader\6.2.4\package.tgz
+161 verbose tar unpacking to D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader
+162 silly gentlyRm D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader is being purged
+163 verbose gentlyRm don't care about contents; nuking D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader
+164 silly gunzTarPerm modes [ '777', '666' ]
+165 silly gunzTarPerm modes [ '777', '666' ]
+166 silly gunzTarPerm extractEntry package.json
+167 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+168 silly gunzTarPerm extractEntry package.json
+169 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+170 silly gunzTarPerm extractEntry package.json
+171 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+172 silly gunzTarPerm extractEntry .npmignore
+173 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+174 silly gunzTarPerm extractEntry README.md
+175 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+176 silly gunzTarPerm extractEntry README.md
+177 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+178 silly gunzTarPerm extractEntry index.js
+179 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+180 silly gunzTarPerm extractEntry README.md
+181 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+182 silly gunzTarPerm extractEntry LICENSE
+183 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+184 silly gunzTarPerm extractEntry index.js
+185 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+186 silly gunzTarPerm extractEntry register.js
+187 silly gunzTarPerm modified mode [ 'register.js', 420, 438 ]
+188 silly gunzTarPerm extractEntry lib/store.js
+189 silly gunzTarPerm modified mode [ 'lib/store.js', 420, 438 ]
+190 silly gunzTarPerm extractEntry index.js
+191 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+192 silly gunzTarPerm extractEntry CHANGELOG.md
+193 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+194 silly gunzTarPerm extractEntry lib/util.js
+195 silly gunzTarPerm modified mode [ 'lib/util.js', 420, 438 ]
+196 silly gunzTarPerm extractEntry lib/api/browser.js
+197 silly gunzTarPerm modified mode [ 'lib/api/browser.js', 420, 438 ]
+198 silly gunzTarPerm extractEntry lib/api/node.js
+199 silly gunzTarPerm modified mode [ 'lib/api/node.js', 420, 438 ]
+200 silly gunzTarPerm extractEntry lib/fs-cache.js
+201 silly gunzTarPerm modified mode [ 'lib/fs-cache.js', 420, 438 ]
+202 silly gunzTarPerm extractEntry lib/helpers/merge.js
+203 silly gunzTarPerm modified mode [ 'lib/helpers/merge.js', 420, 438 ]
+204 silly gunzTarPerm extractEntry lib/helpers/normalize-ast.js
+205 silly gunzTarPerm modified mode [ 'lib/helpers/normalize-ast.js', 420, 438 ]
+206 silly gunzTarPerm extractEntry lib/resolve-rc.js
+207 silly gunzTarPerm modified mode [ 'lib/resolve-rc.js', 420, 438 ]
+208 silly gunzTarPerm extractEntry lib/helpers/exists.js
+209 silly gunzTarPerm modified mode [ 'lib/helpers/exists.js', 420, 438 ]
+210 silly gunzTarPerm extractEntry lib/helpers/resolve.js
+211 silly gunzTarPerm modified mode [ 'lib/helpers/resolve.js', 420, 438 ]
+212 silly gunzTarPerm extractEntry lib/tools/build-external-helpers.js
+213 silly gunzTarPerm modified mode [ 'lib/tools/build-external-helpers.js', 420, 438 ]
+214 verbose write writing to D:\Desenv\Promise\Projetos\github-user\node_modules\babel-preset-react\package.json
+215 silly gunzTarPerm extractEntry lib/helpers/read.js
+216 silly gunzTarPerm modified mode [ 'lib/helpers/read.js', 420, 438 ]
+217 info preinstall babel-preset-react@6.5.0
+218 verbose readDependencies loading dependencies from D:\Desenv\Promise\Projetos\github-user\node_modules\babel-preset-react\package.json
+219 silly gunzTarPerm extractEntry lib/transformation/pipeline.js
+220 silly gunzTarPerm modified mode [ 'lib/transformation/pipeline.js', 420, 438 ]
+221 silly gunzTarPerm extractEntry lib/transformation/plugin-pass.js
+222 silly gunzTarPerm modified mode [ 'lib/transformation/plugin-pass.js', 420, 438 ]
+223 silly prepareForInstallMany adding babel-plugin-syntax-flow@^6.3.13 from babel-preset-react dependencies
+224 silly prepareForInstallMany adding babel-plugin-syntax-jsx@^6.3.13 from babel-preset-react dependencies
+225 silly prepareForInstallMany adding babel-plugin-transform-flow-strip-types@^6.3.13 from babel-preset-react dependencies
+226 silly prepareForInstallMany adding babel-plugin-transform-react-display-name@^6.3.13 from babel-preset-react dependencies
+227 silly prepareForInstallMany adding babel-plugin-transform-react-jsx@^6.3.13 from babel-preset-react dependencies
+228 silly prepareForInstallMany adding babel-plugin-transform-react-jsx-source@^6.3.13 from babel-preset-react dependencies
+229 verbose readDependencies loading dependencies from D:\Desenv\Promise\Projetos\github-user\node_modules\babel-preset-react\package.json
+230 silly gunzTarPerm extractEntry lib/transformation/plugin.js
+231 silly gunzTarPerm modified mode [ 'lib/transformation/plugin.js', 420, 438 ]
+232 silly gunzTarPerm extractEntry lib/transformation/file/index.js
+233 silly gunzTarPerm modified mode [ 'lib/transformation/file/index.js', 420, 438 ]
+234 silly cache add args [ 'babel-plugin-syntax-flow@^6.3.13', null ]
+235 verbose cache add spec babel-plugin-syntax-flow@^6.3.13
+236 silly cache add args [ 'babel-plugin-syntax-jsx@^6.3.13', null ]
+237 verbose cache add spec babel-plugin-syntax-jsx@^6.3.13
+238 silly cache add parsed spec { raw: 'babel-plugin-syntax-flow@^6.3.13',
+238 silly cache add   scope: null,
+238 silly cache add   name: 'babel-plugin-syntax-flow',
+238 silly cache add   rawSpec: '^6.3.13',
+238 silly cache add   spec: '>=6.3.13 <7.0.0',
+238 silly cache add   type: 'range' }
+239 silly addNamed babel-plugin-syntax-flow@>=6.3.13 <7.0.0
+240 verbose addNamed ">=6.3.13 <7.0.0" is a valid semver range for babel-plugin-syntax-flow
+241 silly addNameRange { name: 'babel-plugin-syntax-flow',
+241 silly addNameRange   range: '>=6.3.13 <7.0.0',
+241 silly addNameRange   hasData: false }
+242 silly mapToRegistry name babel-plugin-syntax-flow
+243 silly mapToRegistry using default registry
+244 silly mapToRegistry registry https://registry.npmjs.org/
+245 silly mapToRegistry uri https://registry.npmjs.org/babel-plugin-syntax-flow
+246 verbose addNameRange registry:https://registry.npmjs.org/babel-plugin-syntax-flow not in flight; fetching
+247 silly cache add parsed spec { raw: 'babel-plugin-syntax-jsx@^6.3.13',
+247 silly cache add   scope: null,
+247 silly cache add   name: 'babel-plugin-syntax-jsx',
+247 silly cache add   rawSpec: '^6.3.13',
+247 silly cache add   spec: '>=6.3.13 <7.0.0',
+247 silly cache add   type: 'range' }
+248 silly addNamed babel-plugin-syntax-jsx@>=6.3.13 <7.0.0
+249 verbose addNamed ">=6.3.13 <7.0.0" is a valid semver range for babel-plugin-syntax-jsx
+250 silly addNameRange { name: 'babel-plugin-syntax-jsx',
+250 silly addNameRange   range: '>=6.3.13 <7.0.0',
+250 silly addNameRange   hasData: false }
+251 silly mapToRegistry name babel-plugin-syntax-jsx
+252 silly mapToRegistry using default registry
+253 silly mapToRegistry registry https://registry.npmjs.org/
+254 silly mapToRegistry uri https://registry.npmjs.org/babel-plugin-syntax-jsx
+255 verbose addNameRange registry:https://registry.npmjs.org/babel-plugin-syntax-jsx not in flight; fetching
+256 silly cache add args [ 'babel-plugin-transform-flow-strip-types@^6.3.13', null ]
+257 verbose cache add spec babel-plugin-transform-flow-strip-types@^6.3.13
+258 silly cache add parsed spec { raw: 'babel-plugin-transform-flow-strip-types@^6.3.13',
+258 silly cache add   scope: null,
+258 silly cache add   name: 'babel-plugin-transform-flow-strip-types',
+258 silly cache add   rawSpec: '^6.3.13',
+258 silly cache add   spec: '>=6.3.13 <7.0.0',
+258 silly cache add   type: 'range' }
+259 silly addNamed babel-plugin-transform-flow-strip-types@>=6.3.13 <7.0.0
+260 verbose addNamed ">=6.3.13 <7.0.0" is a valid semver range for babel-plugin-transform-flow-strip-types
+261 silly addNameRange { name: 'babel-plugin-transform-flow-strip-types',
+261 silly addNameRange   range: '>=6.3.13 <7.0.0',
+261 silly addNameRange   hasData: false }
+262 silly mapToRegistry name babel-plugin-transform-flow-strip-types
+263 silly mapToRegistry using default registry
+264 silly mapToRegistry registry https://registry.npmjs.org/
+265 silly mapToRegistry uri https://registry.npmjs.org/babel-plugin-transform-flow-strip-types
+266 verbose addNameRange registry:https://registry.npmjs.org/babel-plugin-transform-flow-strip-types not in flight; fetching
+267 silly cache add args [ 'babel-plugin-transform-react-display-name@^6.3.13', null ]
+268 verbose cache add spec babel-plugin-transform-react-display-name@^6.3.13
+269 silly cache add parsed spec { raw: 'babel-plugin-transform-react-display-name@^6.3.13',
+269 silly cache add   scope: null,
+269 silly cache add   name: 'babel-plugin-transform-react-display-name',
+269 silly cache add   rawSpec: '^6.3.13',
+269 silly cache add   spec: '>=6.3.13 <7.0.0',
+269 silly cache add   type: 'range' }
+270 silly addNamed babel-plugin-transform-react-display-name@>=6.3.13 <7.0.0
+271 verbose addNamed ">=6.3.13 <7.0.0" is a valid semver range for babel-plugin-transform-react-display-name
+272 silly addNameRange { name: 'babel-plugin-transform-react-display-name',
+272 silly addNameRange   range: '>=6.3.13 <7.0.0',
+272 silly addNameRange   hasData: false }
+273 silly mapToRegistry name babel-plugin-transform-react-display-name
+274 silly mapToRegistry using default registry
+275 silly mapToRegistry registry https://registry.npmjs.org/
+276 silly mapToRegistry uri https://registry.npmjs.org/babel-plugin-transform-react-display-name
+277 verbose addNameRange registry:https://registry.npmjs.org/babel-plugin-transform-react-display-name not in flight; fetching
+278 silly cache add args [ 'babel-plugin-transform-react-jsx@^6.3.13', null ]
+279 verbose cache add spec babel-plugin-transform-react-jsx@^6.3.13
+280 silly cache add parsed spec { raw: 'babel-plugin-transform-react-jsx@^6.3.13',
+280 silly cache add   scope: null,
+280 silly cache add   name: 'babel-plugin-transform-react-jsx',
+280 silly cache add   rawSpec: '^6.3.13',
+280 silly cache add   spec: '>=6.3.13 <7.0.0',
+280 silly cache add   type: 'range' }
+281 silly addNamed babel-plugin-transform-react-jsx@>=6.3.13 <7.0.0
+282 verbose addNamed ">=6.3.13 <7.0.0" is a valid semver range for babel-plugin-transform-react-jsx
+283 silly addNameRange { name: 'babel-plugin-transform-react-jsx',
+283 silly addNameRange   range: '>=6.3.13 <7.0.0',
+283 silly addNameRange   hasData: false }
+284 silly mapToRegistry name babel-plugin-transform-react-jsx
+285 silly mapToRegistry using default registry
+286 silly mapToRegistry registry https://registry.npmjs.org/
+287 silly mapToRegistry uri https://registry.npmjs.org/babel-plugin-transform-react-jsx
+288 verbose addNameRange registry:https://registry.npmjs.org/babel-plugin-transform-react-jsx not in flight; fetching
+289 silly cache add args [ 'babel-plugin-transform-react-jsx-source@^6.3.13', null ]
+290 verbose cache add spec babel-plugin-transform-react-jsx-source@^6.3.13
+291 silly cache add parsed spec { raw: 'babel-plugin-transform-react-jsx-source@^6.3.13',
+291 silly cache add   scope: null,
+291 silly cache add   name: 'babel-plugin-transform-react-jsx-source',
+291 silly cache add   rawSpec: '^6.3.13',
+291 silly cache add   spec: '>=6.3.13 <7.0.0',
+291 silly cache add   type: 'range' }
+292 silly addNamed babel-plugin-transform-react-jsx-source@>=6.3.13 <7.0.0
+293 verbose addNamed ">=6.3.13 <7.0.0" is a valid semver range for babel-plugin-transform-react-jsx-source
+294 silly addNameRange { name: 'babel-plugin-transform-react-jsx-source',
+294 silly addNameRange   range: '>=6.3.13 <7.0.0',
+294 silly addNameRange   hasData: false }
+295 silly mapToRegistry name babel-plugin-transform-react-jsx-source
+296 silly mapToRegistry using default registry
+297 silly mapToRegistry registry https://registry.npmjs.org/
+298 silly mapToRegistry uri https://registry.npmjs.org/babel-plugin-transform-react-jsx-source
+299 verbose addNameRange registry:https://registry.npmjs.org/babel-plugin-transform-react-jsx-source not in flight; fetching
+300 verbose request uri https://registry.npmjs.org/babel-plugin-syntax-flow
+301 verbose request no auth needed
+302 info attempt registry request try #1 at 00:59:35
+303 http request GET https://registry.npmjs.org/babel-plugin-syntax-flow
+304 verbose request uri https://registry.npmjs.org/babel-plugin-syntax-jsx
+305 verbose request no auth needed
+306 info attempt registry request try #1 at 00:59:35
+307 http request GET https://registry.npmjs.org/babel-plugin-syntax-jsx
+308 verbose request uri https://registry.npmjs.org/babel-plugin-transform-flow-strip-types
+309 verbose request no auth needed
+310 info attempt registry request try #1 at 00:59:35
+311 http request GET https://registry.npmjs.org/babel-plugin-transform-flow-strip-types
+312 verbose request uri https://registry.npmjs.org/babel-plugin-transform-react-display-name
+313 verbose request no auth needed
+314 info attempt registry request try #1 at 00:59:35
+315 http request GET https://registry.npmjs.org/babel-plugin-transform-react-display-name
+316 verbose request uri https://registry.npmjs.org/babel-plugin-transform-react-jsx
+317 verbose request no auth needed
+318 info attempt registry request try #1 at 00:59:35
+319 http request GET https://registry.npmjs.org/babel-plugin-transform-react-jsx
+320 verbose request uri https://registry.npmjs.org/babel-plugin-transform-react-jsx-source
+321 verbose request no auth needed
+322 info attempt registry request try #1 at 00:59:35
+323 http request GET https://registry.npmjs.org/babel-plugin-transform-react-jsx-source
+324 silly gunzTarPerm extractEntry lib/transformation/file/logger.js
+325 silly gunzTarPerm modified mode [ 'lib/transformation/file/logger.js', 420, 438 ]
+326 silly gunzTarPerm extractEntry lib/transformation/file/metadata.js
+327 silly gunzTarPerm modified mode [ 'lib/transformation/file/metadata.js', 420, 438 ]
+328 verbose write writing to D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader\package.json
+329 silly gunzTarPerm extractEntry lib/transformation/file/options/config.js
+330 silly gunzTarPerm modified mode [ 'lib/transformation/file/options/config.js', 420, 438 ]
+331 silly gunzTarPerm extractEntry lib/transformation/file/options/index.js
+332 silly gunzTarPerm modified mode [ 'lib/transformation/file/options/index.js', 420, 438 ]
+333 info preinstall babel-loader@6.2.4
+334 verbose readDependencies loading dependencies from D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader\package.json
+335 silly gunzTarPerm extractEntry lib/transformation/file/options/option-manager.js
+336 silly gunzTarPerm modified mode [ 'lib/transformation/file/options/option-manager.js', 420, 438 ]
+337 silly gunzTarPerm extractEntry lib/transformation/file/options/parsers.js
+338 silly gunzTarPerm modified mode [ 'lib/transformation/file/options/parsers.js', 420, 438 ]
+339 silly gunzTarPerm extractEntry lib/transformation/file/options/removed.js
+340 silly gunzTarPerm modified mode [ 'lib/transformation/file/options/removed.js', 420, 438 ]
+341 silly gunzTarPerm extractEntry lib/transformation/internal-plugins/block-hoist.js
+342 silly gunzTarPerm modified mode [ 'lib/transformation/internal-plugins/block-hoist.js',
+342 silly gunzTarPerm   420,
+342 silly gunzTarPerm   438 ]
+343 silly prepareForInstallMany adding loader-utils@^0.2.11 from babel-loader dependencies
+344 silly prepareForInstallMany adding mkdirp@^0.5.1 from babel-loader dependencies
+345 silly prepareForInstallMany adding object-assign@^4.0.1 from babel-loader dependencies
+346 verbose readDependencies loading dependencies from D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader\package.json
+347 silly gunzTarPerm extractEntry lib/transformation/internal-plugins/shadow-functions.js
+348 silly gunzTarPerm modified mode [ 'lib/transformation/internal-plugins/shadow-functions.js',
+348 silly gunzTarPerm   420,
+348 silly gunzTarPerm   438 ]
+349 silly cache add args [ 'loader-utils@^0.2.11', null ]
+350 verbose cache add spec loader-utils@^0.2.11
+351 silly cache add args [ 'mkdirp@^0.5.1', null ]
+352 verbose cache add spec mkdirp@^0.5.1
+353 silly cache add parsed spec { raw: 'loader-utils@^0.2.11',
+353 silly cache add   scope: null,
+353 silly cache add   name: 'loader-utils',
+353 silly cache add   rawSpec: '^0.2.11',
+353 silly cache add   spec: '>=0.2.11 <0.3.0',
+353 silly cache add   type: 'range' }
+354 silly addNamed loader-utils@>=0.2.11 <0.3.0
+355 verbose addNamed ">=0.2.11 <0.3.0" is a valid semver range for loader-utils
+356 silly addNameRange { name: 'loader-utils',
+356 silly addNameRange   range: '>=0.2.11 <0.3.0',
+356 silly addNameRange   hasData: false }
+357 silly mapToRegistry name loader-utils
+358 silly mapToRegistry using default registry
+359 silly mapToRegistry registry https://registry.npmjs.org/
+360 silly mapToRegistry uri https://registry.npmjs.org/loader-utils
+361 verbose addNameRange registry:https://registry.npmjs.org/loader-utils not in flight; fetching
+362 silly cache add parsed spec { raw: 'mkdirp@^0.5.1',
+362 silly cache add   scope: null,
+362 silly cache add   name: 'mkdirp',
+362 silly cache add   rawSpec: '^0.5.1',
+362 silly cache add   spec: '>=0.5.1 <0.6.0',
+362 silly cache add   type: 'range' }
+363 silly addNamed mkdirp@>=0.5.1 <0.6.0
+364 verbose addNamed ">=0.5.1 <0.6.0" is a valid semver range for mkdirp
+365 silly addNameRange { name: 'mkdirp', range: '>=0.5.1 <0.6.0', hasData: false }
+366 silly mapToRegistry name mkdirp
+367 silly mapToRegistry using default registry
+368 silly mapToRegistry registry https://registry.npmjs.org/
+369 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+370 verbose addNameRange registry:https://registry.npmjs.org/mkdirp not in flight; fetching
+371 silly cache add args [ 'object-assign@^4.0.1', null ]
+372 verbose cache add spec object-assign@^4.0.1
+373 silly cache add parsed spec { raw: 'object-assign@^4.0.1',
+373 silly cache add   scope: null,
+373 silly cache add   name: 'object-assign',
+373 silly cache add   rawSpec: '^4.0.1',
+373 silly cache add   spec: '>=4.0.1 <5.0.0',
+373 silly cache add   type: 'range' }
+374 silly addNamed object-assign@>=4.0.1 <5.0.0
+375 verbose addNamed ">=4.0.1 <5.0.0" is a valid semver range for object-assign
+376 silly addNameRange { name: 'object-assign',
+376 silly addNameRange   range: '>=4.0.1 <5.0.0',
+376 silly addNameRange   hasData: false }
+377 silly mapToRegistry name object-assign
+378 silly mapToRegistry using default registry
+379 silly mapToRegistry registry https://registry.npmjs.org/
+380 silly mapToRegistry uri https://registry.npmjs.org/object-assign
+381 verbose addNameRange registry:https://registry.npmjs.org/object-assign not in flight; fetching
+382 verbose request uri https://registry.npmjs.org/mkdirp
+383 verbose request no auth needed
+384 info attempt registry request try #1 at 00:59:35
+385 verbose etag "RWKHVPX5V8WNVUZ9E3HDA7D8"
+386 http request GET https://registry.npmjs.org/mkdirp
+387 verbose request uri https://registry.npmjs.org/loader-utils
+388 verbose request no auth needed
+389 info attempt registry request try #1 at 00:59:35
+390 verbose etag "733ZQPVDVBZO34C4SPJN5VIIV"
+391 http request GET https://registry.npmjs.org/loader-utils
+392 verbose request uri https://registry.npmjs.org/object-assign
+393 verbose request no auth needed
+394 info attempt registry request try #1 at 00:59:35
+395 verbose etag "955M5BSBAOA180KYQLI5YPISU"
+396 http request GET https://registry.npmjs.org/object-assign
+397 verbose write writing to D:\Desenv\Promise\Projetos\github-user\node_modules\babel-core\package.json
+398 info preinstall babel-core@6.10.4
+399 verbose readDependencies loading dependencies from D:\Desenv\Promise\Projetos\github-user\node_modules\babel-core\package.json
+400 silly prepareForInstallMany adding babel-code-frame@^6.8.0 from babel-core dependencies
+401 silly prepareForInstallMany adding babel-generator@^6.9.0 from babel-core dependencies
+402 silly prepareForInstallMany adding babel-helpers@^6.8.0 from babel-core dependencies
+403 silly prepareForInstallMany adding babel-messages@^6.8.0 from babel-core dependencies
+404 silly prepareForInstallMany adding babel-template@^6.9.0 from babel-core dependencies
+405 silly prepareForInstallMany adding babel-runtime@^6.9.1 from babel-core dependencies
+406 silly prepareForInstallMany adding babel-register@^6.9.0 from babel-core dependencies
+407 silly prepareForInstallMany adding babel-traverse@^6.10.4 from babel-core dependencies
+408 silly prepareForInstallMany adding babel-types@^6.9.1 from babel-core dependencies
+409 silly prepareForInstallMany adding babylon@^6.7.0 from babel-core dependencies
+410 silly prepareForInstallMany adding convert-source-map@^1.1.0 from babel-core dependencies
+411 silly prepareForInstallMany adding debug@^2.1.1 from babel-core dependencies
+412 silly prepareForInstallMany adding json5@^0.4.0 from babel-core dependencies
+413 silly prepareForInstallMany adding lodash@^4.2.0 from babel-core dependencies
+414 silly prepareForInstallMany adding minimatch@^3.0.2 from babel-core dependencies
+415 silly prepareForInstallMany adding path-exists@^1.0.0 from babel-core dependencies
+416 silly prepareForInstallMany adding path-is-absolute@^1.0.0 from babel-core dependencies
+417 silly prepareForInstallMany adding private@^0.1.6 from babel-core dependencies
+418 silly prepareForInstallMany adding shebang-regex@^1.0.0 from babel-core dependencies
+419 silly prepareForInstallMany adding slash@^1.0.0 from babel-core dependencies
+420 silly prepareForInstallMany adding source-map@^0.5.0 from babel-core dependencies
+421 verbose readDependencies loading dependencies from D:\Desenv\Promise\Projetos\github-user\node_modules\babel-core\package.json
+422 silly cache add args [ 'babel-helpers@^6.8.0', null ]
+423 verbose cache add spec babel-helpers@^6.8.0
+424 silly cache add parsed spec { raw: 'babel-helpers@^6.8.0',
+424 silly cache add   scope: null,
+424 silly cache add   name: 'babel-helpers',
+424 silly cache add   rawSpec: '^6.8.0',
+424 silly cache add   spec: '>=6.8.0 <7.0.0',
+424 silly cache add   type: 'range' }
+425 silly addNamed babel-helpers@>=6.8.0 <7.0.0
+426 verbose addNamed ">=6.8.0 <7.0.0" is a valid semver range for babel-helpers
+427 silly addNameRange { name: 'babel-helpers',
+427 silly addNameRange   range: '>=6.8.0 <7.0.0',
+427 silly addNameRange   hasData: false }
+428 silly mapToRegistry name babel-helpers
+429 silly mapToRegistry using default registry
+430 silly mapToRegistry registry https://registry.npmjs.org/
+431 silly mapToRegistry uri https://registry.npmjs.org/babel-helpers
+432 verbose addNameRange registry:https://registry.npmjs.org/babel-helpers not in flight; fetching
+433 silly cache add args [ 'babel-messages@^6.8.0', null ]
+434 verbose cache add spec babel-messages@^6.8.0
+435 silly cache add parsed spec { raw: 'babel-messages@^6.8.0',
+435 silly cache add   scope: null,
+435 silly cache add   name: 'babel-messages',
+435 silly cache add   rawSpec: '^6.8.0',
+435 silly cache add   spec: '>=6.8.0 <7.0.0',
+435 silly cache add   type: 'range' }
+436 silly addNamed babel-messages@>=6.8.0 <7.0.0
+437 verbose addNamed ">=6.8.0 <7.0.0" is a valid semver range for babel-messages
+438 silly addNameRange { name: 'babel-messages',
+438 silly addNameRange   range: '>=6.8.0 <7.0.0',
+438 silly addNameRange   hasData: false }
+439 silly mapToRegistry name babel-messages
+440 silly mapToRegistry using default registry
+441 silly mapToRegistry registry https://registry.npmjs.org/
+442 silly mapToRegistry uri https://registry.npmjs.org/babel-messages
+443 verbose addNameRange registry:https://registry.npmjs.org/babel-messages not in flight; fetching
+444 silly cache add args [ 'babel-template@^6.9.0', null ]
+445 verbose cache add spec babel-template@^6.9.0
+446 silly cache add parsed spec { raw: 'babel-template@^6.9.0',
+446 silly cache add   scope: null,
+446 silly cache add   name: 'babel-template',
+446 silly cache add   rawSpec: '^6.9.0',
+446 silly cache add   spec: '>=6.9.0 <7.0.0',
+446 silly cache add   type: 'range' }
+447 silly addNamed babel-template@>=6.9.0 <7.0.0
+448 verbose addNamed ">=6.9.0 <7.0.0" is a valid semver range for babel-template
+449 silly addNameRange { name: 'babel-template',
+449 silly addNameRange   range: '>=6.9.0 <7.0.0',
+449 silly addNameRange   hasData: false }
+450 silly mapToRegistry name babel-template
+451 silly mapToRegistry using default registry
+452 silly mapToRegistry registry https://registry.npmjs.org/
+453 silly mapToRegistry uri https://registry.npmjs.org/babel-template
+454 verbose addNameRange registry:https://registry.npmjs.org/babel-template not in flight; fetching
+455 silly cache add args [ 'babel-runtime@^6.9.1', null ]
+456 verbose cache add spec babel-runtime@^6.9.1
+457 silly cache add parsed spec { raw: 'babel-runtime@^6.9.1',
+457 silly cache add   scope: null,
+457 silly cache add   name: 'babel-runtime',
+457 silly cache add   rawSpec: '^6.9.1',
+457 silly cache add   spec: '>=6.9.1 <7.0.0',
+457 silly cache add   type: 'range' }
+458 silly addNamed babel-runtime@>=6.9.1 <7.0.0
+459 verbose addNamed ">=6.9.1 <7.0.0" is a valid semver range for babel-runtime
+460 silly addNameRange { name: 'babel-runtime',
+460 silly addNameRange   range: '>=6.9.1 <7.0.0',
+460 silly addNameRange   hasData: false }
+461 silly mapToRegistry name babel-runtime
+462 silly mapToRegistry using default registry
+463 silly mapToRegistry registry https://registry.npmjs.org/
+464 silly mapToRegistry uri https://registry.npmjs.org/babel-runtime
+465 verbose addNameRange registry:https://registry.npmjs.org/babel-runtime not in flight; fetching
+466 silly cache add args [ 'babel-register@^6.9.0', null ]
+467 verbose cache add spec babel-register@^6.9.0
+468 silly cache add parsed spec { raw: 'babel-register@^6.9.0',
+468 silly cache add   scope: null,
+468 silly cache add   name: 'babel-register',
+468 silly cache add   rawSpec: '^6.9.0',
+468 silly cache add   spec: '>=6.9.0 <7.0.0',
+468 silly cache add   type: 'range' }
+469 silly addNamed babel-register@>=6.9.0 <7.0.0
+470 verbose addNamed ">=6.9.0 <7.0.0" is a valid semver range for babel-register
+471 silly addNameRange { name: 'babel-register',
+471 silly addNameRange   range: '>=6.9.0 <7.0.0',
+471 silly addNameRange   hasData: false }
+472 silly mapToRegistry name babel-register
+473 silly mapToRegistry using default registry
+474 silly mapToRegistry registry https://registry.npmjs.org/
+475 silly mapToRegistry uri https://registry.npmjs.org/babel-register
+476 verbose addNameRange registry:https://registry.npmjs.org/babel-register not in flight; fetching
+477 silly cache add args [ 'babel-traverse@^6.10.4', null ]
+478 verbose cache add spec babel-traverse@^6.10.4
+479 silly cache add parsed spec { raw: 'babel-traverse@^6.10.4',
+479 silly cache add   scope: null,
+479 silly cache add   name: 'babel-traverse',
+479 silly cache add   rawSpec: '^6.10.4',
+479 silly cache add   spec: '>=6.10.4 <7.0.0',
+479 silly cache add   type: 'range' }
+480 silly addNamed babel-traverse@>=6.10.4 <7.0.0
+481 verbose addNamed ">=6.10.4 <7.0.0" is a valid semver range for babel-traverse
+482 silly addNameRange { name: 'babel-traverse',
+482 silly addNameRange   range: '>=6.10.4 <7.0.0',
+482 silly addNameRange   hasData: false }
+483 silly mapToRegistry name babel-traverse
+484 silly mapToRegistry using default registry
+485 silly mapToRegistry registry https://registry.npmjs.org/
+486 silly mapToRegistry uri https://registry.npmjs.org/babel-traverse
+487 verbose addNameRange registry:https://registry.npmjs.org/babel-traverse not in flight; fetching
+488 silly cache add args [ 'babel-types@^6.9.1', null ]
+489 verbose cache add spec babel-types@^6.9.1
+490 silly cache add parsed spec { raw: 'babel-types@^6.9.1',
+490 silly cache add   scope: null,
+490 silly cache add   name: 'babel-types',
+490 silly cache add   rawSpec: '^6.9.1',
+490 silly cache add   spec: '>=6.9.1 <7.0.0',
+490 silly cache add   type: 'range' }
+491 silly addNamed babel-types@>=6.9.1 <7.0.0
+492 verbose addNamed ">=6.9.1 <7.0.0" is a valid semver range for babel-types
+493 silly addNameRange { name: 'babel-types', range: '>=6.9.1 <7.0.0', hasData: false }
+494 silly mapToRegistry name babel-types
+495 silly mapToRegistry using default registry
+496 silly mapToRegistry registry https://registry.npmjs.org/
+497 silly mapToRegistry uri https://registry.npmjs.org/babel-types
+498 verbose addNameRange registry:https://registry.npmjs.org/babel-types not in flight; fetching
+499 silly cache add args [ 'babylon@^6.7.0', null ]
+500 verbose cache add spec babylon@^6.7.0
+501 silly cache add parsed spec { raw: 'babylon@^6.7.0',
+501 silly cache add   scope: null,
+501 silly cache add   name: 'babylon',
+501 silly cache add   rawSpec: '^6.7.0',
+501 silly cache add   spec: '>=6.7.0 <7.0.0',
+501 silly cache add   type: 'range' }
+502 silly addNamed babylon@>=6.7.0 <7.0.0
+503 verbose addNamed ">=6.7.0 <7.0.0" is a valid semver range for babylon
+504 silly addNameRange { name: 'babylon', range: '>=6.7.0 <7.0.0', hasData: false }
+505 silly mapToRegistry name babylon
+506 silly mapToRegistry using default registry
+507 silly mapToRegistry registry https://registry.npmjs.org/
+508 silly mapToRegistry uri https://registry.npmjs.org/babylon
+509 verbose addNameRange registry:https://registry.npmjs.org/babylon not in flight; fetching
+510 silly cache add args [ 'convert-source-map@^1.1.0', null ]
+511 verbose cache add spec convert-source-map@^1.1.0
+512 silly cache add parsed spec { raw: 'convert-source-map@^1.1.0',
+512 silly cache add   scope: null,
+512 silly cache add   name: 'convert-source-map',
+512 silly cache add   rawSpec: '^1.1.0',
+512 silly cache add   spec: '>=1.1.0 <2.0.0',
+512 silly cache add   type: 'range' }
+513 silly addNamed convert-source-map@>=1.1.0 <2.0.0
+514 verbose addNamed ">=1.1.0 <2.0.0" is a valid semver range for convert-source-map
+515 silly addNameRange { name: 'convert-source-map',
+515 silly addNameRange   range: '>=1.1.0 <2.0.0',
+515 silly addNameRange   hasData: false }
+516 silly mapToRegistry name convert-source-map
+517 silly mapToRegistry using default registry
+518 silly mapToRegistry registry https://registry.npmjs.org/
+519 silly mapToRegistry uri https://registry.npmjs.org/convert-source-map
+520 verbose addNameRange registry:https://registry.npmjs.org/convert-source-map not in flight; fetching
+521 silly cache add args [ 'debug@^2.1.1', null ]
+522 verbose cache add spec debug@^2.1.1
+523 silly cache add parsed spec { raw: 'debug@^2.1.1',
+523 silly cache add   scope: null,
+523 silly cache add   name: 'debug',
+523 silly cache add   rawSpec: '^2.1.1',
+523 silly cache add   spec: '>=2.1.1 <3.0.0',
+523 silly cache add   type: 'range' }
+524 silly addNamed debug@>=2.1.1 <3.0.0
+525 verbose addNamed ">=2.1.1 <3.0.0" is a valid semver range for debug
+526 silly addNameRange { name: 'debug', range: '>=2.1.1 <3.0.0', hasData: false }
+527 silly mapToRegistry name debug
+528 silly mapToRegistry using default registry
+529 silly mapToRegistry registry https://registry.npmjs.org/
+530 silly mapToRegistry uri https://registry.npmjs.org/debug
+531 verbose addNameRange registry:https://registry.npmjs.org/debug not in flight; fetching
+532 silly cache add args [ 'json5@^0.4.0', null ]
+533 verbose cache add spec json5@^0.4.0
+534 silly cache add parsed spec { raw: 'json5@^0.4.0',
+534 silly cache add   scope: null,
+534 silly cache add   name: 'json5',
+534 silly cache add   rawSpec: '^0.4.0',
+534 silly cache add   spec: '>=0.4.0 <0.5.0',
+534 silly cache add   type: 'range' }
+535 silly addNamed json5@>=0.4.0 <0.5.0
+536 verbose addNamed ">=0.4.0 <0.5.0" is a valid semver range for json5
+537 silly addNameRange { name: 'json5', range: '>=0.4.0 <0.5.0', hasData: false }
+538 silly mapToRegistry name json5
+539 silly mapToRegistry using default registry
+540 silly mapToRegistry registry https://registry.npmjs.org/
+541 silly mapToRegistry uri https://registry.npmjs.org/json5
+542 verbose addNameRange registry:https://registry.npmjs.org/json5 not in flight; fetching
+543 silly cache add args [ 'lodash@^4.2.0', null ]
+544 verbose cache add spec lodash@^4.2.0
+545 silly cache add parsed spec { raw: 'lodash@^4.2.0',
+545 silly cache add   scope: null,
+545 silly cache add   name: 'lodash',
+545 silly cache add   rawSpec: '^4.2.0',
+545 silly cache add   spec: '>=4.2.0 <5.0.0',
+545 silly cache add   type: 'range' }
+546 silly addNamed lodash@>=4.2.0 <5.0.0
+547 verbose addNamed ">=4.2.0 <5.0.0" is a valid semver range for lodash
+548 silly addNameRange { name: 'lodash', range: '>=4.2.0 <5.0.0', hasData: false }
+549 silly mapToRegistry name lodash
+550 silly mapToRegistry using default registry
+551 silly mapToRegistry registry https://registry.npmjs.org/
+552 silly mapToRegistry uri https://registry.npmjs.org/lodash
+553 verbose addNameRange registry:https://registry.npmjs.org/lodash not in flight; fetching
+554 silly cache add args [ 'minimatch@^3.0.2', null ]
+555 verbose cache add spec minimatch@^3.0.2
+556 silly cache add parsed spec { raw: 'minimatch@^3.0.2',
+556 silly cache add   scope: null,
+556 silly cache add   name: 'minimatch',
+556 silly cache add   rawSpec: '^3.0.2',
+556 silly cache add   spec: '>=3.0.2 <4.0.0',
+556 silly cache add   type: 'range' }
+557 silly addNamed minimatch@>=3.0.2 <4.0.0
+558 verbose addNamed ">=3.0.2 <4.0.0" is a valid semver range for minimatch
+559 silly addNameRange { name: 'minimatch', range: '>=3.0.2 <4.0.0', hasData: false }
+560 silly mapToRegistry name minimatch
+561 silly mapToRegistry using default registry
+562 silly mapToRegistry registry https://registry.npmjs.org/
+563 silly mapToRegistry uri https://registry.npmjs.org/minimatch
+564 verbose addNameRange registry:https://registry.npmjs.org/minimatch not in flight; fetching
+565 silly cache add args [ 'path-exists@^1.0.0', null ]
+566 verbose cache add spec path-exists@^1.0.0
+567 silly cache add parsed spec { raw: 'path-exists@^1.0.0',
+567 silly cache add   scope: null,
+567 silly cache add   name: 'path-exists',
+567 silly cache add   rawSpec: '^1.0.0',
+567 silly cache add   spec: '>=1.0.0 <2.0.0',
+567 silly cache add   type: 'range' }
+568 silly addNamed path-exists@>=1.0.0 <2.0.0
+569 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for path-exists
+570 silly addNameRange { name: 'path-exists', range: '>=1.0.0 <2.0.0', hasData: false }
+571 silly mapToRegistry name path-exists
+572 silly mapToRegistry using default registry
+573 silly mapToRegistry registry https://registry.npmjs.org/
+574 silly mapToRegistry uri https://registry.npmjs.org/path-exists
+575 verbose addNameRange registry:https://registry.npmjs.org/path-exists not in flight; fetching
+576 silly cache add args [ 'path-is-absolute@^1.0.0', null ]
+577 verbose cache add spec path-is-absolute@^1.0.0
+578 silly cache add parsed spec { raw: 'path-is-absolute@^1.0.0',
+578 silly cache add   scope: null,
+578 silly cache add   name: 'path-is-absolute',
+578 silly cache add   rawSpec: '^1.0.0',
+578 silly cache add   spec: '>=1.0.0 <2.0.0',
+578 silly cache add   type: 'range' }
+579 silly addNamed path-is-absolute@>=1.0.0 <2.0.0
+580 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for path-is-absolute
+581 silly addNameRange { name: 'path-is-absolute',
+581 silly addNameRange   range: '>=1.0.0 <2.0.0',
+581 silly addNameRange   hasData: false }
+582 silly mapToRegistry name path-is-absolute
+583 silly mapToRegistry using default registry
+584 silly mapToRegistry registry https://registry.npmjs.org/
+585 silly mapToRegistry uri https://registry.npmjs.org/path-is-absolute
+586 verbose addNameRange registry:https://registry.npmjs.org/path-is-absolute not in flight; fetching
+587 silly cache add args [ 'private@^0.1.6', null ]
+588 verbose cache add spec private@^0.1.6
+589 silly cache add parsed spec { raw: 'private@^0.1.6',
+589 silly cache add   scope: null,
+589 silly cache add   name: 'private',
+589 silly cache add   rawSpec: '^0.1.6',
+589 silly cache add   spec: '>=0.1.6 <0.2.0',
+589 silly cache add   type: 'range' }
+590 silly addNamed private@>=0.1.6 <0.2.0
+591 verbose addNamed ">=0.1.6 <0.2.0" is a valid semver range for private
+592 silly addNameRange { name: 'private', range: '>=0.1.6 <0.2.0', hasData: false }
+593 silly mapToRegistry name private
+594 silly mapToRegistry using default registry
+595 silly mapToRegistry registry https://registry.npmjs.org/
+596 silly mapToRegistry uri https://registry.npmjs.org/private
+597 verbose addNameRange registry:https://registry.npmjs.org/private not in flight; fetching
+598 silly cache add args [ 'shebang-regex@^1.0.0', null ]
+599 verbose cache add spec shebang-regex@^1.0.0
+600 silly cache add parsed spec { raw: 'shebang-regex@^1.0.0',
+600 silly cache add   scope: null,
+600 silly cache add   name: 'shebang-regex',
+600 silly cache add   rawSpec: '^1.0.0',
+600 silly cache add   spec: '>=1.0.0 <2.0.0',
+600 silly cache add   type: 'range' }
+601 silly addNamed shebang-regex@>=1.0.0 <2.0.0
+602 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for shebang-regex
+603 silly addNameRange { name: 'shebang-regex',
+603 silly addNameRange   range: '>=1.0.0 <2.0.0',
+603 silly addNameRange   hasData: false }
+604 silly mapToRegistry name shebang-regex
+605 silly mapToRegistry using default registry
+606 silly mapToRegistry registry https://registry.npmjs.org/
+607 silly mapToRegistry uri https://registry.npmjs.org/shebang-regex
+608 verbose addNameRange registry:https://registry.npmjs.org/shebang-regex not in flight; fetching
+609 silly cache add args [ 'slash@^1.0.0', null ]
+610 verbose cache add spec slash@^1.0.0
+611 silly cache add parsed spec { raw: 'slash@^1.0.0',
+611 silly cache add   scope: null,
+611 silly cache add   name: 'slash',
+611 silly cache add   rawSpec: '^1.0.0',
+611 silly cache add   spec: '>=1.0.0 <2.0.0',
+611 silly cache add   type: 'range' }
+612 silly addNamed slash@>=1.0.0 <2.0.0
+613 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for slash
+614 silly addNameRange { name: 'slash', range: '>=1.0.0 <2.0.0', hasData: false }
+615 silly mapToRegistry name slash
+616 silly mapToRegistry using default registry
+617 silly mapToRegistry registry https://registry.npmjs.org/
+618 silly mapToRegistry uri https://registry.npmjs.org/slash
+619 verbose addNameRange registry:https://registry.npmjs.org/slash not in flight; fetching
+620 silly cache add args [ 'source-map@^0.5.0', null ]
+621 verbose cache add spec source-map@^0.5.0
+622 silly cache add parsed spec { raw: 'source-map@^0.5.0',
+622 silly cache add   scope: null,
+622 silly cache add   name: 'source-map',
+622 silly cache add   rawSpec: '^0.5.0',
+622 silly cache add   spec: '>=0.5.0 <0.6.0',
+622 silly cache add   type: 'range' }
+623 silly addNamed source-map@>=0.5.0 <0.6.0
+624 verbose addNamed ">=0.5.0 <0.6.0" is a valid semver range for source-map
+625 silly addNameRange { name: 'source-map', range: '>=0.5.0 <0.6.0', hasData: false }
+626 silly mapToRegistry name source-map
+627 silly mapToRegistry using default registry
+628 silly mapToRegistry registry https://registry.npmjs.org/
+629 silly mapToRegistry uri https://registry.npmjs.org/source-map
+630 verbose addNameRange registry:https://registry.npmjs.org/source-map not in flight; fetching
+631 silly cache add args [ 'babel-code-frame@^6.8.0', null ]
+632 verbose cache add spec babel-code-frame@^6.8.0
+633 silly cache add parsed spec { raw: 'babel-code-frame@^6.8.0',
+633 silly cache add   scope: null,
+633 silly cache add   name: 'babel-code-frame',
+633 silly cache add   rawSpec: '^6.8.0',
+633 silly cache add   spec: '>=6.8.0 <7.0.0',
+633 silly cache add   type: 'range' }
+634 silly addNamed babel-code-frame@>=6.8.0 <7.0.0
+635 verbose addNamed ">=6.8.0 <7.0.0" is a valid semver range for babel-code-frame
+636 silly addNameRange { name: 'babel-code-frame',
+636 silly addNameRange   range: '>=6.8.0 <7.0.0',
+636 silly addNameRange   hasData: false }
+637 silly mapToRegistry name babel-code-frame
+638 silly mapToRegistry using default registry
+639 silly mapToRegistry registry https://registry.npmjs.org/
+640 silly mapToRegistry uri https://registry.npmjs.org/babel-code-frame
+641 verbose addNameRange registry:https://registry.npmjs.org/babel-code-frame not in flight; fetching
+642 silly cache add args [ 'babel-generator@^6.9.0', null ]
+643 verbose cache add spec babel-generator@^6.9.0
+644 silly cache add parsed spec { raw: 'babel-generator@^6.9.0',
+644 silly cache add   scope: null,
+644 silly cache add   name: 'babel-generator',
+644 silly cache add   rawSpec: '^6.9.0',
+644 silly cache add   spec: '>=6.9.0 <7.0.0',
+644 silly cache add   type: 'range' }
+645 silly addNamed babel-generator@>=6.9.0 <7.0.0
+646 verbose addNamed ">=6.9.0 <7.0.0" is a valid semver range for babel-generator
+647 silly addNameRange { name: 'babel-generator',
+647 silly addNameRange   range: '>=6.9.0 <7.0.0',
+647 silly addNameRange   hasData: false }
+648 silly mapToRegistry name babel-generator
+649 silly mapToRegistry using default registry
+650 silly mapToRegistry registry https://registry.npmjs.org/
+651 silly mapToRegistry uri https://registry.npmjs.org/babel-generator
+652 verbose addNameRange registry:https://registry.npmjs.org/babel-generator not in flight; fetching
+653 verbose request uri https://registry.npmjs.org/babel-helpers
+654 verbose request no auth needed
+655 info attempt registry request try #1 at 00:59:35
+656 http request GET https://registry.npmjs.org/babel-helpers
+657 verbose request uri https://registry.npmjs.org/babel-messages
+658 verbose request no auth needed
+659 info attempt registry request try #1 at 00:59:35
+660 http request GET https://registry.npmjs.org/babel-messages
+661 verbose request uri https://registry.npmjs.org/babel-template
+662 verbose request no auth needed
+663 info attempt registry request try #1 at 00:59:35
+664 http request GET https://registry.npmjs.org/babel-template
+665 verbose request uri https://registry.npmjs.org/babel-runtime
+666 verbose request no auth needed
+667 info attempt registry request try #1 at 00:59:35
+668 http request GET https://registry.npmjs.org/babel-runtime
+669 verbose request uri https://registry.npmjs.org/babel-register
+670 verbose request no auth needed
+671 info attempt registry request try #1 at 00:59:35
+672 http request GET https://registry.npmjs.org/babel-register
+673 verbose request uri https://registry.npmjs.org/babel-traverse
+674 verbose request no auth needed
+675 info attempt registry request try #1 at 00:59:35
+676 http request GET https://registry.npmjs.org/babel-traverse
+677 verbose request uri https://registry.npmjs.org/babel-types
+678 verbose request no auth needed
+679 info attempt registry request try #1 at 00:59:35
+680 http request GET https://registry.npmjs.org/babel-types
+681 verbose request uri https://registry.npmjs.org/babylon
+682 verbose request no auth needed
+683 info attempt registry request try #1 at 00:59:35
+684 http request GET https://registry.npmjs.org/babylon
+685 verbose request uri https://registry.npmjs.org/convert-source-map
+686 verbose request no auth needed
+687 info attempt registry request try #1 at 00:59:35
+688 http request GET https://registry.npmjs.org/convert-source-map
+689 verbose request uri https://registry.npmjs.org/shebang-regex
+690 verbose request no auth needed
+691 info attempt registry request try #1 at 00:59:35
+692 http request GET https://registry.npmjs.org/shebang-regex
+693 verbose request uri https://registry.npmjs.org/slash
+694 verbose request no auth needed
+695 info attempt registry request try #1 at 00:59:35
+696 http request GET https://registry.npmjs.org/slash
+697 verbose request uri https://registry.npmjs.org/babel-code-frame
+698 verbose request no auth needed
+699 info attempt registry request try #1 at 00:59:35
+700 http request GET https://registry.npmjs.org/babel-code-frame
+701 verbose request uri https://registry.npmjs.org/babel-generator
+702 verbose request no auth needed
+703 info attempt registry request try #1 at 00:59:35
+704 http request GET https://registry.npmjs.org/babel-generator
+705 verbose request uri https://registry.npmjs.org/json5
+706 verbose request no auth needed
+707 info attempt registry request try #1 at 00:59:35
+708 verbose etag "4T89XTHOJX89E0H4NGVVB644I"
+709 http request GET https://registry.npmjs.org/json5
+710 verbose request uri https://registry.npmjs.org/minimatch
+711 verbose request no auth needed
+712 info attempt registry request try #1 at 00:59:35
+713 verbose etag "ATSG0S3YY5SIYN4WD5W6UI3CV"
+714 http request GET https://registry.npmjs.org/minimatch
+715 verbose request uri https://registry.npmjs.org/path-is-absolute
+716 verbose request no auth needed
+717 info attempt registry request try #1 at 00:59:35
+718 verbose etag "BN5VZYARJTFIZINEV94ZMOHSE"
+719 http request GET https://registry.npmjs.org/path-is-absolute
+720 http 200 https://registry.npmjs.org/babel-plugin-transform-react-display-name
+721 silly get cb [ 200,
+721 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+721 silly get     etag: '"7ILCJ4GHELK7JG2WPHYLX9KTA"',
+721 silly get     'content-type': 'application/json',
+721 silly get     'content-encoding': 'gzip',
+721 silly get     'cache-control': 'max-age=300',
+721 silly get     'content-length': '2138',
+721 silly get     'accept-ranges': 'bytes',
+721 silly get     date: 'Wed, 22 Jun 2016 03:59:19 GMT',
+721 silly get     via: '1.1 varnish',
+721 silly get     age: '69',
+721 silly get     connection: 'keep-alive',
+721 silly get     'x-served-by': 'cache-iad2131-IAD',
+721 silly get     'x-cache': 'HIT',
+721 silly get     'x-cache-hits': '1',
+721 silly get     'x-timer': 'S1466567959.298775,VS0,VE0',
+721 silly get     vary: 'Accept-Encoding' } ]
+722 verbose get saving babel-plugin-transform-react-display-name to C:\Users\leonardo\AppData\Roaming\npm-cache\registry.npmjs.org\babel-plugin-transform-react-display-name\.cache.json
+723 http 200 https://registry.npmjs.org/babel-plugin-syntax-jsx
+724 silly get cb [ 200,
+724 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+724 silly get     etag: '"2DJTUMM2VW3WNCJRZ24I663FJ"',
+724 silly get     'content-type': 'application/json',
+724 silly get     'content-encoding': 'gzip',
+724 silly get     'cache-control': 'max-age=300',
+724 silly get     'content-length': '2353',
+724 silly get     'accept-ranges': 'bytes',
+724 silly get     date: 'Wed, 22 Jun 2016 03:59:19 GMT',
+724 silly get     via: '1.1 varnish',
+724 silly get     age: '69',
+724 silly get     connection: 'keep-alive',
+724 silly get     'x-served-by': 'cache-iad2133-IAD',
+724 silly get     'x-cache': 'HIT',
+724 silly get     'x-cache-hits': '1',
+724 silly get     'x-timer': 'S1466567959.309843,VS0,VE0',
+724 silly get     vary: 'Accept-Encoding' } ]
+725 verbose get saving babel-plugin-syntax-jsx to C:\Users\leonardo\AppData\Roaming\npm-cache\registry.npmjs.org\babel-plugin-syntax-jsx\.cache.json
+726 verbose request uri https://registry.npmjs.org/source-map
+727 verbose request no auth needed
+728 info attempt registry request try #1 at 00:59:35
+729 verbose etag "6FOGQ0DEW49F4TBK11MIL5JD4"
+730 http request GET https://registry.npmjs.org/source-map
+731 http 200 https://registry.npmjs.org/babel-plugin-transform-flow-strip-types
+732 silly get cb [ 200,
+732 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+732 silly get     etag: '"EGO0BCTYV1T7ZQHKDCEYTAKVO"',
+732 silly get     'content-type': 'application/json',
+732 silly get     'content-encoding': 'gzip',
+732 silly get     'cache-control': 'max-age=300',
+732 silly get     'content-length': '2749',
+732 silly get     'accept-ranges': 'bytes',
+732 silly get     date: 'Wed, 22 Jun 2016 03:59:19 GMT',
+732 silly get     via: '1.1 varnish',
+732 silly get     age: '69',
+732 silly get     connection: 'keep-alive',
+732 silly get     'x-served-by': 'cache-iad2140-IAD',
+732 silly get     'x-cache': 'HIT',
+732 silly get     'x-cache-hits': '1',
+732 silly get     'x-timer': 'S1466567959.311007,VS0,VE0',
+732 silly get     vary: 'Accept-Encoding' } ]
+733 verbose get saving babel-plugin-transform-flow-strip-types to C:\Users\leonardo\AppData\Roaming\npm-cache\registry.npmjs.org\babel-plugin-transform-flow-strip-types\.cache.json
+734 verbose request uri https://registry.npmjs.org/path-exists
+735 verbose request no auth needed
+736 info attempt registry request try #1 at 00:59:35
+737 verbose etag "31PM8JK1337HQXK7IGK7UTR3K"
+738 http request GET https://registry.npmjs.org/path-exists
+739 verbose request uri https://registry.npmjs.org/private
+740 verbose request no auth needed
+741 info attempt registry request try #1 at 00:59:35
+742 verbose etag "B9NPPFE4EE3BPJ07ZZMVH32G7"
+743 http request GET https://registry.npmjs.org/private
+744 verbose request uri https://registry.npmjs.org/debug
+745 verbose request no auth needed
+746 info attempt registry request try #1 at 00:59:35
+747 verbose etag "D7AJ1C2WIYKHAJSHXTC019FSU"
+748 http request GET https://registry.npmjs.org/debug
+749 http 200 https://registry.npmjs.org/babel-plugin-syntax-flow
+750 silly get cb [ 200,
+750 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+750 silly get     etag: '"DR6UNDIAR328JEJIWB5KRYFDL"',
+750 silly get     'content-type': 'application/json',
+750 silly get     'content-encoding': 'gzip',
+750 silly get     'cache-control': 'max-age=300',
+750 silly get     'content-length': '2411',
+750 silly get     'accept-ranges': 'bytes',
+750 silly get     date: 'Wed, 22 Jun 2016 03:59:19 GMT',
+750 silly get     via: '1.1 varnish',
+750 silly get     age: '69',
+750 silly get     connection: 'keep-alive',
+750 silly get     'x-served-by': 'cache-iad2143-IAD',
+750 silly get     'x-cache': 'HIT',
+750 silly get     'x-cache-hits': '1',
+750 silly get     'x-timer': 'S1466567959.339565,VS0,VE0',
+750 silly get     vary: 'Accept-Encoding' } ]
+751 verbose get saving babel-plugin-syntax-flow to C:\Users\leonardo\AppData\Roaming\npm-cache\registry.npmjs.org\babel-plugin-syntax-flow\.cache.json
+752 http 304 https://registry.npmjs.org/mkdirp
+753 silly get cb [ 304,
+753 silly get   { date: 'Wed, 22 Jun 2016 03:59:19 GMT',
+753 silly get     via: '1.1 varnish',
+753 silly get     'cache-control': 'max-age=300',
+753 silly get     etag: '"RWKHVPX5V8WNVUZ9E3HDA7D8"',
+753 silly get     age: '32',
+753 silly get     connection: 'keep-alive',
+753 silly get     'x-served-by': 'cache-iad2127-IAD',
+753 silly get     'x-cache': 'HIT',
+753 silly get     'x-cache-hits': '5',
+753 silly get     'x-timer': 'S1466567959.440993,VS0,VE0',
+753 silly get     vary: 'Accept-Encoding' } ]
+754 verbose etag https://registry.npmjs.org/mkdirp from cache
+755 verbose get saving mkdirp to C:\Users\leonardo\AppData\Roaming\npm-cache\registry.npmjs.org\mkdirp\.cache.json
+756 http 304 https://registry.npmjs.org/object-assign
+757 silly get cb [ 304,
+757 silly get   { date: 'Wed, 22 Jun 2016 03:59:19 GMT',
+757 silly get     via: '1.1 varnish',
+757 silly get     'cache-control': 'max-age=300',
+757 silly get     etag: '"955M5BSBAOA180KYQLI5YPISU"',
+757 silly get     age: '80',
+757 silly get     connection: 'keep-alive',
+757 silly get     'x-served-by': 'cache-iad2123-IAD',
+757 silly get     'x-cache': 'HIT',
+757 silly get     'x-cache-hits': '4',
+757 silly get     'x-timer': 'S1466567959.447937,VS0,VE0',
+757 silly get     vary: 'Accept-Encoding' } ]
+758 verbose etag https://registry.npmjs.org/object-assign from cache
+759 verbose get saving object-assign to C:\Users\leonardo\AppData\Roaming\npm-cache\registry.npmjs.org\object-assign\.cache.json
+760 verbose request uri https://registry.npmjs.org/lodash
+761 verbose request no auth needed
+762 info attempt registry request try #1 at 00:59:35
+763 verbose etag "BTBW9950HLSBL1SITOYD2JXIX"
+764 http request GET https://registry.npmjs.org/lodash
+765 http 200 https://registry.npmjs.org/babel-plugin-transform-react-jsx-source
+766 silly get cb [ 200,
+766 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+766 silly get     etag: '"6JLDMCFAWXRVKS7NVZ23OLPX2"',
+766 silly get     'content-type': 'application/json',
+766 silly get     'content-encoding': 'gzip',
+766 silly get     'cache-control': 'max-age=300',
+766 silly get     'content-length': '2084',
+766 silly get     'accept-ranges': 'bytes',
+766 silly get     date: 'Wed, 22 Jun 2016 03:59:19 GMT',
+766 silly get     via: '1.1 varnish',
+766 silly get     age: '69',
+766 silly get     connection: 'keep-alive',
+766 silly get     'x-served-by': 'cache-iad2135-IAD',
+766 silly get     'x-cache': 'HIT',
+766 silly get     'x-cache-hits': '5',
+766 silly get     'x-timer': 'S1466567959.371094,VS0,VE0',
+766 silly get     vary: 'Accept-Encoding' } ]
+767 verbose get saving babel-plugin-transform-react-jsx-source to C:\Users\leonardo\AppData\Roaming\npm-cache\registry.npmjs.org\babel-plugin-transform-react-jsx-source\.cache.json
+768 http 200 https://registry.npmjs.org/babel-plugin-transform-react-jsx
+769 silly get cb [ 200,
+769 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+769 silly get     etag: '"B2CY87D64ASA7WA508XWV6P4I"',
+769 silly get     'content-type': 'application/json',
+769 silly get     'content-encoding': 'gzip',
+769 silly get     'cache-control': 'max-age=300',
+769 silly get     'content-length': '3212',
+769 silly get     'accept-ranges': 'bytes',
+769 silly get     date: 'Wed, 22 Jun 2016 03:59:19 GMT',
+769 silly get     via: '1.1 varnish',
+769 silly get     age: '69',
+769 silly get     connection: 'keep-alive',
+769 silly get     'x-served-by': 'cache-iad2141-IAD',
+769 silly get     'x-cache': 'HIT',
+769 silly get     'x-cache-hits': '1',
+769 silly get     'x-timer': 'S1466567959.363938,VS0,VE0',
+769 silly get     vary: 'Accept-Encoding' } ]
+770 verbose get saving babel-plugin-transform-react-jsx to C:\Users\leonardo\AppData\Roaming\npm-cache\registry.npmjs.org\babel-plugin-transform-react-jsx\.cache.json
+771 http 200 https://registry.npmjs.org/loader-utils
+772 silly get cb [ 200,
+772 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+772 silly get     etag: '"53SDTLIZH6VRKBR9K53R520PM"',
+772 silly get     'content-type': 'application/json',
+772 silly get     'content-encoding': 'gzip',
+772 silly get     'cache-control': 'max-age=300',
+772 silly get     'content-length': '5470',
+772 silly get     'accept-ranges': 'bytes',
+772 silly get     date: 'Wed, 22 Jun 2016 03:59:19 GMT',
+772 silly get     via: '1.1 varnish',
+772 silly get     age: '70',
+772 silly get     connection: 'keep-alive',
+772 silly get     'x-served-by': 'cache-iad2127-IAD',
+772 silly get     'x-cache': 'HIT',
+772 silly get     'x-cache-hits': '1',
+772 silly get     'x-timer': 'S1466567959.476295,VS0,VE0',
+772 silly get     vary: 'Accept-Encoding' } ]
+773 verbose get saving loader-utils to C:\Users\leonardo\AppData\Roaming\npm-cache\registry.npmjs.org\loader-utils\.cache.json
+774 silly addNameRange number 2 { name: 'babel-plugin-transform-flow-strip-types',
+774 silly addNameRange   range: '>=6.3.13 <7.0.0',
+774 silly addNameRange   hasData: true }
+775 silly addNameRange versions [ 'babel-plugin-transform-flow-strip-types',
+775 silly addNameRange   [ '6.0.2',
+775 silly addNameRange     '6.0.14',
+775 silly addNameRange     '6.1.4',
+775 silly addNameRange     '6.1.17',
+775 silly addNameRange     '6.1.18',
+775 silly addNameRange     '6.2.4',
+775 silly addNameRange     '6.3.13',
+775 silly addNameRange     '6.3.15',
+775 silly addNameRange     '6.4.0',
+775 silly addNameRange     '6.5.0',
+775 silly addNameRange     '6.5.0-1',
+775 silly addNameRange     '6.6.4',
+775 silly addNameRange     '6.6.5',
+775 silly addNameRange     '6.7.0',
+775 silly addNameRange     '6.8.0' ] ]
+776 silly addNamed babel-plugin-transform-flow-strip-types@6.8.0
+777 verbose addNamed "6.8.0" is a plain semver version for babel-plugin-transform-flow-strip-types
+778 silly addNameRange number 2 { name: 'babel-plugin-transform-react-display-name',
+778 silly addNameRange   range: '>=6.3.13 <7.0.0',
+778 silly addNameRange   hasData: true }
+779 silly addNameRange versions [ 'babel-plugin-transform-react-display-name',
+779 silly addNameRange   [ '6.0.2',
+779 silly addNameRange     '6.0.14',
+779 silly addNameRange     '6.1.4',
+779 silly addNameRange     '6.1.17',
+779 silly addNameRange     '6.1.18',
+779 silly addNameRange     '6.2.4',
+779 silly addNameRange     '6.3.13',
+779 silly addNameRange     '6.4.0',
+779 silly addNameRange     '6.5.0',
+779 silly addNameRange     '6.5.0-1',
+779 silly addNameRange     '6.8.0' ] ]
+780 silly addNamed babel-plugin-transform-react-display-name@6.8.0
+781 verbose addNamed "6.8.0" is a plain semver version for babel-plugin-transform-react-display-name
+782 silly mapToRegistry name babel-plugin-transform-flow-strip-types
+783 silly mapToRegistry using default registry
+784 silly mapToRegistry registry https://registry.npmjs.org/
+785 silly mapToRegistry uri https://registry.npmjs.org/babel-plugin-transform-flow-strip-types
+786 verbose addRemoteTarball https://registry.npmjs.org/babel-plugin-transform-flow-strip-types/-/babel-plugin-transform-flow-strip-types-6.8.0.tgz not in flight; adding
+787 verbose addRemoteTarball [ 'https://registry.npmjs.org/babel-plugin-transform-flow-strip-types/-/babel-plugin-transform-flow-strip-types-6.8.0.tgz',
+787 verbose addRemoteTarball   '2351d85e3a52152e1a55d3f08ae635e21ece17a0' ]
+788 silly addNameRange number 2 { name: 'babel-plugin-syntax-jsx',
+788 silly addNameRange   range: '>=6.3.13 <7.0.0',
+788 silly addNameRange   hasData: true }
+789 silly addNameRange versions [ 'babel-plugin-syntax-jsx',
+789 silly addNameRange   [ '6.0.2',
+789 silly addNameRange     '6.0.14',
+789 silly addNameRange     '6.1.4',
+789 silly addNameRange     '6.1.5',
+789 silly addNameRange     '6.1.6',
+789 silly addNameRange     '6.1.10',
+789 silly addNameRange     '6.1.13',
+789 silly addNameRange     '6.1.16',
+789 silly addNameRange     '6.1.17',
+789 silly addNameRange     '6.1.18',
+789 silly addNameRange     '6.2.4',
+789 silly addNameRange     '6.3.13',
+789 silly addNameRange     '6.5.0',
+789 silly addNameRange     '6.5.0-1',
+789 silly addNameRange     '6.8.0' ] ]
+790 silly addNamed babel-plugin-syntax-jsx@6.8.0
+791 verbose addNamed "6.8.0" is a plain semver version for babel-plugin-syntax-jsx
+792 silly mapToRegistry name babel-plugin-transform-react-display-name
+793 silly mapToRegistry using default registry
+794 silly mapToRegistry registry https://registry.npmjs.org/
+795 silly mapToRegistry uri https://registry.npmjs.org/babel-plugin-transform-react-display-name
+796 verbose addRemoteTarball https://registry.npmjs.org/babel-plugin-transform-react-display-name/-/babel-plugin-transform-react-display-name-6.8.0.tgz not in flight; adding
+797 verbose addRemoteTarball [ 'https://registry.npmjs.org/babel-plugin-transform-react-display-name/-/babel-plugin-transform-react-display-name-6.8.0.tgz',
+797 verbose addRemoteTarball   'f7a084977383d728bdbdc2835bba0159577f660e' ]
+798 silly addNameRange number 2 { name: 'mkdirp', range: '>=0.5.1 <0.6.0', hasData: true }
+799 silly addNameRange versions [ 'mkdirp',
+799 silly addNameRange   [ '0.0.1',
+799 silly addNameRange     '0.0.2',
+799 silly addNameRange     '0.0.3',
+799 silly addNameRange     '0.0.4',
+799 silly addNameRange     '0.0.5',
+799 silly addNameRange     '0.0.6',
+799 silly addNameRange     '0.0.7',
+799 silly addNameRange     '0.1.0',
+799 silly addNameRange     '0.2.0',
+799 silly addNameRange     '0.2.1',
+799 silly addNameRange     '0.2.2',
+799 silly addNameRange     '0.3.0',
+799 silly addNameRange     '0.3.1',
+799 silly addNameRange     '0.3.2',
+799 silly addNameRange     '0.3.3',
+799 silly addNameRange     '0.3.4',
+799 silly addNameRange     '0.3.5',
+799 silly addNameRange     '0.4.0',
+799 silly addNameRange     '0.4.1',
+799 silly addNameRange     '0.4.2',
+799 silly addNameRange     '0.5.0',
+799 silly addNameRange     '0.5.1' ] ]
+800 silly addNamed mkdirp@0.5.1
+801 verbose addNamed "0.5.1" is a plain semver version for mkdirp
+802 silly mapToRegistry name babel-plugin-syntax-jsx
+803 silly mapToRegistry using default registry
+804 silly mapToRegistry registry https://registry.npmjs.org/
+805 silly mapToRegistry uri https://registry.npmjs.org/babel-plugin-syntax-jsx
+806 verbose addRemoteTarball https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.8.0.tgz not in flight; adding
+807 verbose addRemoteTarball [ 'https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.8.0.tgz',
+807 verbose addRemoteTarball   '1c5430a488a5046a47c8da1ad631f16afe8d111a' ]
+808 info retry fetch attempt 1 at 00:59:36
+809 info attempt registry request try #1 at 00:59:36
+810 http fetch GET https://registry.npmjs.org/babel-plugin-transform-flow-strip-types/-/babel-plugin-transform-flow-strip-types-6.8.0.tgz
+811 silly addNameRange number 2 { name: 'babel-plugin-transform-react-jsx',
+811 silly addNameRange   range: '>=6.3.13 <7.0.0',
+811 silly addNameRange   hasData: true }
+812 silly addNameRange versions [ 'babel-plugin-transform-react-jsx',
+812 silly addNameRange   [ '6.0.2',
+812 silly addNameRange     '6.0.14',
+812 silly addNameRange     '6.0.18',
+812 silly addNameRange     '6.1.4',
+812 silly addNameRange     '6.1.17',
+812 silly addNameRange     '6.1.18',
+812 silly addNameRange     '6.2.0',
+812 silly addNameRange     '6.2.4',
+812 silly addNameRange     '6.3.13',
+812 silly addNameRange     '6.4.0',
+812 silly addNameRange     '6.5.0',
+812 silly addNameRange     '6.5.0-1',
+812 silly addNameRange     '6.5.2',
+812 silly addNameRange     '6.6.0',
+812 silly addNameRange     '6.6.4',
+812 silly addNameRange     '6.6.5',
+812 silly addNameRange     '6.7.4',
+812 silly addNameRange     '6.7.5',
+812 silly addNameRange     '6.8.0' ] ]
+813 silly addNamed babel-plugin-transform-react-jsx@6.8.0
+814 verbose addNamed "6.8.0" is a plain semver version for babel-plugin-transform-react-jsx
+815 info retry fetch attempt 1 at 00:59:36
+816 info attempt registry request try #1 at 00:59:36
+817 http fetch GET https://registry.npmjs.org/babel-plugin-transform-react-display-name/-/babel-plugin-transform-react-display-name-6.8.0.tgz
+818 silly addNameRange number 2 { name: 'babel-plugin-transform-react-jsx-source',
+818 silly addNameRange   range: '>=6.3.13 <7.0.0',
+818 silly addNameRange   hasData: true }
+819 silly addNameRange versions [ 'babel-plugin-transform-react-jsx-source',
+819 silly addNameRange   [ '6.1.4',
+819 silly addNameRange     '6.1.17',
+819 silly addNameRange     '6.1.18',
+819 silly addNameRange     '6.2.4',
+819 silly addNameRange     '6.3.13',
+819 silly addNameRange     '6.5.0',
+819 silly addNameRange     '6.5.0-1',
+819 silly addNameRange     '6.8.0',
+819 silly addNameRange     '6.9.0' ] ]
+820 silly addNamed babel-plugin-transform-react-jsx-source@6.9.0
+821 verbose addNamed "6.9.0" is a plain semver version for babel-plugin-transform-react-jsx-source
+822 silly addNameRange number 2 { name: 'object-assign', range: '>=4.0.1 <5.0.0', hasData: true }
+823 silly addNameRange versions [ 'object-assign',
+823 silly addNameRange   [ '0.1.0',
+823 silly addNameRange     '0.1.1',
+823 silly addNameRange     '0.1.2',
+823 silly addNameRange     '0.2.0',
+823 silly addNameRange     '0.2.1',
+823 silly addNameRange     '0.2.2',
+823 silly addNameRange     '0.3.0',
+823 silly addNameRange     '0.3.1',
+823 silly addNameRange     '0.4.0',
+823 silly addNameRange     '1.0.0',
+823 silly addNameRange     '2.0.0',
+823 silly addNameRange     '3.0.0',
+823 silly addNameRange     '2.1.1',
+823 silly addNameRange     '4.0.0',
+823 silly addNameRange     '4.0.1',
+823 silly addNameRange     '4.1.0' ] ]
+824 silly addNamed object-assign@4.1.0
+825 verbose addNamed "4.1.0" is a plain semver version for object-assign
+826 silly mapToRegistry name babel-plugin-transform-react-jsx
+827 silly mapToRegistry using default registry
+828 silly mapToRegistry registry https://registry.npmjs.org/
+829 silly mapToRegistry uri https://registry.npmjs.org/babel-plugin-transform-react-jsx
+830 verbose addRemoteTarball https://registry.npmjs.org/babel-plugin-transform-react-jsx/-/babel-plugin-transform-react-jsx-6.8.0.tgz not in flight; adding
+831 verbose addRemoteTarball [ 'https://registry.npmjs.org/babel-plugin-transform-react-jsx/-/babel-plugin-transform-react-jsx-6.8.0.tgz',
+831 verbose addRemoteTarball   '94759942f70af18c617189aa7f3593f1644a71ab' ]
+832 info retry fetch attempt 1 at 00:59:36
+833 info attempt registry request try #1 at 00:59:36
+834 http fetch GET https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.8.0.tgz
+835 silly addNameRange number 2 { name: 'babel-plugin-syntax-flow',
+835 silly addNameRange   range: '>=6.3.13 <7.0.0',
+835 silly addNameRange   hasData: true }
+836 silly addNameRange versions [ 'babel-plugin-syntax-flow',
+836 silly addNameRange   [ '6.0.2',
+836 silly addNameRange     '6.0.14',
+836 silly addNameRange     '6.1.4',
+836 silly addNameRange     '6.1.5',
+836 silly addNameRange     '6.1.8',
+836 silly addNameRange     '6.1.10',
+836 silly addNameRange     '6.1.13',
+836 silly addNameRange     '6.1.16',
+836 silly addNameRange     '6.1.17',
+836 silly addNameRange     '6.1.18',
+836 silly addNameRange     '6.2.4',
+836 silly addNameRange     '6.3.13',
+836 silly addNameRange     '6.5.0',
+836 silly addNameRange     '6.5.0-1',
+836 silly addNameRange     '6.8.0' ] ]
+837 silly addNamed babel-plugin-syntax-flow@6.8.0
+838 verbose addNamed "6.8.0" is a plain semver version for babel-plugin-syntax-flow
+839 silly mapToRegistry name babel-plugin-transform-react-jsx-source
+840 silly mapToRegistry using default registry
+841 silly mapToRegistry registry https://registry.npmjs.org/
+842 silly mapToRegistry uri https://registry.npmjs.org/babel-plugin-transform-react-jsx-source
+843 verbose addRemoteTarball https://registry.npmjs.org/babel-plugin-transform-react-jsx-source/-/babel-plugin-transform-react-jsx-source-6.9.0.tgz not in flight; adding
+844 verbose addRemoteTarball [ 'https://registry.npmjs.org/babel-plugin-transform-react-jsx-source/-/babel-plugin-transform-react-jsx-source-6.9.0.tgz',
+844 verbose addRemoteTarball   'af684a05c2067a86e0957d4f343295ccf5dccf00' ]
+845 silly mapToRegistry name babel-plugin-syntax-flow
+846 silly mapToRegistry using default registry
+847 silly mapToRegistry registry https://registry.npmjs.org/
+848 silly mapToRegistry uri https://registry.npmjs.org/babel-plugin-syntax-flow
+849 verbose addRemoteTarball https://registry.npmjs.org/babel-plugin-syntax-flow/-/babel-plugin-syntax-flow-6.8.0.tgz not in flight; adding
+850 verbose addRemoteTarball [ 'https://registry.npmjs.org/babel-plugin-syntax-flow/-/babel-plugin-syntax-flow-6.8.0.tgz',
+850 verbose addRemoteTarball   '708de27bf480fc2a029a3970c52a5d8a67abe058' ]
+851 silly addNameRange number 2 { name: 'loader-utils', range: '>=0.2.11 <0.3.0', hasData: true }
+852 silly addNameRange versions [ 'loader-utils',
+852 silly addNameRange   [ '0.1.0',
+852 silly addNameRange     '0.1.1',
+852 silly addNameRange     '0.1.2',
+852 silly addNameRange     '0.2.0',
+852 silly addNameRange     '0.2.1',
+852 silly addNameRange     '0.2.2',
+852 silly addNameRange     '0.2.3',
+852 silly addNameRange     '0.2.4',
+852 silly addNameRange     '0.2.5',
+852 silly addNameRange     '0.2.6',
+852 silly addNameRange     '0.2.7',
+852 silly addNameRange     '0.2.8',
+852 silly addNameRange     '0.2.9',
+852 silly addNameRange     '0.2.10',
+852 silly addNameRange     '0.2.11',
+852 silly addNameRange     '0.2.12',
+852 silly addNameRange     '0.2.13',
+852 silly addNameRange     '0.2.14',
+852 silly addNameRange     '0.2.15' ] ]
+853 silly addNamed loader-utils@0.2.15
+854 verbose addNamed "0.2.15" is a plain semver version for loader-utils
+855 info retry fetch attempt 1 at 00:59:36
+856 info attempt registry request try #1 at 00:59:36
+857 http fetch GET https://registry.npmjs.org/babel-plugin-transform-react-jsx/-/babel-plugin-transform-react-jsx-6.8.0.tgz
+858 http 200 https://registry.npmjs.org/babel-template
+859 silly get cb [ 200,
+859 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+859 silly get     etag: '"DA8GR0UDKY14XW28V12GD8ZQ3"',
+859 silly get     'content-type': 'application/json',
+859 silly get     'content-encoding': 'gzip',
+859 silly get     'cache-control': 'max-age=300',
+859 silly get     'content-length': '3274',
+859 silly get     'accept-ranges': 'bytes',
+859 silly get     date: 'Wed, 22 Jun 2016 03:59:19 GMT',
+859 silly get     via: '1.1 varnish',
+859 silly get     age: '123',
+859 silly get     connection: 'keep-alive',
+859 silly get     'x-served-by': 'cache-iad2135-IAD',
+859 silly get     'x-cache': 'HIT',
+859 silly get     'x-cache-hits': '2',
+859 silly get     'x-timer': 'S1466567959.718117,VS0,VE0',
+859 silly get     vary: 'Accept-Encoding' } ]
+860 verbose get saving babel-template to C:\Users\leonardo\AppData\Roaming\npm-cache\registry.npmjs.org\babel-template\.cache.json
+861 info retry fetch attempt 1 at 00:59:36
+862 info attempt registry request try #1 at 00:59:36
+863 http fetch GET https://registry.npmjs.org/babel-plugin-transform-react-jsx-source/-/babel-plugin-transform-react-jsx-source-6.9.0.tgz
+864 silly cache afterAdd mkdirp@0.5.1
+865 verbose afterAdd C:\Users\leonardo\AppData\Roaming\npm-cache\mkdirp\0.5.1\package\package.json not in flight; writing
+866 info retry fetch attempt 1 at 00:59:36
+867 info attempt registry request try #1 at 00:59:36
+868 http fetch GET https://registry.npmjs.org/babel-plugin-syntax-flow/-/babel-plugin-syntax-flow-6.8.0.tgz
+869 http 200 https://registry.npmjs.org/babel-messages
+870 silly get cb [ 200,
+870 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+870 silly get     etag: '"3E0W4SMGOV78WW9J4434WPXS3"',
+870 silly get     'content-type': 'application/json',
+870 silly get     'content-encoding': 'gzip',
+870 silly get     'cache-control': 'max-age=300',
+870 silly get     'content-length': '3435',
+870 silly get     'accept-ranges': 'bytes',
+870 silly get     date: 'Wed, 22 Jun 2016 03:59:19 GMT',
+870 silly get     via: '1.1 varnish',
+870 silly get     age: '122',
+870 silly get     connection: 'keep-alive',
+870 silly get     'x-served-by': 'cache-iad2137-IAD',
+870 silly get     'x-cache': 'HIT',
+870 silly get     'x-cache-hits': '1',
+870 silly get     'x-timer': 'S1466567959.723755,VS0,VE0',
+870 silly get     vary: 'Accept-Encoding' } ]
+871 verbose get saving babel-messages to C:\Users\leonardo\AppData\Roaming\npm-cache\registry.npmjs.org\babel-messages\.cache.json
+872 http 200 https://registry.npmjs.org/babel-register
+873 silly get cb [ 200,
+873 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+873 silly get     etag: '"4E0TOP3MOAK2VY2QDT8YMHQOR"',
+873 silly get     'content-type': 'application/json',
+873 silly get     'content-encoding': 'gzip',
+873 silly get     'cache-control': 'max-age=300',
+873 silly get     'content-length': '2827',
+873 silly get     'accept-ranges': 'bytes',
+873 silly get     date: 'Wed, 22 Jun 2016 03:59:19 GMT',
+873 silly get     via: '1.1 varnish',
+873 silly get     age: '203',
+873 silly get     connection: 'keep-alive',
+873 silly get     'x-served-by': 'cache-iad2143-IAD',
+873 silly get     'x-cache': 'HIT',
+873 silly get     'x-cache-hits': '2',
+873 silly get     'x-timer': 'S1466567959.763864,VS0,VE0',
+873 silly get     vary: 'Accept-Encoding' } ]
+874 verbose get saving babel-register to C:\Users\leonardo\AppData\Roaming\npm-cache\registry.npmjs.org\babel-register\.cache.json
+875 silly cache afterAdd object-assign@4.1.0
+876 verbose afterAdd C:\Users\leonardo\AppData\Roaming\npm-cache\object-assign\4.1.0\package\package.json not in flight; writing
+877 http 200 https://registry.npmjs.org/babel-types
+878 silly get cb [ 200,
+878 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+878 silly get     etag: '"76HXJVAKWAZI9IA4K9SRGQBHM"',
+878 silly get     'content-type': 'application/json',
+878 silly get     'content-encoding': 'gzip',
+878 silly get     'cache-control': 'max-age=300',
+878 silly get     'content-length': '5447',
+878 silly get     'accept-ranges': 'bytes',
+878 silly get     date: 'Wed, 22 Jun 2016 03:59:19 GMT',
+878 silly get     via: '1.1 varnish',
+878 silly get     age: '293',
+878 silly get     connection: 'keep-alive',
+878 silly get     'x-served-by': 'cache-iad2144-IAD',
+878 silly get     'x-cache': 'HIT',
+878 silly get     'x-cache-hits': '5',
+878 silly get     'x-timer': 'S1466567959.729678,VS0,VE0',
+878 silly get     vary: 'Accept-Encoding' } ]
+879 verbose get saving babel-types to C:\Users\leonardo\AppData\Roaming\npm-cache\registry.npmjs.org\babel-types\.cache.json
+880 http 200 https://registry.npmjs.org/babel-helpers
+881 silly get cb [ 200,
+881 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+881 silly get     etag: '"F508PAMKDRE58J9U1KEPIHOT7"',
+881 silly get     'content-type': 'application/json',
+881 silly get     'content-encoding': 'gzip',
+881 silly get     'cache-control': 'max-age=300',
+881 silly get     'content-length': '3617',
+881 silly get     'accept-ranges': 'bytes',
+881 silly get     date: 'Wed, 22 Jun 2016 03:59:19 GMT',
+881 silly get     via: '1.1 varnish',
+881 silly get     age: '157',
+881 silly get     connection: 'keep-alive',
+881 silly get     'x-served-by': 'cache-iad2140-IAD',
+881 silly get     'x-cache': 'HIT',
+881 silly get     'x-cache-hits': '254',
+881 silly get     'x-timer': 'S1466567959.823912,VS0,VE0',
+881 silly get     vary: 'Accept-Encoding' } ]
+882 verbose get saving babel-helpers to C:\Users\leonardo\AppData\Roaming\npm-cache\registry.npmjs.org\babel-helpers\.cache.json
+883 http 200 https://registry.npmjs.org/convert-source-map
+884 silly get cb [ 200,
+884 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+884 silly get     etag: '"95M5ZSIAOYU2GB10VGBROP9O3"',
+884 silly get     'content-type': 'application/json',
+884 silly get     'content-encoding': 'gzip',
+884 silly get     'cache-control': 'max-age=300',
+884 silly get     'content-length': '5388',
+884 silly get     'accept-ranges': 'bytes',
+884 silly get     date: 'Wed, 22 Jun 2016 03:59:19 GMT',
+884 silly get     via: '1.1 varnish',
+884 silly get     age: '270',
+884 silly get     connection: 'keep-alive',
+884 silly get     'x-served-by': 'cache-iad2145-IAD',
+884 silly get     'x-cache': 'HIT',
+884 silly get     'x-cache-hits': '7',
+884 silly get     'x-timer': 'S1466567959.824296,VS0,VE0',
+884 silly get     vary: 'Accept-Encoding' } ]
+885 verbose get saving convert-source-map to C:\Users\leonardo\AppData\Roaming\npm-cache\registry.npmjs.org\convert-source-map\.cache.json
+886 silly cache afterAdd loader-utils@0.2.15
+887 verbose afterAdd C:\Users\leonardo\AppData\Roaming\npm-cache\loader-utils\0.2.15\package\package.json not in flight; writing
+888 http 200 https://registry.npmjs.org/babylon
+889 silly get cb [ 200,
+889 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+889 silly get     etag: '"8ZPIUUKA3U0GQMVR0663YCFXA"',
+889 silly get     'content-type': 'application/json',
+889 silly get     'content-encoding': 'gzip',
+889 silly get     'cache-control': 'max-age=300',
+889 silly get     'content-length': '10466',
+889 silly get     'accept-ranges': 'bytes',
+889 silly get     date: 'Wed, 22 Jun 2016 03:59:19 GMT',
+889 silly get     via: '1.1 varnish',
+889 silly get     age: '162',
+889 silly get     connection: 'keep-alive',
+889 silly get     'x-served-by': 'cache-iad2127-IAD',
+889 silly get     'x-cache': 'HIT',
+889 silly get     'x-cache-hits': '4',
+889 silly get     'x-timer': 'S1466567959.726899,VS0,VE0',
+889 silly get     vary: 'Accept-Encoding' } ]
+890 verbose get saving babylon to C:\Users\leonardo\AppData\Roaming\npm-cache\registry.npmjs.org\babylon\.cache.json
+891 verbose afterAdd C:\Users\leonardo\AppData\Roaming\npm-cache\mkdirp\0.5.1\package\package.json written
+892 http 200 https://registry.npmjs.org/babel-traverse
+893 silly get cb [ 200,
+893 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+893 silly get     etag: '"75GT94A1QCQBTD3NNQQQ768DV"',
+893 silly get     'content-type': 'application/json',
+893 silly get     'content-encoding': 'gzip',
+893 silly get     'cache-control': 'max-age=300',
+893 silly get     'content-length': '5693',
+893 silly get     'accept-ranges': 'bytes',
+893 silly get     date: 'Wed, 22 Jun 2016 03:59:19 GMT',
+893 silly get     via: '1.1 varnish',
+893 silly get     age: '137',
+893 silly get     connection: 'keep-alive',
+893 silly get     'x-served-by': 'cache-iad2138-IAD',
+893 silly get     'x-cache': 'HIT',
+893 silly get     'x-cache-hits': '4',
+893 silly get     'x-timer': 'S1466567959.849752,VS0,VE0',
+893 silly get     vary: 'Accept-Encoding' } ]
+894 verbose get saving babel-traverse to C:\Users\leonardo\AppData\Roaming\npm-cache\registry.npmjs.org\babel-traverse\.cache.json
+895 silly addNameRange number 2 { name: 'babel-template',
+895 silly addNameRange   range: '>=6.9.0 <7.0.0',
+895 silly addNameRange   hasData: true }
+896 silly addNameRange versions [ 'babel-template',
+896 silly addNameRange   [ '6.0.2',
+896 silly addNameRange     '6.0.12',
+896 silly addNameRange     '6.0.14',
+896 silly addNameRange     '6.0.15',
+896 silly addNameRange     '6.0.16',
+896 silly addNameRange     '6.1.17',
+896 silly addNameRange     '6.1.18',
+896 silly addNameRange     '6.2.0',
+896 silly addNameRange     '6.2.4',
+896 silly addNameRange     '6.3.0',
+896 silly addNameRange     '6.3.13',
+896 silly addNameRange     '6.5.0',
+896 silly addNameRange     '6.5.0-1',
+896 silly addNameRange     '6.6.0',
+896 silly addNameRange     '6.6.4',
+896 silly addNameRange     '6.6.5',
+896 silly addNameRange     '6.7.0',
+896 silly addNameRange     '6.8.0',
+896 silly addNameRange     '6.9.0' ] ]
+897 silly addNamed babel-template@6.9.0
+898 verbose addNamed "6.9.0" is a plain semver version for babel-template
+899 silly mapToRegistry name babel-template
+900 silly mapToRegistry using default registry
+901 silly mapToRegistry registry https://registry.npmjs.org/
+902 silly mapToRegistry uri https://registry.npmjs.org/babel-template
+903 verbose addRemoteTarball https://registry.npmjs.org/babel-template/-/babel-template-6.9.0.tgz not in flight; adding
+904 verbose addRemoteTarball [ 'https://registry.npmjs.org/babel-template/-/babel-template-6.9.0.tgz',
+904 verbose addRemoteTarball   '97090fcf6bc15685b4f05be65c0a9438aa7e23e3' ]
+905 silly addNameRange number 2 { name: 'babel-register',
+905 silly addNameRange   range: '>=6.9.0 <7.0.0',
+905 silly addNameRange   hasData: true }
+906 silly addNameRange versions [ 'babel-register',
+906 silly addNameRange   [ '6.1.4',
+906 silly addNameRange     '6.1.17',
+906 silly addNameRange     '6.1.18',
+906 silly addNameRange     '6.2.0',
+906 silly addNameRange     '6.2.4',
+906 silly addNameRange     '6.3.2',
+906 silly addNameRange     '6.3.13',
+906 silly addNameRange     '6.4.3',
+906 silly addNameRange     '6.5.0',
+906 silly addNameRange     '6.5.0-1',
+906 silly addNameRange     '6.5.1',
+906 silly addNameRange     '6.5.2',
+906 silly addNameRange     '6.6.0',
+906 silly addNameRange     '6.6.5',
+906 silly addNameRange     '6.7.2',
+906 silly addNameRange     '6.8.0',
+906 silly addNameRange     '6.9.0' ] ]
+907 silly addNamed babel-register@6.9.0
+908 verbose addNamed "6.9.0" is a plain semver version for babel-register
+909 verbose afterAdd C:\Users\leonardo\AppData\Roaming\npm-cache\object-assign\4.1.0\package\package.json written
+910 silly addNameRange number 2 { name: 'babel-helpers', range: '>=6.8.0 <7.0.0', hasData: true }
+911 silly addNameRange versions [ 'babel-helpers',
+911 silly addNameRange   [ '6.0.0',
+911 silly addNameRange     '6.0.2',
+911 silly addNameRange     '6.0.12',
+911 silly addNameRange     '6.0.14',
+911 silly addNameRange     '6.0.15',
+911 silly addNameRange     '6.0.17',
+911 silly addNameRange     '6.1.2',
+911 silly addNameRange     '6.1.4',
+911 silly addNameRange     '6.1.5',
+911 silly addNameRange     '6.1.6',
+911 silly addNameRange     '6.1.7',
+911 silly addNameRange     '6.1.8',
+911 silly addNameRange     '6.1.9',
+911 silly addNameRange     '6.1.10',
+911 silly addNameRange     '6.1.12',
+911 silly addNameRange     '6.1.13',
+911 silly addNameRange     '6.1.16',
+911 silly addNameRange     '6.1.17',
+911 silly addNameRange     '6.1.18',
+911 silly addNameRange     '6.1.20',
+911 silly addNameRange     '6.2.4',
+911 silly addNameRange     '6.3.0',
+911 silly addNameRange     '6.3.13',
+911 silly addNameRange     '6.4.0',
+911 silly addNameRange     '6.4.5',
+911 silly addNameRange     '6.5.0',
+911 silly addNameRange     '6.5.0-1',
+911 silly addNameRange     '6.6.0',
+911 silly addNameRange     '6.8.0' ] ]
+912 silly addNamed babel-helpers@6.8.0
+913 verbose addNamed "6.8.0" is a plain semver version for babel-helpers
+914 silly addNameRange number 2 { name: 'babel-types', range: '>=6.9.1 <7.0.0', hasData: true }
+915 silly addNameRange versions [ 'babel-types',
+915 silly addNameRange   [ '6.0.2',
+915 silly addNameRange     '6.0.12',
+915 silly addNameRange     '6.0.13',
+915 silly addNameRange     '6.0.14',
+915 silly addNameRange     '6.0.15',
+915 silly addNameRange     '6.0.17',
+915 silly addNameRange     '6.0.18',
+915 silly addNameRange     '6.0.19',
+915 silly addNameRange     '6.1.2',
+915 silly addNameRange     '6.1.4',
+915 silly addNameRange     '6.1.17',
+915 silly addNameRange     '6.1.18',
+915 silly addNameRange     '6.2.0',
+915 silly addNameRange     '6.2.3',
+915 silly addNameRange     '6.2.4',
+915 silly addNameRange     '6.3.0',
+915 silly addNameRange     '6.3.13',
+915 silly addNameRange     '6.3.14',
+915 silly addNameRange     '6.3.17',
+915 silly addNameRange     '6.3.18',
+915 silly addNameRange     '6.3.20',
+915 silly addNameRange     '6.3.21',
+915 silly addNameRange     '6.3.24',
+915 silly addNameRange     '6.4.0',
+915 silly addNameRange     '6.4.1',
+915 silly addNameRange     '6.4.3',
+915 silly addNameRange     '6.4.5',
+915 silly addNameRange     '6.5.0',
+915 silly addNameRange     '6.5.0-1',
+915 silly addNameRange     '6.5.1',
+915 silly addNameRange     '6.5.2',
+915 silly addNameRange     '6.6.0',
+915 silly addNameRange     '6.6.4',
+915 silly addNameRange     '6.6.5',
+915 silly addNameRange     '6.7.0',
+915 silly addNameRange     '6.7.2',
+915 silly addNameRange     '6.7.7',
+915 silly addNameRange     '6.8.0',
+915 silly addNameRange     '6.8.1',
+915 silly addNameRange     '6.9.0',
+915 silly addNameRange     '6.9.1',
+915 silly addNameRange     '6.10.0',
+915 silly addNameRange     '6.10.2' ] ]
+916 silly addNamed babel-types@6.10.2
+917 verbose addNamed "6.10.2" is a plain semver version for babel-types
+918 silly mapToRegistry name babel-register
+919 silly mapToRegistry using default registry
+920 silly mapToRegistry registry https://registry.npmjs.org/
+921 silly mapToRegistry uri https://registry.npmjs.org/babel-register
+922 verbose addRemoteTarball https://registry.npmjs.org/babel-register/-/babel-register-6.9.0.tgz not in flight; adding
+923 verbose addRemoteTarball [ 'https://registry.npmjs.org/babel-register/-/babel-register-6.9.0.tgz',
+923 verbose addRemoteTarball   'dd5f3572ef5bd4082ca05471e942e4a91b162ff0' ]
+924 silly addNameRange number 2 { name: 'convert-source-map',
+924 silly addNameRange   range: '>=1.1.0 <2.0.0',
+924 silly addNameRange   hasData: true }
+925 silly addNameRange versions [ 'convert-source-map',
+925 silly addNameRange   [ '0.1.0',
+925 silly addNameRange     '0.2.0',
+925 silly addNameRange     '0.2.1',
+925 silly addNameRange     '0.2.2',
+925 silly addNameRange     '0.2.3',
+925 silly addNameRange     '0.2.4',
+925 silly addNameRange     '0.2.5',
+925 silly addNameRange     '0.2.6',
+925 silly addNameRange     '0.3.0',
+925 silly addNameRange     '0.3.1',
+925 silly addNameRange     '0.3.2',
+925 silly addNameRange     '0.3.3',
+925 silly addNameRange     '0.3.4',
+925 silly addNameRange     '0.3.5',
+925 silly addNameRange     '0.4.0',
+925 silly addNameRange     '0.4.1',
+925 silly addNameRange     '0.5.0',
+925 silly addNameRange     '0.5.1',
+925 silly addNameRange     '0.6.0',
+925 silly addNameRange     '0.7.0',
+925 silly addNameRange     '0.7.1',
+925 silly addNameRange     '1.0.0',
+925 silly addNameRange     '1.1.0',
+925 silly addNameRange     '1.1.1',
+925 silly addNameRange     '1.1.2',
+925 silly addNameRange     '1.1.3',
+925 silly addNameRange     '1.2.0' ] ]
+926 silly addNamed convert-source-map@1.2.0
+927 verbose addNamed "1.2.0" is a plain semver version for convert-source-map
+928 silly mapToRegistry name babel-helpers
+929 silly mapToRegistry using default registry
+930 silly mapToRegistry registry https://registry.npmjs.org/
+931 silly mapToRegistry uri https://registry.npmjs.org/babel-helpers
+932 verbose addRemoteTarball https://registry.npmjs.org/babel-helpers/-/babel-helpers-6.8.0.tgz not in flight; adding
+933 verbose addRemoteTarball [ 'https://registry.npmjs.org/babel-helpers/-/babel-helpers-6.8.0.tgz',
+933 verbose addRemoteTarball   '321c56f9c9cac1a297f827fdff638b27a6292503' ]
+934 verbose afterAdd C:\Users\leonardo\AppData\Roaming\npm-cache\loader-utils\0.2.15\package\package.json written
+935 silly install resolved [ { name: 'mkdirp',
+935 silly install resolved     description: 'Recursively mkdir, like `mkdir -p`',
+935 silly install resolved     version: '0.5.1',
+935 silly install resolved     author:
+935 silly install resolved      { name: 'James Halliday',
+935 silly install resolved        email: 'mail@substack.net',
+935 silly install resolved        url: 'http://substack.net' },
+935 silly install resolved     main: 'index.js',
+935 silly install resolved     keywords: [ 'mkdir', 'directory' ],
+935 silly install resolved     repository:
+935 silly install resolved      { type: 'git',
+935 silly install resolved        url: 'git+https://github.com/substack/node-mkdirp.git' },
+935 silly install resolved     scripts: { test: 'tap test/*.js' },
+935 silly install resolved     dependencies: { minimist: '0.0.8' },
+935 silly install resolved     devDependencies: { tap: '1', 'mock-fs': '2 >=2.7.0' },
+935 silly install resolved     bin: { mkdirp: 'bin/cmd.js' },
+935 silly install resolved     license: 'MIT',
+935 silly install resolved     gitHead: 'd4eff0f06093aed4f387e88e9fc301cb76beedc7',
+935 silly install resolved     bugs: { url: 'https://github.com/substack/node-mkdirp/issues' },
+935 silly install resolved     homepage: 'https://github.com/substack/node-mkdirp#readme',
+935 silly install resolved     _id: 'mkdirp@0.5.1',
+935 silly install resolved     _shasum: '30057438eac6cf7f8c4767f38648d6697d75c903',
+935 silly install resolved     _from: 'mkdirp@>=0.5.1 <0.6.0',
+935 silly install resolved     _npmVersion: '2.9.0',
+935 silly install resolved     _nodeVersion: '2.0.0',
+935 silly install resolved     _npmUser: { name: 'substack', email: 'substack@gmail.com' },
+935 silly install resolved     dist:
+935 silly install resolved      { shasum: '30057438eac6cf7f8c4767f38648d6697d75c903',
+935 silly install resolved        tarball: 'http://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz' },
+935 silly install resolved     maintainers: [ [Object] ],
+935 silly install resolved     directories: {},
+935 silly install resolved     _resolved: 'https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz',
+935 silly install resolved     readme: 'ERROR: No README data found!' },
+935 silly install resolved   { name: 'object-assign',
+935 silly install resolved     version: '4.1.0',
+935 silly install resolved     description: 'ES2015 Object.assign() ponyfill',
+935 silly install resolved     license: 'MIT',
+935 silly install resolved     repository:
+935 silly install resolved      { type: 'git',
+935 silly install resolved        url: 'git+https://github.com/sindresorhus/object-assign.git' },
+935 silly install resolved     author:
+935 silly install resolved      { name: 'Sindre Sorhus',
+935 silly install resolved        email: 'sindresorhus@gmail.com',
+935 silly install resolved        url: 'sindresorhus.com' },
+935 silly install resolved     engines: { node: '>=0.10.0' },
+935 silly install resolved     scripts: { test: 'xo && mocha', bench: 'matcha bench.js' },
+935 silly install resolved     files: [ 'index.js' ],
+935 silly install resolved     keywords:
+935 silly install resolved      [ 'object',
+935 silly install resolved        'assign',
+935 silly install resolved        'extend',
+935 silly install resolved        'properties',
+935 silly install resolved        'es2015',
+935 silly install resolved        'ecmascript',
+935 silly install resolved        'harmony',
+935 silly install resolved        'ponyfill',
+935 silly install resolved        'prollyfill',
+935 silly install resolved        'polyfill',
+935 silly install resolved        'shim',
+935 silly install resolved        'browser' ],
+935 silly install resolved     devDependencies: { lodash: '^4.8.2', matcha: '^0.7.0', mocha: '*', xo: '*' },
+935 silly install resolved     gitHead: '72fe21c86911758f3342fdf41c2a57860d5829bc',
+935 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/object-assign/issues' },
+935 silly install resolved     homepage: 'https://github.com/sindresorhus/object-assign#readme',
+935 silly install resolved     _id: 'object-assign@4.1.0',
+935 silly install resolved     _shasum: '7a3b3d0e98063d43f4c03f2e8ae6cd51a86883a0',
+935 silly install resolved     _from: 'object-assign@>=4.0.1 <5.0.0',
+935 silly install resolved     _npmVersion: '2.14.19',
+935 silly install resolved     _nodeVersion: '4.1.0',
+935 silly install resolved     _npmUser: { name: 'spicyj', email: 'ben@benalpert.com' },
+935 silly install resolved     maintainers: [ [Object], [Object] ],
+935 silly install resolved     dist:
+935 silly install resolved      { shasum: '7a3b3d0e98063d43f4c03f2e8ae6cd51a86883a0',
+935 silly install resolved        tarball: 'https://registry.npmjs.org/object-assign/-/object-assign-4.1.0.tgz' },
+935 silly install resolved     _npmOperationalInternal:
+935 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+935 silly install resolved        tmp: 'tmp/object-assign-4.1.0.tgz_1462212593641_0.3332549517508596' },
+935 silly install resolved     directories: {},
+935 silly install resolved     _resolved: 'https://registry.npmjs.org/object-assign/-/object-assign-4.1.0.tgz',
+935 silly install resolved     readme: 'ERROR: No README data found!' },
+935 silly install resolved   { name: 'loader-utils',
+935 silly install resolved     version: '0.2.15',
+935 silly install resolved     author: { name: 'Tobias Koppers @sokra' },
+935 silly install resolved     description: 'utils for webpack loaders',
+935 silly install resolved     dependencies:
+935 silly install resolved      { 'big.js': '^3.1.3',
+935 silly install resolved        'emojis-list': '^2.0.0',
+935 silly install resolved        json5: '^0.5.0',
+935 silly install resolved        'object-assign': '^4.0.1' },
+935 silly install resolved     scripts:
+935 silly install resolved      { test: 'mocha',
+935 silly install resolved        travis: 'npm run cover -- --report lcovonly',
+935 silly install resolved        cover: 'istanbul cover -x *.runtime.js node_modules/mocha/bin/_mocha',
+935 silly install resolved        'publish-patch': 'mocha && npm version patch && git push && git push --tags && npm publish' },
+935 silly install resolved     license: 'MIT',
+935 silly install resolved     repository:
+935 silly install resolved      { type: 'git',
+935 silly install resolved        url: 'git+https://github.com/webpack/loader-utils.git' },
+935 silly install resolved     devDependencies: { coveralls: '^2.11.2', istanbul: '^0.3.14', mocha: '^1.21.4' },
+935 silly install resolved     files: [ 'index.js' ],
+935 silly install resolved     gitHead: 'bed965bbcb54fa54beecfee2639e9585ab5ae020',
+935 silly install resolved     bugs: { url: 'https://github.com/webpack/loader-utils/issues' },
+935 silly install resolved     homepage: 'https://github.com/webpack/loader-utils#readme',
+935 silly install resolved     _id: 'loader-utils@0.2.15',
+935 silly install resolved     _shasum: 'c7df3342a9d4e2103dddc97d4060daccc246d6ac',
+935 silly install resolved     _from: 'loader-utils@>=0.2.11 <0.3.0',
+935 silly install resolved     _npmVersion: '3.8.3',
+935 silly install resolved     _nodeVersion: '5.10.1',
+935 silly install resolved     _npmUser: { name: 'sokra', email: 'tobias.koppers@googlemail.com' },
+935 silly install resolved     dist:
+935 silly install resolved      { shasum: 'c7df3342a9d4e2103dddc97d4060daccc246d6ac',
+935 silly install resolved        tarball: 'https://registry.npmjs.org/loader-utils/-/loader-utils-0.2.15.tgz' },
+935 silly install resolved     maintainers: [ [Object] ],
+935 silly install resolved     _npmOperationalInternal:
+935 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+935 silly install resolved        tmp: 'tmp/loader-utils-0.2.15.tgz_1463148639681_0.7935674281325191' },
+935 silly install resolved     directories: {},
+935 silly install resolved     _resolved: 'https://registry.npmjs.org/loader-utils/-/loader-utils-0.2.15.tgz',
+935 silly install resolved     readme: 'ERROR: No README data found!' } ]
+936 info install mkdirp@0.5.1 into D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader
+937 info install object-assign@4.1.0 into D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader
+938 info install loader-utils@0.2.15 into D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader
+939 info installOne mkdirp@0.5.1
+940 verbose installOne of mkdirp to D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader not in flight; installing
+941 info installOne object-assign@4.1.0
+942 verbose installOne of object-assign to D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader not in flight; installing
+943 info installOne loader-utils@0.2.15
+944 verbose installOne of loader-utils to D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader not in flight; installing
+945 silly mapToRegistry name babel-types
+946 silly mapToRegistry using default registry
+947 silly mapToRegistry registry https://registry.npmjs.org/
+948 silly mapToRegistry uri https://registry.npmjs.org/babel-types
+949 verbose addRemoteTarball https://registry.npmjs.org/babel-types/-/babel-types-6.10.2.tgz not in flight; adding
+950 verbose addRemoteTarball [ 'https://registry.npmjs.org/babel-types/-/babel-types-6.10.2.tgz',
+950 verbose addRemoteTarball   '9f1305e07788fa0a948c3fb364f44c8d7ee81b9a' ]
+951 silly mapToRegistry name convert-source-map
+952 silly mapToRegistry using default registry
+953 silly mapToRegistry registry https://registry.npmjs.org/
+954 silly mapToRegistry uri https://registry.npmjs.org/convert-source-map
+955 verbose addRemoteTarball https://registry.npmjs.org/convert-source-map/-/convert-source-map-1.2.0.tgz not in flight; adding
+956 verbose addRemoteTarball [ 'https://registry.npmjs.org/convert-source-map/-/convert-source-map-1.2.0.tgz',
+956 verbose addRemoteTarball   '44c08c2506f10fb3ca6fd888d5a3444cf8d6a669' ]
+957 info retry fetch attempt 1 at 00:59:36
+958 info attempt registry request try #1 at 00:59:36
+959 http fetch GET https://registry.npmjs.org/babel-template/-/babel-template-6.9.0.tgz
+960 silly addNameRange number 2 { name: 'babylon', range: '>=6.7.0 <7.0.0', hasData: true }
+961 silly addNameRange versions [ 'babylon',
+961 silly addNameRange   [ '0.0.1',
+961 silly addNameRange     '5.6.23',
+961 silly addNameRange     '5.7.1',
+961 silly addNameRange     '5.7.2',
+961 silly addNameRange     '5.8.2',
+961 silly addNameRange     '5.8.3',
+961 silly addNameRange     '5.8.5',
+961 silly addNameRange     '5.8.6',
+961 silly addNameRange     '5.8.8',
+961 silly addNameRange     '5.8.9',
+961 silly addNameRange     '5.8.12',
+961 silly addNameRange     '5.8.13',
+961 silly addNameRange     '5.8.19',
+961 silly addNameRange     '5.8.20',
+961 silly addNameRange     '5.8.21',
+961 silly addNameRange     '5.8.22',
+961 silly addNameRange     '5.8.23',
+961 silly addNameRange     '5.8.29',
+961 silly addNameRange     '6.0.2',
+961 silly addNameRange     '6.0.14',
+961 silly addNameRange     '6.0.17',
+961 silly addNameRange     '6.0.18',
+961 silly addNameRange     '6.1.2',
+961 silly addNameRange     '6.1.4',
+961 silly addNameRange     '5.8.34',
+961 silly addNameRange     '6.1.17',
+961 silly addNameRange     '6.1.18',
+961 silly addNameRange     '6.1.20',
+961 silly addNameRange     '6.1.21',
+961 silly addNameRange     '6.2.0',
+961 silly addNameRange     '6.2.4',
+961 silly addNameRange     '6.3.0',
+961 silly addNameRange     '6.3.13',
+961 silly addNameRange     '6.3.14',
+961 silly addNameRange     '6.3.15',
+961 silly addNameRange     '6.3.18',
+961 silly addNameRange     '6.3.20',
+961 silly addNameRange     '6.3.21',
+961 silly addNameRange     '6.3.25',
+961 silly addNameRange     '6.3.26',
+961 silly addNameRange     '6.4.0',
+961 silly addNameRange     '6.4.2',
+961 silly addNameRange     '6.4.5',
+961 silly addNameRange     '5.8.35',
+961 silly addNameRange     '6.5.0',
+961 silly addNameRange     '6.5.0-1',
+961 silly addNameRange     '6.5.2',
+961 silly addNameRange     '6.6.0',
+961 silly addNameRange     '6.6.4',
+961 silly addNameRange     '6.6.5',
+961 silly addNameRange     '6.7.0',
+961 silly addNameRange     '6.7.1-test.1',
+961 silly addNameRange     '6.7.1-test.2',
+961 silly addNameRange     '5.8.38',
+961 silly addNameRange     '6.8.0',
+961 silly addNameRange     '6.8.1' ] ]
+962 silly addNamed babylon@6.8.1
+963 verbose addNamed "6.8.1" is a plain semver version for babylon
+964 silly addNameRange number 2 { name: 'babel-traverse',
+964 silly addNameRange   range: '>=6.10.4 <7.0.0',
+964 silly addNameRange   hasData: true }
+965 silly addNameRange versions [ 'babel-traverse',
+965 silly addNameRange   [ '6.0.2',
+965 silly addNameRange     '6.0.14',
+965 silly addNameRange     '6.0.16',
+965 silly addNameRange     '6.0.17',
+965 silly addNameRange     '6.0.18',
+965 silly addNameRange     '6.0.19',
+965 silly addNameRange     '6.0.20',
+965 silly addNameRange     '6.1.2',
+965 silly addNameRange     '6.1.4',
+965 silly addNameRange     '6.1.17',
+965 silly addNameRange     '6.1.18',
+965 silly addNameRange     '6.1.20',
+965 silly addNameRange     '6.2.0',
+965 silly addNameRange     '6.2.4',
+965 silly addNameRange     '6.3.2',
+965 silly addNameRange     '6.3.13',
+965 silly addNameRange     '6.3.14',
+965 silly addNameRange     '6.3.15',
+965 silly addNameRange     '6.3.16',
+965 silly addNameRange     '6.3.17',
+965 silly addNameRange     '6.3.19',
+965 silly addNameRange     '6.3.21',
+965 silly addNameRange     '6.3.24',
+965 silly addNameRange     '6.3.25',
+965 silly addNameRange     '6.3.26',
+965 silly addNameRange     '6.4.5',
+965 silly addNameRange     '6.5.0',
+965 silly addNameRange     '6.5.0-1',
+965 silly addNameRange     '6.6.0',
+965 silly addNameRange     '6.6.2',
+965 silly addNameRange     '6.6.3',
+965 silly addNameRange     '6.6.4',
+965 silly addNameRange     '6.6.5',
+965 silly addNameRange     '6.7.0',
+965 silly addNameRange     '6.7.2',
+965 silly addNameRange     '6.7.3',
+965 silly addNameRange     '6.7.4',
+965 silly addNameRange     '6.7.5',
+965 silly addNameRange     '6.7.6',
+965 silly addNameRange     '6.8.0',
+965 silly addNameRange     '6.9.0',
+965 silly addNameRange     '6.10.4' ] ]
+966 silly addNamed babel-traverse@6.10.4
+967 verbose addNamed "6.10.4" is a plain semver version for babel-traverse
+968 silly addNameRange number 2 { name: 'babel-messages',
+968 silly addNameRange   range: '>=6.8.0 <7.0.0',
+968 silly addNameRange   hasData: true }
+969 silly addNameRange versions [ 'babel-messages',
+969 silly addNameRange   [ '6.0.0',
+969 silly addNameRange     '6.0.2',
+969 silly addNameRange     '6.0.12',
+969 silly addNameRange     '6.0.14',
+969 silly addNameRange     '6.0.15',
+969 silly addNameRange     '6.1.4',
+969 silly addNameRange     '6.1.5',
+969 silly addNameRange     '6.1.6',
+969 silly addNameRange     '6.1.7',
+969 silly addNameRange     '6.1.8',
+969 silly addNameRange     '6.1.9',
+969 silly addNameRange     '6.1.10',
+969 silly addNameRange     '6.1.12',
+969 silly addNameRange     '6.1.13',
+969 silly addNameRange     '6.1.16',
+969 silly addNameRange     '6.1.17',
+969 silly addNameRange     '6.1.18',
+969 silly addNameRange     '6.2.0',
+969 silly addNameRange     '6.2.1',
+969 silly addNameRange     '6.2.4',
+969 silly addNameRange     '6.3.13',
+969 silly addNameRange     '6.3.18',
+969 silly addNameRange     '6.5.0',
+969 silly addNameRange     '6.5.0-1',
+969 silly addNameRange     '6.6.0',
+969 silly addNameRange     '6.6.5',
+969 silly addNameRange     '6.7.2',
+969 silly addNameRange     '6.8.0' ] ]
+970 silly addNamed babel-messages@6.8.0
+971 verbose addNamed "6.8.0" is a plain semver version for babel-messages
+972 info retry fetch attempt 1 at 00:59:36
+973 info attempt registry request try #1 at 00:59:36
+974 http fetch GET https://registry.npmjs.org/babel-register/-/babel-register-6.9.0.tgz
+975 silly mapToRegistry name babylon
+976 silly mapToRegistry using default registry
+977 silly mapToRegistry registry https://registry.npmjs.org/
+978 silly mapToRegistry uri https://registry.npmjs.org/babylon
+979 verbose addRemoteTarball https://registry.npmjs.org/babylon/-/babylon-6.8.1.tgz not in flight; adding
+980 verbose addRemoteTarball [ 'https://registry.npmjs.org/babylon/-/babylon-6.8.1.tgz',
+980 verbose addRemoteTarball   'd1821c61f1b6e21ddbf6e004ebbdd45c6e3c0d75' ]
+981 silly mapToRegistry name babel-traverse
+982 silly mapToRegistry using default registry
+983 silly mapToRegistry registry https://registry.npmjs.org/
+984 silly mapToRegistry uri https://registry.npmjs.org/babel-traverse
+985 verbose addRemoteTarball https://registry.npmjs.org/babel-traverse/-/babel-traverse-6.10.4.tgz not in flight; adding
+986 verbose addRemoteTarball [ 'https://registry.npmjs.org/babel-traverse/-/babel-traverse-6.10.4.tgz',
+986 verbose addRemoteTarball   'dbcf41ff1f32eb614859cead4871160f1f120d78' ]
+987 info retry fetch attempt 1 at 00:59:36
+988 info attempt registry request try #1 at 00:59:36
+989 http fetch GET https://registry.npmjs.org/babel-helpers/-/babel-helpers-6.8.0.tgz
+990 silly mapToRegistry name babel-messages
+991 silly mapToRegistry using default registry
+992 silly mapToRegistry registry https://registry.npmjs.org/
+993 silly mapToRegistry uri https://registry.npmjs.org/babel-messages
+994 verbose addRemoteTarball https://registry.npmjs.org/babel-messages/-/babel-messages-6.8.0.tgz not in flight; adding
+995 verbose addRemoteTarball [ 'https://registry.npmjs.org/babel-messages/-/babel-messages-6.8.0.tgz',
+995 verbose addRemoteTarball   'bf504736ca967e6d65ef0adb5a2a5f947c8e0eb9' ]
+996 info retry fetch attempt 1 at 00:59:36
+997 info attempt registry request try #1 at 00:59:36
+998 http fetch GET https://registry.npmjs.org/babel-types/-/babel-types-6.10.2.tgz
+999 http 200 https://registry.npmjs.org/babel-code-frame
+1000 silly get cb [ 200,
+1000 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1000 silly get     etag: '"4MTEMK7VW07F3R5JIHP66A26E"',
+1000 silly get     'content-type': 'application/json',
+1000 silly get     'content-encoding': 'gzip',
+1000 silly get     'cache-control': 'max-age=300',
+1000 silly get     'content-length': '4242',
+1000 silly get     'accept-ranges': 'bytes',
+1000 silly get     date: 'Wed, 22 Jun 2016 03:59:20 GMT',
+1000 silly get     via: '1.1 varnish',
+1000 silly get     age: '168',
+1000 silly get     connection: 'keep-alive',
+1000 silly get     'x-served-by': 'cache-iad2127-IAD',
+1000 silly get     'x-cache': 'HIT',
+1000 silly get     'x-cache-hits': '1',
+1000 silly get     'x-timer': 'S1466567960.012606,VS0,VE0',
+1000 silly get     vary: 'Accept-Encoding' } ]
+1001 verbose get saving babel-code-frame to C:\Users\leonardo\AppData\Roaming\npm-cache\registry.npmjs.org\babel-code-frame\.cache.json
+1002 info retry fetch attempt 1 at 00:59:36
+1003 info attempt registry request try #1 at 00:59:36
+1004 http fetch GET https://registry.npmjs.org/convert-source-map/-/convert-source-map-1.2.0.tgz
+1005 verbose lock using C:\Users\leonardo\AppData\Roaming\npm-cache\_locks\object-assign-b2965d848b7d2dbe.lock for D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader\node_modules\object-assign
+1006 verbose lock using C:\Users\leonardo\AppData\Roaming\npm-cache\_locks\loader-utils-c771d4fea95220b9.lock for D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader\node_modules\loader-utils
+1007 verbose lock using C:\Users\leonardo\AppData\Roaming\npm-cache\_locks\mkdirp-c045bd894e807091.lock for D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader\node_modules\mkdirp
+1008 http 200 https://registry.npmjs.org/slash
+1009 silly get cb [ 200,
+1009 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1009 silly get     etag: '"D2FUVVEKWRONFBWD69O8UTOZK"',
+1009 silly get     'content-type': 'application/json',
+1009 silly get     'content-encoding': 'gzip',
+1009 silly get     'cache-control': 'max-age=300',
+1009 silly get     'content-length': '1561',
+1009 silly get     'accept-ranges': 'bytes',
+1009 silly get     date: 'Wed, 22 Jun 2016 03:59:20 GMT',
+1009 silly get     via: '1.1 varnish',
+1009 silly get     age: '135',
+1009 silly get     connection: 'keep-alive',
+1009 silly get     'x-served-by': 'cache-iad2136-IAD',
+1009 silly get     'x-cache': 'HIT',
+1009 silly get     'x-cache-hits': '4',
+1009 silly get     'x-timer': 'S1466567960.051462,VS0,VE0',
+1009 silly get     vary: 'Accept-Encoding' } ]
+1010 verbose get saving slash to C:\Users\leonardo\AppData\Roaming\npm-cache\registry.npmjs.org\slash\.cache.json
+1011 silly install write writing object-assign 4.1.0 to D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader\node_modules\object-assign
+1012 silly install write writing loader-utils 0.2.15 to D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader\node_modules\loader-utils
+1013 info retry fetch attempt 1 at 00:59:36
+1014 info attempt registry request try #1 at 00:59:36
+1015 http fetch GET https://registry.npmjs.org/babylon/-/babylon-6.8.1.tgz
+1016 info retry fetch attempt 1 at 00:59:36
+1017 info attempt registry request try #1 at 00:59:36
+1018 http fetch GET https://registry.npmjs.org/babel-traverse/-/babel-traverse-6.10.4.tgz
+1019 silly install write writing mkdirp 0.5.1 to D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader\node_modules\mkdirp
+1020 info retry fetch attempt 1 at 00:59:36
+1021 info attempt registry request try #1 at 00:59:36
+1022 http fetch GET https://registry.npmjs.org/babel-messages/-/babel-messages-6.8.0.tgz
+1023 http 200 https://registry.npmjs.org/shebang-regex
+1024 silly get cb [ 200,
+1024 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1024 silly get     etag: '"4RSJWNTTHA5S6MPVECWNVDSD"',
+1024 silly get     'content-type': 'application/json',
+1024 silly get     'content-encoding': 'gzip',
+1024 silly get     'cache-control': 'max-age=300',
+1024 silly get     'content-length': '1173',
+1024 silly get     'accept-ranges': 'bytes',
+1024 silly get     date: 'Wed, 22 Jun 2016 03:59:20 GMT',
+1024 silly get     via: '1.1 varnish',
+1024 silly get     age: '222',
+1024 silly get     connection: 'keep-alive',
+1024 silly get     'x-served-by': 'cache-iad2145-IAD',
+1024 silly get     'x-cache': 'HIT',
+1024 silly get     'x-cache-hits': '3',
+1024 silly get     'x-timer': 'S1466567960.058298,VS0,VE0',
+1024 silly get     vary: 'Accept-Encoding' } ]
+1025 verbose get saving shebang-regex to C:\Users\leonardo\AppData\Roaming\npm-cache\registry.npmjs.org\shebang-regex\.cache.json
+1026 http 304 https://registry.npmjs.org/source-map
+1027 silly get cb [ 304,
+1027 silly get   { date: 'Wed, 22 Jun 2016 03:59:20 GMT',
+1027 silly get     via: '1.1 varnish',
+1027 silly get     'cache-control': 'max-age=300',
+1027 silly get     etag: '"6FOGQ0DEW49F4TBK11MIL5JD4"',
+1027 silly get     age: '184',
+1027 silly get     connection: 'keep-alive',
+1027 silly get     'x-served-by': 'cache-iad2125-IAD',
+1027 silly get     'x-cache': 'HIT',
+1027 silly get     'x-cache-hits': '11',
+1027 silly get     'x-timer': 'S1466567960.113453,VS0,VE0',
+1027 silly get     vary: 'Accept-Encoding' } ]
+1028 verbose etag https://registry.npmjs.org/source-map from cache
+1029 verbose get saving source-map to C:\Users\leonardo\AppData\Roaming\npm-cache\registry.npmjs.org\source-map\.cache.json
+1030 http 200 https://registry.npmjs.org/babel-runtime
+1031 silly get cb [ 200,
+1031 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1031 silly get     etag: '"8O4SZ6CJBANCHOY7ID95SH8FZ"',
+1031 silly get     'content-type': 'application/json',
+1031 silly get     'content-encoding': 'gzip',
+1031 silly get     'cache-control': 'max-age=300',
+1031 silly get     'content-length': '14464',
+1031 silly get     'accept-ranges': 'bytes',
+1031 silly get     date: 'Wed, 22 Jun 2016 03:59:19 GMT',
+1031 silly get     via: '1.1 varnish',
+1031 silly get     age: '88',
+1031 silly get     connection: 'keep-alive',
+1031 silly get     'x-served-by': 'cache-iad2123-IAD',
+1031 silly get     'x-cache': 'HIT',
+1031 silly get     'x-cache-hits': '2',
+1031 silly get     'x-timer': 'S1466567959.836863,VS0,VE0',
+1031 silly get     vary: 'Accept-Encoding' } ]
+1032 verbose get saving babel-runtime to C:\Users\leonardo\AppData\Roaming\npm-cache\registry.npmjs.org\babel-runtime\.cache.json
+1033 verbose unbuild node_modules\babel-loader\node_modules\object-assign
+1034 silly addNameRange number 2 { name: 'babel-code-frame',
+1034 silly addNameRange   range: '>=6.8.0 <7.0.0',
+1034 silly addNameRange   hasData: true }
+1035 silly addNameRange versions [ 'babel-code-frame',
+1035 silly addNameRange   [ '6.0.0',
+1035 silly addNameRange     '6.0.2',
+1035 silly addNameRange     '6.0.12',
+1035 silly addNameRange     '6.0.14',
+1035 silly addNameRange     '6.0.15',
+1035 silly addNameRange     '6.1.4',
+1035 silly addNameRange     '6.1.5',
+1035 silly addNameRange     '6.1.6',
+1035 silly addNameRange     '6.1.7',
+1035 silly addNameRange     '6.1.8',
+1035 silly addNameRange     '6.1.9',
+1035 silly addNameRange     '6.1.10',
+1035 silly addNameRange     '6.1.11',
+1035 silly addNameRange     '6.1.12',
+1035 silly addNameRange     '6.1.13',
+1035 silly addNameRange     '6.1.14',
+1035 silly addNameRange     '6.1.15',
+1035 silly addNameRange     '6.1.16',
+1035 silly addNameRange     '6.1.17',
+1035 silly addNameRange     '6.1.18',
+1035 silly addNameRange     '6.2.4',
+1035 silly addNameRange     '6.3.13',
+1035 silly addNameRange     '6.5.0',
+1035 silly addNameRange     '6.5.0-1',
+1035 silly addNameRange     '6.6.0',
+1035 silly addNameRange     '6.6.5',
+1035 silly addNameRange     '6.7.2',
+1035 silly addNameRange     '6.7.3',
+1035 silly addNameRange     '6.7.4',
+1035 silly addNameRange     '6.7.5',
+1035 silly addNameRange     '6.7.7',
+1035 silly addNameRange     '6.8.0' ] ]
+1036 silly addNamed babel-code-frame@6.8.0
+1037 verbose addNamed "6.8.0" is a plain semver version for babel-code-frame
+1038 verbose unbuild node_modules\babel-loader\node_modules\loader-utils
+1039 http 304 https://registry.npmjs.org/json5
+1040 silly get cb [ 304,
+1040 silly get   { date: 'Wed, 22 Jun 2016 03:59:20 GMT',
+1040 silly get     via: '1.1 varnish',
+1040 silly get     'cache-control': 'max-age=300',
+1040 silly get     etag: '"4T89XTHOJX89E0H4NGVVB644I"',
+1040 silly get     age: '179',
+1040 silly get     connection: 'keep-alive',
+1040 silly get     'x-served-by': 'cache-iad2127-IAD',
+1040 silly get     'x-cache': 'HIT',
+1040 silly get     'x-cache-hits': '2',
+1040 silly get     'x-timer': 'S1466567960.129260,VS0,VE0',
+1040 silly get     vary: 'Accept-Encoding' } ]
+1041 verbose etag https://registry.npmjs.org/json5 from cache
+1042 verbose get saving json5 to C:\Users\leonardo\AppData\Roaming\npm-cache\registry.npmjs.org\json5\.cache.json
+1043 http 304 https://registry.npmjs.org/path-exists
+1044 silly get cb [ 304,
+1044 silly get   { date: 'Wed, 22 Jun 2016 03:59:20 GMT',
+1044 silly get     via: '1.1 varnish',
+1044 silly get     'cache-control': 'max-age=300',
+1044 silly get     etag: '"31PM8JK1337HQXK7IGK7UTR3K"',
+1044 silly get     age: '25',
+1044 silly get     connection: 'keep-alive',
+1044 silly get     'x-served-by': 'cache-iad2141-IAD',
+1044 silly get     'x-cache': 'HIT',
+1044 silly get     'x-cache-hits': '1',
+1044 silly get     'x-timer': 'S1466567960.136427,VS0,VE0',
+1044 silly get     vary: 'Accept-Encoding' } ]
+1045 verbose etag https://registry.npmjs.org/path-exists from cache
+1046 verbose get saving path-exists to C:\Users\leonardo\AppData\Roaming\npm-cache\registry.npmjs.org\path-exists\.cache.json
+1047 http 304 https://registry.npmjs.org/minimatch
+1048 silly get cb [ 304,
+1048 silly get   { date: 'Wed, 22 Jun 2016 03:59:20 GMT',
+1048 silly get     via: '1.1 varnish',
+1048 silly get     'cache-control': 'max-age=300',
+1048 silly get     etag: '"ATSG0S3YY5SIYN4WD5W6UI3CV"',
+1048 silly get     age: '300',
+1048 silly get     connection: 'keep-alive',
+1048 silly get     'x-served-by': 'cache-iad2135-IAD',
+1048 silly get     'x-cache': 'HIT',
+1048 silly get     'x-cache-hits': '60',
+1048 silly get     'x-timer': 'S1466567960.142795,VS0,VE0',
+1048 silly get     vary: 'Accept-Encoding' } ]
+1049 verbose etag https://registry.npmjs.org/minimatch from cache
+1050 verbose get saving minimatch to C:\Users\leonardo\AppData\Roaming\npm-cache\registry.npmjs.org\minimatch\.cache.json
+1051 http 304 https://registry.npmjs.org/path-is-absolute
+1052 silly get cb [ 304,
+1052 silly get   { date: 'Wed, 22 Jun 2016 03:59:20 GMT',
+1052 silly get     via: '1.1 varnish',
+1052 silly get     'cache-control': 'max-age=300',
+1052 silly get     etag: '"BN5VZYARJTFIZINEV94ZMOHSE"',
+1052 silly get     age: '127',
+1052 silly get     connection: 'keep-alive',
+1052 silly get     'x-served-by': 'cache-iad2148-IAD',
+1052 silly get     'x-cache': 'HIT',
+1052 silly get     'x-cache-hits': '20',
+1052 silly get     'x-timer': 'S1466567960.143152,VS0,VE0',
+1052 silly get     vary: 'Accept-Encoding' } ]
+1053 verbose etag https://registry.npmjs.org/path-is-absolute from cache
+1054 verbose get saving path-is-absolute to C:\Users\leonardo\AppData\Roaming\npm-cache\registry.npmjs.org\path-is-absolute\.cache.json
+1055 silly mapToRegistry name babel-code-frame
+1056 silly mapToRegistry using default registry
+1057 silly mapToRegistry registry https://registry.npmjs.org/
+1058 silly mapToRegistry uri https://registry.npmjs.org/babel-code-frame
+1059 verbose addRemoteTarball https://registry.npmjs.org/babel-code-frame/-/babel-code-frame-6.8.0.tgz not in flight; adding
+1060 verbose addRemoteTarball [ 'https://registry.npmjs.org/babel-code-frame/-/babel-code-frame-6.8.0.tgz',
+1060 verbose addRemoteTarball   '7cda531891e1b208e0cc081eb79d87d932a65b7f' ]
+1061 silly gentlyRm D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader\node_modules\object-assign is being purged from base D:\Desenv\Promise\Projetos\github-user
+1062 verbose gentlyRm don't care about contents; nuking D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader\node_modules\object-assign
+1063 verbose unbuild node_modules\babel-loader\node_modules\mkdirp
+1064 verbose tar unpack C:\Users\leonardo\AppData\Roaming\npm-cache\object-assign\4.1.0\package.tgz
+1065 verbose tar unpacking to D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader\node_modules\object-assign
+1066 silly gentlyRm D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader\node_modules\object-assign is being purged
+1067 verbose gentlyRm don't care about contents; nuking D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader\node_modules\object-assign
+1068 silly gentlyRm D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader\node_modules\loader-utils is being purged from base D:\Desenv\Promise\Projetos\github-user
+1069 verbose gentlyRm don't care about contents; nuking D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader\node_modules\loader-utils
+1070 silly gunzTarPerm modes [ '777', '666' ]
+1071 verbose tar unpack C:\Users\leonardo\AppData\Roaming\npm-cache\loader-utils\0.2.15\package.tgz
+1072 verbose tar unpacking to D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader\node_modules\loader-utils
+1073 silly gentlyRm D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader\node_modules\loader-utils is being purged
+1074 verbose gentlyRm don't care about contents; nuking D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader\node_modules\loader-utils
+1075 silly gentlyRm D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader\node_modules\mkdirp is being purged from base D:\Desenv\Promise\Projetos\github-user
+1076 verbose gentlyRm don't care about contents; nuking D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader\node_modules\mkdirp
+1077 silly addNameRange number 2 { name: 'slash', range: '>=1.0.0 <2.0.0', hasData: true }
+1078 silly addNameRange versions [ 'slash', [ '0.1.0', '0.1.1', '0.1.3', '1.0.0' ] ]
+1079 silly addNamed slash@1.0.0
+1080 verbose addNamed "1.0.0" is a plain semver version for slash
+1081 silly addNameRange number 2 { name: 'source-map', range: '>=0.5.0 <0.6.0', hasData: true }
+1082 silly addNameRange versions [ 'source-map',
+1082 silly addNameRange   [ '0.0.0',
+1082 silly addNameRange     '0.1.0',
+1082 silly addNameRange     '0.1.1',
+1082 silly addNameRange     '0.1.2',
+1082 silly addNameRange     '0.1.3',
+1082 silly addNameRange     '0.1.4',
+1082 silly addNameRange     '0.1.5',
+1082 silly addNameRange     '0.1.6',
+1082 silly addNameRange     '0.1.7',
+1082 silly addNameRange     '0.1.8',
+1082 silly addNameRange     '0.1.9',
+1082 silly addNameRange     '0.1.10',
+1082 silly addNameRange     '0.1.11',
+1082 silly addNameRange     '0.1.12',
+1082 silly addNameRange     '0.1.13',
+1082 silly addNameRange     '0.1.14',
+1082 silly addNameRange     '0.1.15',
+1082 silly addNameRange     '0.1.16',
+1082 silly addNameRange     '0.1.17',
+1082 silly addNameRange     '0.1.18',
+1082 silly addNameRange     '0.1.19',
+1082 silly addNameRange     '0.1.20',
+1082 silly addNameRange     '0.1.21',
+1082 silly addNameRange     '0.1.22',
+1082 silly addNameRange     '0.1.23',
+1082 silly addNameRange     '0.1.24',
+1082 silly addNameRange     '0.1.25',
+1082 silly addNameRange     '0.1.26',
+1082 silly addNameRange     '0.1.27',
+1082 silly addNameRange     '0.1.28',
+1082 silly addNameRange     '0.1.29',
+1082 silly addNameRange     '0.1.30',
+1082 silly addNameRange     '0.1.31',
+1082 silly addNameRange     '0.1.32',
+1082 silly addNameRange     '0.1.33',
+1082 silly addNameRange     '0.1.34',
+1082 silly addNameRange     '0.1.35',
+1082 silly addNameRange     '0.1.36',
+1082 silly addNameRange     '0.1.37',
+1082 silly addNameRange     '0.1.38',
+1082 silly addNameRange     '0.1.39',
+1082 silly addNameRange     '0.1.40',
+1082 silly addNameRange     '0.1.41',
+1082 silly addNameRange     '0.1.42',
+1082 silly addNameRange     '0.1.43',
+1082 silly addNameRange     '0.2.0',
+1082 silly addNameRange     '0.3.0',
+1082 silly addNameRange     '0.4.0',
+1082 silly addNameRange     '0.4.1',
+1082 silly addNameRange     '0.4.2',
+1082 silly addNameRange     '0.4.3',
+1082 silly addNameRange     '0.4.4',
+1082 silly addNameRange     '0.5.0',
+1082 silly addNameRange     '0.5.1',
+1082 silly addNameRange     '0.5.2',
+1082 silly addNameRange     '0.5.3',
+1082 silly addNameRange     '0.5.4',
+1082 silly addNameRange     '0.5.5',
+1082 silly addNameRange     '0.5.6' ] ]
+1083 silly addNamed source-map@0.5.6
+1084 verbose addNamed "0.5.6" is a plain semver version for source-map
+1085 info retry fetch attempt 1 at 00:59:36
+1086 info attempt registry request try #1 at 00:59:36
+1087 http fetch GET https://registry.npmjs.org/babel-code-frame/-/babel-code-frame-6.8.0.tgz
+1088 silly gunzTarPerm modes [ '777', '666' ]
+1089 verbose tar unpack C:\Users\leonardo\AppData\Roaming\npm-cache\mkdirp\0.5.1\package.tgz
+1090 verbose tar unpacking to D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader\node_modules\mkdirp
+1091 silly gentlyRm D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader\node_modules\mkdirp is being purged
+1092 verbose gentlyRm don't care about contents; nuking D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader\node_modules\mkdirp
+1093 silly mapToRegistry name slash
+1094 silly mapToRegistry using default registry
+1095 silly mapToRegistry registry https://registry.npmjs.org/
+1096 silly mapToRegistry uri https://registry.npmjs.org/slash
+1097 verbose addRemoteTarball https://registry.npmjs.org/slash/-/slash-1.0.0.tgz not in flight; adding
+1098 verbose addRemoteTarball [ 'https://registry.npmjs.org/slash/-/slash-1.0.0.tgz',
+1098 verbose addRemoteTarball   'c41f2f6c39fc16d1cd17ad4b5d896114ae470d55' ]
+1099 silly gunzTarPerm modes [ '777', '666' ]
+1100 silly addNameRange number 2 { name: 'babel-runtime', range: '>=6.9.1 <7.0.0', hasData: true }
+1101 silly addNameRange versions [ 'babel-runtime',
+1101 silly addNameRange   [ '4.0.1',
+1101 silly addNameRange     '4.0.2',
+1101 silly addNameRange     '4.1.1',
+1101 silly addNameRange     '4.2.0',
+1101 silly addNameRange     '4.2.1',
+1101 silly addNameRange     '4.3.0',
+1101 silly addNameRange     '4.4.1',
+1101 silly addNameRange     '4.4.2',
+1101 silly addNameRange     '4.4.3',
+1101 silly addNameRange     '4.4.4',
+1101 silly addNameRange     '4.4.5',
+1101 silly addNameRange     '4.4.6',
+1101 silly addNameRange     '4.5.0',
+1101 silly addNameRange     '4.5.1',
+1101 silly addNameRange     '4.5.2',
+1101 silly addNameRange     '4.5.3',
+1101 silly addNameRange     '4.5.4',
+1101 silly addNameRange     '4.5.5',
+1101 silly addNameRange     '4.6.0',
+1101 silly addNameRange     '4.6.1',
+1101 silly addNameRange     '4.6.3',
+1101 silly addNameRange     '4.6.4',
+1101 silly addNameRange     '4.6.5',
+1101 silly addNameRange     '4.6.6',
+1101 silly addNameRange     '4.7.0',
+1101 silly addNameRange     '4.7.1',
+1101 silly addNameRange     '4.7.2',
+1101 silly addNameRange     '4.7.3',
+1101 silly addNameRange     '4.7.4',
+1101 silly addNameRange     '4.7.5',
+1101 silly addNameRange     '4.7.6',
+1101 silly addNameRange     '4.7.7',
+1101 silly addNameRange     '4.7.8',
+1101 silly addNameRange     '4.7.9',
+1101 silly addNameRange     '4.7.10',
+1101 silly addNameRange     '4.7.11',
+1101 silly addNameRange     '4.7.12',
+1101 silly addNameRange     '4.7.13',
+1101 silly addNameRange     '4.7.14',
+1101 silly addNameRange     '4.7.15',
+1101 silly addNameRange     '4.7.16',
+1101 silly addNameRange     '5.0.0-beta1',
+1101 silly addNameRange     '5.0.0-beta2',
+1101 silly addNameRange     '5.0.0-beta3',
+1101 silly addNameRange     '5.0.0-beta4',
+1101 silly addNameRange     '5.0.0',
+1101 silly addNameRange     '5.0.1',
+1101 silly addNameRange     '5.0.2',
+1101 silly addNameRange     '5.0.3',
+1101 silly addNameRange     '5.0.4',
+1101 silly addNameRange     '5.0.5',
+1101 silly addNameRange     '5.0.6',
+1101 silly addNameRange     '5.0.7',
+1101 silly addNameRange     '5.0.8',
+1101 silly addNameRange     '5.0.9',
+1101 silly addNameRange     '5.0.10',
+1101 silly addNameRange     '5.0.11',
+1101 silly addNameRange     '5.0.12',
+1101 silly addNameRange     '5.0.13',
+1101 silly addNameRange     '5.1.0',
+1101 silly addNameRange     '5.1.1',
+1101 silly addNameRange     '5.1.2',
+1101 silly addNameRange     '5.1.3',
+1101 silly addNameRange     '5.1.4',
+1101 silly addNameRange     '5.1.5',
+1101 silly addNameRange     '5.1.6',
+1101 silly addNameRange     '5.1.7',
+1101 silly addNameRange     '5.1.8',
+1101 silly addNameRange     '5.1.9',
+1101 silly addNameRange     '5.1.10',
+1101 silly addNameRange     '5.1.11',
+1101 silly addNameRange     '5.1.12',
+1101 silly addNameRange     '5.1.13',
+1101 silly addNameRange     '5.2.0',
+1101 silly addNameRange     '5.2.1',
+1101 silly addNameRange     '5.2.2',
+1101 silly addNameRange     '5.2.3',
+1101 silly addNameRange     '5.2.4',
+1101 silly addNameRange     '5.2.5',
+1101 silly addNameRange     '5.2.6',
+1101 silly addNameRange     '5.2.7',
+1101 silly addNameRange     '5.2.9',
+1101 silly addNameRange     '5.2.10',
+1101 silly addNameRange     '5.2.11',
+1101 silly addNameRange     '5.2.12',
+1101 silly addNameRange     '5.2.13',
+1101 silly addNameRange     '5.2.14',
+1101 silly addNameRange     '5.2.15',
+1101 silly addNameRange     '5.2.16',
+1101 silly addNameRange     '5.2.17',
+1101 silly addNameRange     '5.3.0',
+1101 silly addNameRange     '5.3.1',
+1101 silly addNameRange     '5.3.2',
+1101 silly addNameRange     '5.3.3',
+1101 silly addNameRange     '5.4.0',
+1101 silly addNameRange     '5.4.1',
+1101 silly addNameRange     '5.4.2',
+1101 silly addNameRange     '5.4.3',
+1101 silly addNameRange     '5.4.4',
+1101 silly addNameRange     '5.4.5',
+1101 silly addNameRange     '5.4.6',
+1101 silly addNameRange     '5.4.7',
+1101 silly addNameRange     '5.5.0',
+1101 silly addNameRange     '5.5.1',
+1101 silly addNameRange     '5.5.2',
+1101 silly addNameRange     '5.5.3',
+1101 silly addNameRange     '5.5.4',
+1101 silly addNameRange     '5.5.5',
+1101 silly addNameRange     '5.5.6',
+1101 silly addNameRange     '5.5.7',
+1101 silly addNameRange     '5.5.8',
+1101 silly addNameRange     '5.6.0',
+1101 silly addNameRange     '5.6.1',
+1101 silly addNameRange     '5.6.2',
+1101 silly addNameRange     '5.6.3',
+1101 silly addNameRange     '5.6.4',
+1101 silly addNameRange     '5.6.5',
+1101 silly addNameRange     '5.6.6',
+1101 silly addNameRange     '5.6.7',
+1101 silly addNameRange     '5.6.8',
+1101 silly addNameRange     '5.6.9',
+1101 silly addNameRange     '5.6.10',
+1101 silly addNameRange     '5.6.11',
+1101 silly addNameRange     '5.6.12',
+1101 silly addNameRange     '5.6.14',
+1101 silly addNameRange     '5.6.15',
+1101 silly addNameRange     '5.6.16',
+1101 silly addNameRange     '5.6.17',
+1101 silly addNameRange     '5.6.18',
+1101 silly addNameRange     '5.6.19',
+1101 silly addNameRange     '5.6.20',
+1101 silly addNameRange     '5.7.0',
+1101 silly addNameRange     '5.8.2',
+1101 silly addNameRange     '5.8.3',
+1101 silly addNameRange     '5.8.5',
+1101 silly addNameRange     '5.8.8',
+1101 silly addNameRange     '5.8.9',
+1101 silly addNameRange     '5.8.12',
+1101 silly addNameRange     '5.8.19',
+1101 silly addNameRange     '5.8.20',
+1101 silly addNameRange     '5.8.24',
+1101 silly addNameRange     '5.8.25',
+1101 silly addNameRange     '5.8.29',
+1101 silly addNameRange     '6.0.2',
+1101 silly addNameRange     '6.0.8',
+1101 silly addNameRange     '6.0.12',
+1101 silly addNameRange     '6.0.14',
+1101 silly addNameRange     '6.1.4',
+1101 silly addNameRange     '5.8.34',
+1101 silly addNameRange     '6.1.17',
+1101 silly addNameRange     '6.1.18',
+1101 silly addNameRange     '6.2.0',
+1101 silly addNameRange     '6.2.4',
+1101 silly addNameRange     '6.3.13',
+1101 silly addNameRange     '6.3.19',
+1101 silly addNameRange     '5.8.35',
+1101 silly addNameRange     '6.5.0',
+1101 silly addNameRange     '6.5.0-1',
+1101 silly addNameRange     '6.6.0',
+1101 silly addNameRange     '6.6.1',
+1101 silly addNameRange     '5.8.38',
+1101 silly addNameRange     '6.9.0',
+1101 silly addNameRange     '6.9.1',
+1101 silly addNameRange     '6.9.2' ] ]
+1102 silly addNamed babel-runtime@6.9.2
+1103 verbose addNamed "6.9.2" is a plain semver version for babel-runtime
+1104 http 200 https://registry.npmjs.org/babel-generator
+1105 silly get cb [ 200,
+1105 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1105 silly get     etag: '"8TOR2IJD85P11UKSXHHG9PMFM"',
+1105 silly get     'content-type': 'application/json',
+1105 silly get     'content-encoding': 'gzip',
+1105 silly get     'cache-control': 'max-age=300',
+1105 silly get     'content-length': '7641',
+1105 silly get     'accept-ranges': 'bytes',
+1105 silly get     date: 'Wed, 22 Jun 2016 03:59:20 GMT',
+1105 silly get     via: '1.1 varnish',
+1105 silly get     age: '83',
+1105 silly get     connection: 'keep-alive',
+1105 silly get     'x-served-by': 'cache-iad2122-IAD',
+1105 silly get     'x-cache': 'HIT',
+1105 silly get     'x-cache-hits': '2',
+1105 silly get     'x-timer': 'S1466567960.128218,VS0,VE0',
+1105 silly get     vary: 'Accept-Encoding' } ]
+1106 verbose get saving babel-generator to C:\Users\leonardo\AppData\Roaming\npm-cache\registry.npmjs.org\babel-generator\.cache.json
+1107 http 304 https://registry.npmjs.org/private
+1108 silly get cb [ 304,
+1108 silly get   { date: 'Wed, 22 Jun 2016 03:59:20 GMT',
+1108 silly get     via: '1.1 varnish',
+1108 silly get     'cache-control': 'max-age=300',
+1108 silly get     etag: '"B9NPPFE4EE3BPJ07ZZMVH32G7"',
+1108 silly get     age: '237',
+1108 silly get     connection: 'keep-alive',
+1108 silly get     'x-served-by': 'cache-iad2144-IAD',
+1108 silly get     'x-cache': 'HIT',
+1108 silly get     'x-cache-hits': '3',
+1108 silly get     'x-timer': 'S1466567960.206877,VS0,VE0',
+1108 silly get     vary: 'Accept-Encoding' } ]
+1109 verbose etag https://registry.npmjs.org/private from cache
+1110 verbose get saving private to C:\Users\leonardo\AppData\Roaming\npm-cache\registry.npmjs.org\private\.cache.json
+1111 silly addNameRange number 2 { name: 'minimatch', range: '>=3.0.2 <4.0.0', hasData: true }
+1112 silly addNameRange versions [ 'minimatch',
+1112 silly addNameRange   [ '0.0.1',
+1112 silly addNameRange     '0.0.2',
+1112 silly addNameRange     '0.0.4',
+1112 silly addNameRange     '0.0.5',
+1112 silly addNameRange     '0.1.1',
+1112 silly addNameRange     '0.1.2',
+1112 silly addNameRange     '0.1.3',
+1112 silly addNameRange     '0.1.4',
+1112 silly addNameRange     '0.1.5',
+1112 silly addNameRange     '0.2.0',
+1112 silly addNameRange     '0.2.2',
+1112 silly addNameRange     '0.2.3',
+1112 silly addNameRange     '0.2.4',
+1112 silly addNameRange     '0.2.5',
+1112 silly addNameRange     '0.2.6',
+1112 silly addNameRange     '0.2.7',
+1112 silly addNameRange     '0.2.8',
+1112 silly addNameRange     '0.2.9',
+1112 silly addNameRange     '0.2.10',
+1112 silly addNameRange     '0.2.11',
+1112 silly addNameRange     '0.2.12',
+1112 silly addNameRange     '0.2.13',
+1112 silly addNameRange     '0.2.14',
+1112 silly addNameRange     '0.3.0',
+1112 silly addNameRange     '0.4.0',
+1112 silly addNameRange     '1.0.0',
+1112 silly addNameRange     '2.0.0',
+1112 silly addNameRange     '2.0.1',
+1112 silly addNameRange     '2.0.2',
+1112 silly addNameRange     '2.0.3',
+1112 silly addNameRange     '2.0.4',
+1112 silly addNameRange     '2.0.5',
+1112 silly addNameRange     '2.0.6',
+1112 silly addNameRange     '2.0.7',
+1112 silly addNameRange     '2.0.8',
+1112 silly addNameRange     '2.0.9',
+1112 silly addNameRange     '2.0.10',
+1112 silly addNameRange     '3.0.0',
+1112 silly addNameRange     '3.0.2' ] ]
+1113 silly addNamed minimatch@3.0.2
+1114 verbose addNamed "3.0.2" is a plain semver version for minimatch
+1115 silly addNameRange number 2 { name: 'path-exists', range: '>=1.0.0 <2.0.0', hasData: true }
+1116 silly addNameRange versions [ 'path-exists', [ '1.0.0', '2.0.0', '2.1.0', '3.0.0' ] ]
+1117 silly addNamed path-exists@1.0.0
+1118 verbose addNamed "1.0.0" is a plain semver version for path-exists
+1119 silly mapToRegistry name babel-runtime
+1120 silly mapToRegistry using default registry
+1121 silly mapToRegistry registry https://registry.npmjs.org/
+1122 silly mapToRegistry uri https://registry.npmjs.org/babel-runtime
+1123 verbose addRemoteTarball https://registry.npmjs.org/babel-runtime/-/babel-runtime-6.9.2.tgz not in flight; adding
+1124 verbose addRemoteTarball [ 'https://registry.npmjs.org/babel-runtime/-/babel-runtime-6.9.2.tgz',
+1124 verbose addRemoteTarball   'd7fe391bc2cc29b8087c1d9b39878912e9fcfd59' ]
+1125 silly addNameRange number 2 { name: 'json5', range: '>=0.4.0 <0.5.0', hasData: true }
+1126 silly addNameRange versions [ 'json5',
+1126 silly addNameRange   [ '0.0.0', '0.0.1', '0.1.0', '0.2.0', '0.4.0', '0.5.0' ] ]
+1127 silly addNamed json5@0.4.0
+1128 verbose addNamed "0.4.0" is a plain semver version for json5
+1129 info retry fetch attempt 1 at 00:59:36
+1130 info attempt registry request try #1 at 00:59:36
+1131 http fetch GET https://registry.npmjs.org/slash/-/slash-1.0.0.tgz
+1132 silly mapToRegistry name minimatch
+1133 silly mapToRegistry using default registry
+1134 silly mapToRegistry registry https://registry.npmjs.org/
+1135 silly mapToRegistry uri https://registry.npmjs.org/minimatch
+1136 verbose addRemoteTarball https://registry.npmjs.org/minimatch/-/minimatch-3.0.2.tgz not in flight; adding
+1137 verbose addRemoteTarball [ 'https://registry.npmjs.org/minimatch/-/minimatch-3.0.2.tgz',
+1137 verbose addRemoteTarball   '0f398a7300ea441e9c348c83d98ab8c9dbf9c40a' ]
+1138 silly gunzTarPerm extractEntry package.json
+1139 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+1140 silly mapToRegistry name path-exists
+1141 silly mapToRegistry using default registry
+1142 silly mapToRegistry registry https://registry.npmjs.org/
+1143 silly mapToRegistry uri https://registry.npmjs.org/path-exists
+1144 verbose addRemoteTarball https://registry.npmjs.org/path-exists/-/path-exists-1.0.0.tgz not in flight; adding
+1145 verbose addRemoteTarball [ 'https://registry.npmjs.org/path-exists/-/path-exists-1.0.0.tgz',
+1145 verbose addRemoteTarball   'd5a8998eb71ef37a74c34eb0d9eba6e878eea081' ]
+1146 silly mapToRegistry name json5
+1147 silly mapToRegistry using default registry
+1148 silly mapToRegistry registry https://registry.npmjs.org/
+1149 silly mapToRegistry uri https://registry.npmjs.org/json5
+1150 verbose addRemoteTarball https://registry.npmjs.org/json5/-/json5-0.4.0.tgz not in flight; adding
+1151 verbose addRemoteTarball [ 'https://registry.npmjs.org/json5/-/json5-0.4.0.tgz',
+1151 verbose addRemoteTarball   '054352e4c4c80c86c0923877d449de176a732c8d' ]
+1152 silly addNameRange number 2 { name: 'path-is-absolute',
+1152 silly addNameRange   range: '>=1.0.0 <2.0.0',
+1152 silly addNameRange   hasData: true }
+1153 silly addNameRange versions [ 'path-is-absolute', [ '1.0.0' ] ]
+1154 silly addNamed path-is-absolute@1.0.0
+1155 verbose addNamed "1.0.0" is a plain semver version for path-is-absolute
+1156 silly addNameRange number 2 { name: 'shebang-regex', range: '>=1.0.0 <2.0.0', hasData: true }
+1157 silly addNameRange versions [ 'shebang-regex', [ '1.0.0', '2.0.0' ] ]
+1158 silly addNamed shebang-regex@1.0.0
+1159 verbose addNamed "1.0.0" is a plain semver version for shebang-regex
+1160 silly cache afterAdd source-map@0.5.6
+1161 verbose afterAdd C:\Users\leonardo\AppData\Roaming\npm-cache\source-map\0.5.6\package\package.json not in flight; writing
+1162 silly gunzTarPerm extractEntry package.json
+1163 info retry fetch attempt 1 at 00:59:36
+1164 info attempt registry request try #1 at 00:59:36
+1165 http fetch GET https://registry.npmjs.org/babel-runtime/-/babel-runtime-6.9.2.tgz
+1166 silly mapToRegistry name shebang-regex
+1167 silly mapToRegistry using default registry
+1168 silly mapToRegistry registry https://registry.npmjs.org/
+1169 silly mapToRegistry uri https://registry.npmjs.org/shebang-regex
+1170 verbose addRemoteTarball https://registry.npmjs.org/shebang-regex/-/shebang-regex-1.0.0.tgz not in flight; adding
+1171 verbose addRemoteTarball [ 'https://registry.npmjs.org/shebang-regex/-/shebang-regex-1.0.0.tgz',
+1171 verbose addRemoteTarball   'da42f49740c0b42db2ca9728571cb190c98efea3' ]
+1172 http 200 https://registry.npmjs.org/debug
+1173 silly get cb [ 200,
+1173 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1173 silly get     etag: '"6J98I8N1ZI0374P9C2TOGUOWT"',
+1173 silly get     'content-type': 'application/json',
+1173 silly get     'content-encoding': 'gzip',
+1173 silly get     'cache-control': 'max-age=300',
+1173 silly get     'content-length': '9086',
+1173 silly get     'accept-ranges': 'bytes',
+1173 silly get     date: 'Wed, 22 Jun 2016 03:59:20 GMT',
+1173 silly get     via: '1.1 varnish',
+1173 silly get     age: '240',
+1173 silly get     connection: 'keep-alive',
+1173 silly get     'x-served-by': 'cache-iad2138-IAD',
+1173 silly get     'x-cache': 'HIT',
+1173 silly get     'x-cache-hits': '11',
+1173 silly get     'x-timer': 'S1466567960.214330,VS0,VE0',
+1173 silly get     vary: 'Accept-Encoding' } ]
+1174 verbose get saving debug to C:\Users\leonardo\AppData\Roaming\npm-cache\registry.npmjs.org\debug\.cache.json
+1175 info retry fetch attempt 1 at 00:59:36
+1176 info attempt registry request try #1 at 00:59:36
+1177 http fetch GET https://registry.npmjs.org/minimatch/-/minimatch-3.0.2.tgz
+1178 silly gunzTarPerm extractEntry package.json
+1179 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+1180 info retry fetch attempt 1 at 00:59:36
+1181 info attempt registry request try #1 at 00:59:36
+1182 http fetch GET https://registry.npmjs.org/path-exists/-/path-exists-1.0.0.tgz
+1183 info retry fetch attempt 1 at 00:59:36
+1184 info attempt registry request try #1 at 00:59:36
+1185 http fetch GET https://registry.npmjs.org/json5/-/json5-0.4.0.tgz
+1186 silly gunzTarPerm extractEntry index.js
+1187 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+1188 silly gunzTarPerm extractEntry license
+1189 silly gunzTarPerm modified mode [ 'license', 420, 438 ]
+1190 silly addNameRange number 2 { name: 'private', range: '>=0.1.6 <0.2.0', hasData: true }
+1191 silly addNameRange versions [ 'private',
+1191 silly addNameRange   [ '0.0.1',
+1191 silly addNameRange     '0.0.2',
+1191 silly addNameRange     '0.0.3',
+1191 silly addNameRange     '0.0.4',
+1191 silly addNameRange     '0.0.5',
+1191 silly addNameRange     '0.1.0',
+1191 silly addNameRange     '0.1.1',
+1191 silly addNameRange     '0.1.2',
+1191 silly addNameRange     '0.1.3',
+1191 silly addNameRange     '0.1.4',
+1191 silly addNameRange     '0.1.5',
+1191 silly addNameRange     '0.1.6' ] ]
+1192 silly addNamed private@0.1.6
+1193 verbose addNamed "0.1.6" is a plain semver version for private
+1194 silly addNameRange number 2 { name: 'babel-generator',
+1194 silly addNameRange   range: '>=6.9.0 <7.0.0',
+1194 silly addNameRange   hasData: true }
+1195 silly addNameRange versions [ 'babel-generator',
+1195 silly addNameRange   [ '6.0.0',
+1195 silly addNameRange     '6.0.2',
+1195 silly addNameRange     '6.0.12',
+1195 silly addNameRange     '6.0.14',
+1195 silly addNameRange     '6.0.15',
+1195 silly addNameRange     '6.0.18',
+1195 silly addNameRange     '6.0.19',
+1195 silly addNameRange     '6.1.2',
+1195 silly addNameRange     '6.1.4',
+1195 silly addNameRange     '6.1.5',
+1195 silly addNameRange     '6.1.6',
+1195 silly addNameRange     '6.1.7',
+1195 silly addNameRange     '6.1.8',
+1195 silly addNameRange     '6.1.9',
+1195 silly addNameRange     '6.1.10',
+1195 silly addNameRange     '6.1.11',
+1195 silly addNameRange     '6.1.12',
+1195 silly addNameRange     '6.1.13',
+1195 silly addNameRange     '6.1.15',
+1195 silly addNameRange     '6.1.16',
+1195 silly addNameRange     '6.1.17',
+1195 silly addNameRange     '6.1.18',
+1195 silly addNameRange     '6.1.20',
+1195 silly addNameRange     '6.2.0',
+1195 silly addNameRange     '6.2.3',
+1195 silly addNameRange     '6.2.4',
+1195 silly addNameRange     '6.3.0',
+1195 silly addNameRange     '6.3.1',
+1195 silly addNameRange     '6.3.13',
+1195 silly addNameRange     '6.3.14',
+1195 silly addNameRange     '6.3.15',
+1195 silly addNameRange     '6.3.16',
+1195 silly addNameRange     '6.3.17',
+1195 silly addNameRange     '6.3.18',
+1195 silly addNameRange     '6.3.19',
+1195 silly addNameRange     '6.3.20',
+1195 silly addNameRange     '6.3.21',
+1195 silly addNameRange     '6.3.25',
+1195 silly addNameRange     '6.3.26',
+1195 silly addNameRange     '6.4.0',
+1195 silly addNameRange     '6.4.1',
+1195 silly addNameRange     '6.4.2',
+1195 silly addNameRange     '6.4.3',
+1195 silly addNameRange     '6.4.5',
+1195 silly addNameRange     '6.5.0',
+1195 silly addNameRange     '6.5.0-1',
+1195 silly addNameRange     '6.5.2-canary.ab7533ed',
+1195 silly addNameRange     '6.6.0',
+1195 silly addNameRange     '6.6.4',
+1195 silly addNameRange     '6.6.5',
+1195 silly addNameRange     '6.7.0',
+1195 silly addNameRange     '6.7.2',
+1195 silly addNameRange     '6.7.5',
+1195 silly addNameRange     '6.7.7',
+1195 silly addNameRange     '6.8.0',
+1195 silly addNameRange     '6.9.0',
+1195 silly addNameRange     '6.10.0',
+1195 silly addNameRange     '6.10.2' ] ]
+1196 silly addNamed babel-generator@6.10.2
+1197 verbose addNamed "6.10.2" is a plain semver version for babel-generator
+1198 info retry fetch attempt 1 at 00:59:36
+1199 info attempt registry request try #1 at 00:59:36
+1200 http fetch GET https://registry.npmjs.org/shebang-regex/-/shebang-regex-1.0.0.tgz
+1201 silly gunzTarPerm extractEntry README.md
+1202 silly gunzTarPerm extractEntry LICENSE
+1203 silly gunzTarPerm extractEntry LICENSE
+1204 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+1205 silly gunzTarPerm extractEntry index.js
+1206 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+1207 silly mapToRegistry name babel-generator
+1208 silly mapToRegistry using default registry
+1209 silly mapToRegistry registry https://registry.npmjs.org/
+1210 silly mapToRegistry uri https://registry.npmjs.org/babel-generator
+1211 verbose addRemoteTarball https://registry.npmjs.org/babel-generator/-/babel-generator-6.10.2.tgz not in flight; adding
+1212 verbose addRemoteTarball [ 'https://registry.npmjs.org/babel-generator/-/babel-generator-6.10.2.tgz',
+1212 verbose addRemoteTarball   'af831816643dbeb87bc0765be02f1f57bc14053f' ]
+1213 silly cache afterAdd path-is-absolute@1.0.0
+1214 verbose afterAdd C:\Users\leonardo\AppData\Roaming\npm-cache\path-is-absolute\1.0.0\package\package.json not in flight; writing
+1215 verbose afterAdd C:\Users\leonardo\AppData\Roaming\npm-cache\source-map\0.5.6\package\package.json written
+1216 silly addNameRange number 2 { name: 'debug', range: '>=2.1.1 <3.0.0', hasData: true }
+1217 silly addNameRange versions [ 'debug',
+1217 silly addNameRange   [ '0.0.1',
+1217 silly addNameRange     '0.1.0',
+1217 silly addNameRange     '0.2.0',
+1217 silly addNameRange     '0.3.0',
+1217 silly addNameRange     '0.4.0',
+1217 silly addNameRange     '0.4.1',
+1217 silly addNameRange     '0.5.0',
+1217 silly addNameRange     '0.6.0',
+1217 silly addNameRange     '0.7.0',
+1217 silly addNameRange     '0.7.1',
+1217 silly addNameRange     '0.7.2',
+1217 silly addNameRange     '0.7.3',
+1217 silly addNameRange     '0.7.4',
+1217 silly addNameRange     '0.8.0',
+1217 silly addNameRange     '0.8.1',
+1217 silly addNameRange     '1.0.0',
+1217 silly addNameRange     '1.0.1',
+1217 silly addNameRange     '1.0.2',
+1217 silly addNameRange     '1.0.3',
+1217 silly addNameRange     '1.0.4',
+1217 silly addNameRange     '2.0.0',
+1217 silly addNameRange     '2.1.0',
+1217 silly addNameRange     '2.1.1',
+1217 silly addNameRange     '2.1.2',
+1217 silly addNameRange     '2.1.3',
+1217 silly addNameRange     '2.2.0' ] ]
+1218 silly addNamed debug@2.2.0
+1219 verbose addNamed "2.2.0" is a plain semver version for debug
+1220 info retry fetch attempt 1 at 00:59:36
+1221 info attempt registry request try #1 at 00:59:36
+1222 http fetch GET https://registry.npmjs.org/babel-generator/-/babel-generator-6.10.2.tgz
+1223 silly gunzTarPerm extractEntry readme.md
+1224 silly gunzTarPerm modified mode [ 'readme.md', 420, 438 ]
+1225 silly gunzTarPerm extractEntry index.js
+1226 silly gunzTarPerm extractEntry .travis.yml
+1227 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+1228 silly gunzTarPerm extractEntry bin/cmd.js
+1229 silly gunzTarPerm modified mode [ 'bin/cmd.js', 493, 511 ]
+1230 silly cache afterAdd private@0.1.6
+1231 verbose afterAdd C:\Users\leonardo\AppData\Roaming\npm-cache\private\0.1.6\package\package.json not in flight; writing
+1232 silly gunzTarPerm extractEntry bin/usage.txt
+1233 silly gunzTarPerm modified mode [ 'bin/usage.txt', 420, 438 ]
+1234 silly gunzTarPerm extractEntry examples/pow.js
+1235 silly gunzTarPerm modified mode [ 'examples/pow.js', 420, 438 ]
+1236 verbose afterAdd C:\Users\leonardo\AppData\Roaming\npm-cache\path-is-absolute\1.0.0\package\package.json written
+1237 silly gunzTarPerm extractEntry readme.markdown
+1238 silly gunzTarPerm modified mode [ 'readme.markdown', 420, 438 ]
+1239 silly gunzTarPerm extractEntry test/chmod.js
+1240 silly gunzTarPerm modified mode [ 'test/chmod.js', 420, 438 ]
+1241 verbose afterAdd C:\Users\leonardo\AppData\Roaming\npm-cache\private\0.1.6\package\package.json written
+1242 silly gunzTarPerm extractEntry test/opts_fs_sync.js
+1243 silly gunzTarPerm modified mode [ 'test/opts_fs_sync.js', 420, 438 ]
+1244 verbose write writing to D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader\node_modules\object-assign\package.json
+1245 silly gunzTarPerm extractEntry test/perm.js
+1246 silly gunzTarPerm modified mode [ 'test/perm.js', 420, 438 ]
+1247 silly gunzTarPerm extractEntry test/perm_sync.js
+1248 silly gunzTarPerm modified mode [ 'test/perm_sync.js', 420, 438 ]
+1249 info preinstall object-assign@4.1.0
+1250 verbose readDependencies loading dependencies from D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader\node_modules\object-assign\package.json
+1251 verbose write writing to D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader\node_modules\loader-utils\package.json
+1252 silly gunzTarPerm extractEntry test/opts_fs.js
+1253 silly gunzTarPerm modified mode [ 'test/opts_fs.js', 420, 438 ]
+1254 silly gunzTarPerm extractEntry test/rel.js
+1255 silly gunzTarPerm modified mode [ 'test/rel.js', 420, 438 ]
+1256 verbose readDependencies loading dependencies from D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader\node_modules\object-assign\package.json
+1257 info preinstall loader-utils@0.2.15
+1258 silly install resolved []
+1259 verbose about to build D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader\node_modules\object-assign
+1260 info build D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader\node_modules\object-assign
+1261 verbose readDependencies loading dependencies from D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader\node_modules\loader-utils\package.json
+1262 silly gunzTarPerm extractEntry test/return.js
+1263 silly gunzTarPerm modified mode [ 'test/return.js', 420, 438 ]
+1264 silly gunzTarPerm extractEntry test/return_sync.js
+1265 silly gunzTarPerm modified mode [ 'test/return_sync.js', 420, 438 ]
+1266 http fetch 200 https://registry.npmjs.org/babel-plugin-transform-flow-strip-types/-/babel-plugin-transform-flow-strip-types-6.8.0.tgz
+1267 http fetch 200 https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.8.0.tgz
+1268 info linkStuff object-assign@4.1.0
+1269 silly linkStuff object-assign@4.1.0 has D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader\node_modules as its parent node_modules
+1270 http fetch 200 https://registry.npmjs.org/babel-plugin-transform-react-display-name/-/babel-plugin-transform-react-display-name-6.8.0.tgz
+1271 silly cache afterAdd debug@2.2.0
+1272 verbose afterAdd C:\Users\leonardo\AppData\Roaming\npm-cache\debug\2.2.0\package\package.json not in flight; writing
+1273 silly prepareForInstallMany adding big.js@^3.1.3 from loader-utils dependencies
+1274 silly prepareForInstallMany adding emojis-list@^2.0.0 from loader-utils dependencies
+1275 silly prepareForInstallMany adding json5@^0.5.0 from loader-utils dependencies
+1276 verbose readDependencies loading dependencies from D:\Desenv\Promise\Projetos\github-user\node_modules\babel-loader\node_modules\loader-utils\package.json
+1277 verbose stack Error: Uncaught, unspecified "error" event.
+1277 verbose stack     at Error (native)
+1277 verbose stack     at emit (events.js:87:13)
+1277 verbose stack     at cleanupSync (C:\Program Files\nodejs\node_modules\npm\node_modules\fs-write-stream-atomic\index.js:46:42)
+1277 verbose stack     at WriteStream.emit (C:\Program Files\nodejs\node_modules\npm\node_modules\fs-write-stream-atomic\index.js:53:12)
+1277 verbose stack     at onwriteError (_stream_writable.js:317:10)
+1277 verbose stack     at onwrite (_stream_writable.js:335:5)
+1277 verbose stack     at WritableState.onwrite (_stream_writable.js:105:5)
+1277 verbose stack     at evalmachine.<anonymous>:1796:14
+1277 verbose stack     at FSReqWrap.strWrapper (evalmachine.<anonymous>:568:5)
+1278 verbose cwd D:\Desenv\Promise\Projetos\github-user\public
+1279 error Windows_NT 6.1.7601
+1280 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save-dev" "babel-core" "babel-loader" "babel-preset-react"
+1281 error node v0.12.3
+1282 error npm  v2.9.1
+1283 error Uncaught, unspecified "error" event.
+1284 error If you need help, you may report this error at:
+1284 error     <https://github.com/npm/npm/issues>
+1285 verbose exit [ 1, true ]
