@@ -13,12 +13,14 @@ function UserInfo(props) {
 		          <p>Followers: {props.user.followers} / Following: {props.user.following}</p>
 		          <p><a className="btn btn-default" href={props.user.html_url} role="button">View details</a></p>
 		        </div>
-		        <div className="col-lg-8">
-		        	<UserRepos repos={props.repos} />
-		        </div>			    
-	      	</div>
+						        
+			<div className="col-lg-8">
+  				<UserRepos repos={props.repos} />
+			</div>
+	      </div>
 		) : null;
-		return userInfo;
+
+		return userInfo;		
 }
 
 UserInfo.propTypes = {
@@ -26,4 +28,4 @@ UserInfo.propTypes = {
 	repos: React.PropTypes.array,
 };
 
-module.exports = UserInfo;
+module.exports = UserInfo;	

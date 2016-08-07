@@ -21695,7 +21695,7 @@
 
 	var React = __webpack_require__(1);
 
-	var UserRepos = __webpack_require__(191);
+	var UserRepos = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./UserRepos\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 
 	function UserInfo(props) {
 		var userInfo = props.user ? React.createElement(
@@ -21739,6 +21739,7 @@
 				React.createElement(UserRepos, { repos: props.repos })
 			)
 		) : null;
+
 		return userInfo;
 	}
 
@@ -21748,14 +21749,6 @@
 	};
 
 	module.exports = UserInfo;
-
-/***/ },
-/* 191 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var React = __webpack_require__(1);
-
-	module.exports = UserRepos;
 
 /***/ }
 /******/ ]);
